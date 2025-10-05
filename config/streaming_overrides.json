@@ -89,6 +89,67 @@
       "apple_music": "https://music.apple.com/no/album/the-rite-of-spring-live/1737790756?i=1737793781",
       "notes": "Norwegian title 'Vårofferet' vs English album title 'The Rite of Spring'",
       "band_type": "wind"
+    },
+    {
+      "year": 2011,
+      "division": "Elite",
+      "band": "Eikanger-Bjørsvik Musikklag",
+      "piece": "Spiriti",
+      "recording_title": "Spiriti",
+      "album": "Nm Brass 2011",
+      "spotify": "https://open.spotify.com/track/5zUPhYGooaTFvGdMaDKXWR",
+      "band_type": "brass"
+    },
+    {
+      "year": 2011,
+      "division": "1. divisjon",
+      "band": "Jaren Hornmusikkforening",
+      "piece": "On Alderley Edge",
+      "recording_title": "On Alderley Edge",
+      "album": "Nm Brass 2011",
+      "spotify": "https://open.spotify.com/track/79ZTSuecC82Mpw2UkksbMD",
+      "band_type": "brass"
+    },
+    {
+      "year": 2011,
+      "division": "2. divisjon",
+      "band": "Bjørsvik Brass",
+      "piece": "The Essence of Time",
+      "recording_title": "The Essence of Time",
+      "album": "Nm Brass 2011",
+      "spotify": "https://open.spotify.com/track/0flfgiDopLUnGxHHj2HJLn",
+      "band_type": "brass"
+    },
+    {
+      "year": 2011,
+      "division": "3. divisjon",
+      "band": "Rong Brass",
+      "piece": "The Forest of Dean",
+      "recording_title": "The Forest of Dean",
+      "album": "Nm Brass 2011",
+      "spotify": "https://open.spotify.com/track/1MJFoaKS6oOPBr33yjaemr",
+      "band_type": "brass"
+    },
+    {
+      "year": 2011,
+      "division": "4. divisjon",
+      "band": "Bergen Brass Band",
+      "piece": "Occasion",
+      "recording_title": "Occasion",
+      "album": "Nm Brass 2011",
+      "spotify": "https://open.spotify.com/track/4FADLAYkmuIqQo23I3D6Hv",
+      "band_type": "brass"
+    },
+    {
+      "year": 2011,
+      "division": "Elite",
+      "band": "Eikanger-Bjørsvik Musikklag",
+      "piece": "The Power of the Soul",
+      "recording_title": "The Power of the Soul",
+      "album": "Nm Brass 2011",
+      "spotify": "https://open.spotify.com/track/0KLnnDNxhvkLSkLj62ayVm",
+      "band_type": "brass",
+      "notes": "Elite test piece"
     }
   ]
 }

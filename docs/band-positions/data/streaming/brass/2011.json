@@ -1,0 +1,73 @@
+{
+  "band_type": "brass",
+  "year": 2011,
+  "entries": [
+    {
+      "year": 2011,
+      "division": "Elite",
+      "band": "Eikanger-Bjørsvik Musikklag",
+      "result_piece": "The Power of the Soul",
+      "recording_title": "The Power of the Soul",
+      "album": "Nm Brass 2011",
+      "spotify": "https://open.spotify.com/track/0KLnnDNxhvkLSkLj62ayVm",
+      "apple_music": "https://music.apple.com/us/album/the-power-of-the-soul/496575022?i=496575025&uo=4",
+      "band_type": "brass",
+      "notes": "Elite test piece - winner's performance"
+    },
+    {
+      "year": 2011,
+      "division": "Elite",
+      "band": "Eikanger-Bjørsvik Musikklag",
+      "result_piece": "Spiriti",
+      "recording_title": "Spiriti",
+      "album": "Nm Brass 2011",
+      "spotify": "https://open.spotify.com/track/5zUPhYGooaTFvGdMaDKXWR",
+      "apple_music": "https://music.apple.com/us/album/spiriti/496575022?i=496575209&uo=4",
+      "band_type": "brass"
+    },
+    {
+      "year": 2011,
+      "division": "1. divisjon",
+      "band": "Jaren Hornmusikkforening",
+      "result_piece": "On Alderley Edge",
+      "recording_title": "On Alderley Edge",
+      "album": "Nm Brass 2011",
+      "spotify": "https://open.spotify.com/track/79ZTSuecC82Mpw2UkksbMD",
+      "apple_music": "https://music.apple.com/us/album/on-alderley-edge/496575022?i=496575212&uo=4",
+      "band_type": "brass"
+    },
+    {
+      "year": 2011,
+      "division": "2. divisjon",
+      "band": "Bjørsvik Brass",
+      "result_piece": "The Essence of Time",
+      "recording_title": "The Essence of Time",
+      "album": "Nm Brass 2011",
+      "spotify": "https://open.spotify.com/track/0flfgiDopLUnGxHHj2HJLn",
+      "apple_music": "https://music.apple.com/us/album/the-essence-of-time/496575022?i=496575218&uo=4",
+      "band_type": "brass"
+    },
+    {
+      "year": 2011,
+      "division": "3. divisjon",
+      "band": "Rong Brass",
+      "result_piece": "The Forest of Dean",
+      "recording_title": "The Forest of Dean",
+      "album": "Nm Brass 2011",
+      "spotify": "https://open.spotify.com/track/1MJFoaKS6oOPBr33yjaemr",
+      "apple_music": "https://music.apple.com/us/album/the-forest-of-dean/496575022?i=496575222&uo=4",
+      "band_type": "brass"
+    },
+    {
+      "year": 2011,
+      "division": "4. divisjon",
+      "band": "Bergen Brass Band",
+      "result_piece": "Occasion",
+      "recording_title": "Occasion",
+      "album": "Nm Brass 2011",
+      "spotify": "https://open.spotify.com/track/4FADLAYkmuIqQo23I3D6Hv",
+      "apple_music": "https://music.apple.com/us/album/occasion/496575022?i=496575342&uo=4",
+      "band_type": "brass"
+    }
+  ]
+}
