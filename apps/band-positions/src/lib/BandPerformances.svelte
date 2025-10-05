@@ -190,62 +190,68 @@
                 </td>
                 <td data-label="Opptak" class="streaming-cell">
                   {#if streamingEntries.length > 0}
-                    <div class="streaming-links">
+                    <div class="streaming-list">
                       {#each streamingEntries as streamingEntry}
                         {@const streaming = streamingEntry.streaming}
-                        {#if streaming?.spotify}
-                          <a
-                            href={streaming.spotify}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="streaming-link spotify"
-                            title={buildStreamingTitle(streamingEntry.pieceName, streaming, 'spotify')}
-                          >
-                            <span class="sr-only">Hør {streamingEntry.pieceName} på Spotify</span>
-                            <svg class="streaming-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                              <circle cx="12" cy="12" r="10.5" opacity="0.15" fill="currentColor" />
-                              <path
-                                d="M16.88 16.13a.75.75 0 0 0-1.03-.26c-2.36 1.43-5.48 1.8-9.09 1.04a.75.75 0 1 0-.3 1.47c3.96.81 7.47.39 10.05-1.12a.75.75 0 0 0 .37-.37.75.75 0 0 0 0-.76z"
-                                fill="currentColor"
-                              />
-                              <path
-                                d="M16.1 13.69c-2.01 1.2-4.92 1.55-8.16.9a.75.75 0 0 0-.29 1.47c3.56.71 6.91.31 9.27-1.08a.75.75 0 0 0-.77-1.29h-.05z"
-                                fill="currentColor"
-                                opacity="0.8"
-                              />
-                              <path
-                                d="M15.24 11.12c-1.76 1.04-4.31 1.34-7.15.79a.75.75 0 0 0-.29 1.47c3.15.6 6.02.27 8.07-.96a.75.75 0 0 0-.77-1.3h-.04z"
-                                fill="currentColor"
-                                opacity="0.6"
-                              />
-                            </svg>
-                          </a>
-                        {/if}
-                        {#if streaming?.apple_music}
-                          {@const appleHref = toAppleMusicHref(streaming.apple_music)}
-                          {#if appleHref}
-                            <a
-                              href={appleHref}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              class="streaming-link apple"
-                              title={buildStreamingTitle(streamingEntry.pieceName, streaming, 'apple')}
-                            >
-                              <span class="sr-only">Hør {streamingEntry.pieceName} på Apple Music</span>
-                              <svg class="streaming-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                                <circle cx="12" cy="12" r="10.5" opacity="0.15" fill="currentColor" />
-                                <path
-                                  d="M14.75 6.75a.75.75 0 0 1 .75.75v6.33a2.92 2.92 0 1 1-1.5-2.54V9.25h-1.5A.75.75 0 0 1 12 8.5v-1a.75.75 0 0 1 .75-.75z"
-                                  fill="currentColor"
-                                />
-                                <path
-                                  d="M9.75 13.75a.75.75 0 0 1 .75.75c0 .69.56 1.25 1.25 1.25s1.25-.56 1.25-1.25a.75.75 0 0 1 1.5 0 2.75 2.75 0 1 1-5.5 0 .75.75 0 0 1 .75-.75z"
-                                  fill="currentColor"
-                                  opacity="0.8"
-                                />
-                              </svg>
-                            </a>
-                          {/if}
+                        {#if hasStreamingLinks(streaming)}
+                          <div class="streaming-piece-row">
+                            <span class="streaming-links">
+                              {#if streaming?.spotify}
+                                <a
+                                  href={streaming.spotify}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  class="streaming-link spotify"
+                                  title={buildStreamingTitle(streamingEntry.pieceName, streaming, 'spotify')}
+                                >
+                                  <span class="sr-only">Hør {streamingEntry.pieceName} på Spotify</span>
+                                  <svg class="streaming-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <circle cx="12" cy="12" r="10.5" opacity="0.15" fill="currentColor" />
+                                    <path
+                                      d="M16.88 16.13a.75.75 0 0 0-1.03-.26c-2.36 1.43-5.48 1.8-9.09 1.04a.75.75 0 1 0-.3 1.47c3.96.81 7.47.39 10.05-1.12a.75.75 0 0 0 .37-.37.75.75 0 0 0 0-.76z"
+                                      fill="currentColor"
+                                    />
+                                    <path
+                                      d="M16.1 13.69c-2.01 1.2-4.92 1.55-8.16.9a.75.75 0 0 0-.29 1.47c3.56.71 6.91.31 9.27-1.08a.75.75 0 0 0-.77-1.29h-.05z"
+                                      fill="currentColor"
+                                      opacity="0.8"
+                                    />
+                                    <path
+                                      d="M15.24 11.12c-1.76 1.04-4.31 1.34-7.15.79a.75.75 0 0 0-.29 1.47c3.15.6 6.02.27 8.07-.96a.75.75 0 0 0-.77-1.3h-.04z"
+                                      fill="currentColor"
+                                      opacity="0.6"
+                                    />
+                                  </svg>
+                                </a>
+                              {/if}
+                              {#if streaming?.apple_music}
+                                {@const appleHref = toAppleMusicHref(streaming.apple_music)}
+                                {#if appleHref}
+                                  <a
+                                    href={appleHref}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="streaming-link apple"
+                                    title={buildStreamingTitle(streamingEntry.pieceName, streaming, 'apple')}
+                                  >
+                                    <span class="sr-only">Hør {streamingEntry.pieceName} på Apple Music</span>
+                                    <svg class="streaming-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                      <circle cx="12" cy="12" r="10.5" opacity="0.15" fill="currentColor" />
+                                      <path
+                                        d="M14.75 6.75a.75.75 0 0 1 .75.75v6.33a2.92 2.92 0 1 1-1.5-2.54V9.25h-1.5A.75.75 0 0 1 12 8.5v-1a.75.75 0 0 1 .75-.75z"
+                                        fill="currentColor"
+                                      />
+                                      <path
+                                        d="M9.75 13.75a.75.75 0 0 1 .75.75c0 .69.56 1.25 1.25 1.25s1.25-.56 1.25-1.25a.75.75 0 0 1 1.5 0 2.75 2.75 0 1 1-5.5 0 .75.75 0 0 1 .75-.75z"
+                                        fill="currentColor"
+                                        opacity="0.8"
+                                      />
+                                    </svg>
+                                  </a>
+                                {/if}
+                              {/if}
+                            </span>
+                          </div>
                         {/if}
                       {/each}
                     </div>
@@ -383,12 +389,22 @@
     white-space: nowrap;
   }
 
+  .streaming-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .streaming-piece-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .streaming-links {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
     gap: 0.35rem;
-    flex-wrap: wrap;
   }
 
   .streaming-link {
