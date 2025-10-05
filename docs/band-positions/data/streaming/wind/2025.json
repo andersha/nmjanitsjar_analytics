@@ -46,6 +46,16 @@
       "year": 2025,
       "division": "1. divisjon",
       "band": "Kolbotn Konsertorkester",
+      "result_piece": "Fest-Overture, Op. 26",
+      "recording_title": "Fest- Ouvertyre - Live",
+      "album": "Nm Janitsjar 2025 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5FHxVI38qGsIZunbl0qpze",
+      "apple_music": "https://music.apple.com/us/album/fest-ouvertyre-live/1808651334?i=1808651349&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "1. divisjon",
+      "band": "Kolbotn Konsertorkester",
       "result_piece": "Variations for Wind Band",
       "recording_title": "Variations for wind band - Live",
       "album": "Nm Janitsjar 2025 - 1. divisjon (Live)",
@@ -95,6 +105,16 @@
     {
       "year": 2025,
       "division": "1. divisjon",
+      "band": "Os Musikkforening",
+      "result_piece": "Symphony No IV: Bookmarks from Japan",
+      "recording_title": "Bookmarks from Japan - Live",
+      "album": "Nm Janitsjar 2025 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2e52QUo2h4tLUd913RWZjl",
+      "apple_music": "https://music.apple.com/us/album/bookmarks-from-japan-live/1808651334?i=1808651749&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "1. divisjon",
       "band": "Sandefjord Musikkorps",
       "result_piece": "Fanfare and Choral",
       "recording_title": "Fanfare og koral - Live",
@@ -109,8 +129,8 @@
       "result_piece": "Traveler",
       "recording_title": "Traveler - Live",
       "album": "Nm Janitsjar 2025 - 1. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/0QfcFB9QDSWxosHBh1uii5",
-      "apple_music": "https://music.apple.com/us/album/traveler-live/1808651334?i=1808651551&uo=4"
+      "spotify": "https://open.spotify.com/track/02T37TSPlavZhvk1ZZjuGm",
+      "apple_music": "https://music.apple.com/us/album/traveler-live/1808651334?i=1808652419&uo=4"
     },
     {
       "year": 2025,
@@ -157,10 +177,10 @@
       "division": "1. divisjon",
       "band": "Strusshamn Musikkforening",
       "result_piece": "Firefly",
-      "recording_title": "Firefly - Live",
+      "recording_title": "Firefly - for Sophia and Nyla - Live",
       "album": "Nm Janitsjar 2025 - 1. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/0mfTZELhCC4HwLQxphxy8z",
-      "apple_music": "https://music.apple.com/us/album/firefly-live/1808651334?i=1808651722&uo=4"
+      "spotify": "https://open.spotify.com/track/78WJYkpnAp8lsoFpYwczWv",
+      "apple_music": "https://music.apple.com/us/album/firefly-for-sophia-and-nyla-live/1808651334?i=1808651985&uo=4"
     },
     {
       "year": 2025,
@@ -169,8 +189,8 @@
       "result_piece": "Fraternity",
       "recording_title": "Fraternity - Live",
       "album": "Nm Janitsjar 2025 - 1. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/3pUL29AT4Tr9qpYcD8myqJ",
-      "apple_music": "https://music.apple.com/us/album/fraternity-live/1808651334?i=1808651565&uo=4"
+      "spotify": "https://open.spotify.com/track/13SFoQ2fIYLs0JAly8kyvk",
+      "apple_music": "https://music.apple.com/us/album/fraternity-live/1808651334?i=1808652143&uo=4"
     },
     {
       "year": 2025,
@@ -237,9 +257,9 @@
       "division": "2. divisjon",
       "band": "Aalesunds Ungdomsmusikkorps",
       "result_piece": "Ride",
-      "recording_title": "El jardin de las hespérides - Live",
-      "album": "Nm Janitsjar 2025 - Elitedivisjon (Live)",
-      "spotify": "https://open.spotify.com/track/4wn8dQ9PbdUZeCPboEceYk",
+      "recording_title": "Ride - Live",
+      "album": "Nm Janitsjar 2025 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/6YX5Gwcm4JRSBwqhlSVg3M",
       "apple_music": "https://music.apple.com/us/album/ride-live/1808655359?i=1808656163&uo=4"
     },
     {
@@ -257,10 +277,10 @@
       "division": "2. divisjon",
       "band": "Asker og Bærum Ungdomskorps",
       "result_piece": "Symphony No IV: Bookmarks from Japan, 1., 2., 4., 5., og 6. sats",
-      "recording_title": "Bookmarks from Japan (Live)",
-      "album": "Nm Janitsjar 2025 - 1. divisjon (Live)",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/bookmarks-from-japan-live/1808651334?i=1808651749&uo=4"
+      "recording_title": "Bookmarks from Japan: I, II, IV, V, VI - Live",
+      "album": "Nm Janitsjar 2025 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/25vbBJh31SIbg19Yna8DHO",
+      "apple_music": "https://music.apple.com/us/album/bookmarks-from-japan-i-ii-iv-v-vi-live/1808655359?i=1808656323&uo=4"
     },
     {
       "year": 2025,
@@ -309,8 +329,8 @@
       "result_piece": "Sidus",
       "recording_title": "Sidus - Live",
       "album": "Nm Janitsjar 2025 - 2. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/1ylq9fzl24JiuhppyqmpFD",
-      "apple_music": "https://music.apple.com/us/album/sidus-live/1808655359?i=1808656587&uo=4"
+      "spotify": "https://open.spotify.com/track/3RohBUwZjYxsR08GBsvpzn",
+      "apple_music": "https://music.apple.com/us/album/sidus-live/1808655359?i=1808656599&uo=4"
     },
     {
       "year": 2025,
@@ -340,7 +360,7 @@
       "recording_title": "Triptych - Live",
       "album": "Nm Janitsjar 2025 - 2. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/0YHbC8DApKnrUdpLl21F5H",
-      "apple_music": "https://music.apple.com/us/album/triptych-live/1808652240?i=1808652614&uo=4"
+      "apple_music": "https://music.apple.com/us/album/triptych-live/1808655359?i=1808655623&uo=4"
     },
     {
       "year": 2025,
@@ -360,7 +380,7 @@
       "recording_title": "Lake of the Moon - Live",
       "album": "Nm Janitsjar 2025 - 2. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/75UKX8SlCp1y6Sivzw7upM",
-      "apple_music": "https://music.apple.com/us/album/lake-of-the-moon-live/1808652240?i=1808652606&uo=4"
+      "apple_music": "https://music.apple.com/us/album/lake-of-the-moon-live/1808655359?i=1808655642&uo=4"
     },
     {
       "year": 2025,
@@ -370,7 +390,7 @@
       "recording_title": "Karneval i Paris - Live",
       "album": "Nm Janitsjar 2025 - 2. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/5OYkpvCaL4MtF2iuIRfcGS",
-      "apple_music": "https://music.apple.com/us/album/carnival-live/1808651177?i=1808651546&uo=4"
+      "apple_music": null
     },
     {
       "year": 2025,
@@ -380,7 +400,17 @@
       "recording_title": "I fred bland träden bo - Live",
       "album": "Nm Janitsjar 2025 - 2. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/3g9RNxXsUsbsHnYKD6bYcO",
-      "apple_music": "https://music.apple.com/us/album/i-fred-bland-tr%C3%A4den-bo-live/1808655359?i=1808655975&uo=4"
+      "apple_music": null
+    },
+    {
+      "year": 2025,
+      "division": "2. divisjon",
+      "band": "Sinsen Konsertorkester",
+      "result_piece": "Ballet Suite nr 5, The Bolt (1. Overture, 6. Dance of the Colonial Bondswoman, 8. General Dance and Apotheosis)",
+      "recording_title": "Ballesuite No. 5: I: Overture, VI: Dance of the Bondswoman, VIII: Generel Dance and Apotheosis - Live",
+      "album": "Nm Janitsjar 2025 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0olazGy4zHPMw4PZdrWOs6",
+      "apple_music": "https://music.apple.com/us/album/dance-of-the-tumblers-live/1808655359?i=1808656609&uo=4"
     },
     {
       "year": 2025,
@@ -451,6 +481,16 @@
       "album": "Nm Janitsjar 2025 - 2. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/5jogQYFph3opXezpuZoxhk",
       "apple_music": "https://music.apple.com/us/album/lux-futura-live/1808655359?i=1808655620&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "3. divisjon",
+      "band": "Bodø Harmonimusikk",
+      "result_piece": "Childrens March",
+      "recording_title": "Children´s March \"Over the hills and far away\" - Live",
+      "album": "Nm Janitsjar 2025 - 3. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2q0vsZNhTOGO3TePmP8xL2",
+      "apple_music": "https://music.apple.com/us/album/childrens-march-over-the-hills-and-far-away-live/1808651177?i=1808651970&uo=4"
     },
     {
       "year": 2025,
@@ -545,6 +585,16 @@
     {
       "year": 2025,
       "division": "3. divisjon",
+      "band": "Lørenskog Blåseensemble",
+      "result_piece": "Symphony No. 9 \"The New World\", 4. sats Finale",
+      "recording_title": "The new world symphony: Finale - Live",
+      "album": "Nm Janitsjar 2025 - 3. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/6OvrrHw8QuVnWLxHPQ2Sjh",
+      "apple_music": "https://music.apple.com/us/album/the-new-world-symphony-finale-live/1808651177?i=1808652155&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "3. divisjon",
       "band": "Nes Janitsjarkorps",
       "result_piece": "The White Deer",
       "recording_title": "The White Deer - Live",
@@ -586,6 +636,16 @@
       "year": 2025,
       "division": "3. divisjon",
       "band": "Skedsmo Janitsjarorkester",
+      "result_piece": "Ignition",
+      "recording_title": "Ignition - Live",
+      "album": "Nm Janitsjar 2025 - 3. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0LQalUanHsnuSOY8qSDdhv",
+      "apple_music": "https://music.apple.com/us/album/ignition-live/1808651177?i=1808651354&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "3. divisjon",
+      "band": "Skedsmo Janitsjarorkester",
       "result_piece": "With Heart and Voice",
       "recording_title": "With heart and voice - Live",
       "album": "Nm Janitsjar 2025 - 3. divisjon (Live)",
@@ -605,12 +665,22 @@
     {
       "year": 2025,
       "division": "3. divisjon",
+      "band": "Strindheim Janitsjar",
+      "result_piece": "Symphony No IV: Bookmarks from Japan, 1., 2., 4. og 6. sats",
+      "recording_title": "Bookmarks from Japan: I, II, IV, VI - Live",
+      "album": "Nm Janitsjar 2025 - 3. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5vA9he5sBJ3ooBpBS7VsAn",
+      "apple_music": "https://music.apple.com/us/album/bookmarks-from-japan-i-ii-iv-vi-live/1808651177?i=1808652150&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "3. divisjon",
       "band": "Åsane Musikklag",
       "result_piece": "Banja Luka",
       "recording_title": "Banja Luka - Live",
       "album": "Nm Janitsjar 2025 - 3. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/2mntFI7JMZF8ZEetmJrs5F",
-      "apple_music": "https://music.apple.com/us/album/banja-luka-live/1808651177?i=1808651742&uo=4"
+      "spotify": "https://open.spotify.com/track/69R3K6UB1hzc763zPwsTIf",
+      "apple_music": "https://music.apple.com/us/album/banja-luka-live/1808651177?i=1808651960&uo=4"
     },
     {
       "year": 2025,
@@ -619,8 +689,8 @@
       "result_piece": "Compostela",
       "recording_title": "Compostela - Live",
       "album": "Nm Janitsjar 2025 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/3F0HgsFNWLUrkRhw96llmy",
-      "apple_music": "https://music.apple.com/us/album/compostela-live/1808652240?i=1808652597&uo=4"
+      "spotify": "https://open.spotify.com/track/1OQLmnNM3gFJjMKUBQTSV3",
+      "apple_music": "https://music.apple.com/us/album/compostela-live/1808652240?i=1808652991&uo=4"
     },
     {
       "year": 2025,
@@ -769,8 +839,8 @@
       "result_piece": "Lake of the Moon",
       "recording_title": "Lake of the Moon - Live",
       "album": "Nm Janitsjar 2025 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/1pfiaQlQ4yaKs9k23CJg3u",
-      "apple_music": "https://music.apple.com/us/album/lake-of-the-moon-live/1808652240?i=1808652606&uo=4"
+      "spotify": "https://open.spotify.com/track/09zCdnmYOfZJzDufyI3Z6K",
+      "apple_music": "https://music.apple.com/us/album/lake-of-the-moon-live/1808652240?i=1808653004&uo=4"
     },
     {
       "year": 2025,
@@ -779,8 +849,8 @@
       "result_piece": "Third Suite for Band (Scenes de Ballet)",
       "recording_title": "Third Suite for Band - Live",
       "album": "Nm Janitsjar 2025 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/5xKd9KQJxNDVYQiXNhT4II",
-      "apple_music": "https://music.apple.com/us/album/third-suite-for-band-live/1808652240?i=1808652246&uo=4"
+      "spotify": "https://open.spotify.com/track/6mYuk9odW9OwlK8nbyAWyS",
+      "apple_music": "https://music.apple.com/us/album/third-suite-for-band-live/1808652240?i=1808652594&uo=4"
     },
     {
       "year": 2025,
@@ -845,12 +915,92 @@
     {
       "year": 2025,
       "division": "5. divisjon",
+      "band": "Byåsen Musikkorps",
+      "result_piece": "Black Gold",
+      "recording_title": "Black Gold - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4OEKi8ZIv0X5N00vSS7RDA",
+      "apple_music": "https://music.apple.com/us/album/black-gold-live/1808651247?i=1808651268&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
+      "band": "Bømlo Janitsjar",
+      "result_piece": "Black Gold",
+      "recording_title": "Black Gold - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1cLlCTidjEiCmiiXY51DwY",
+      "apple_music": "https://music.apple.com/us/album/black-gold-live/1808651247?i=1808651259&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
       "band": "Eina Musikkforening",
       "result_piece": "Banja Luka",
       "recording_title": "Banja Luka - Live",
-      "album": "Nm Janitsjar 2025 - 3. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/2mntFI7JMZF8ZEetmJrs5F",
-      "apple_music": "https://music.apple.com/us/album/banja-luka-live/1808651177?i=1808651742&uo=4"
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/3NMREnKenLAGw0m3Q4RXUu",
+      "apple_music": "https://music.apple.com/us/album/banja-luka-live/1808651247?i=1808651263&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
+      "band": "Hommelvik Musikkorps",
+      "result_piece": "Excalibur",
+      "recording_title": "Excalibur - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0UVkTzMxsWAenWqSNWn8zA",
+      "apple_music": "https://music.apple.com/us/album/excalibur-live/1808651247?i=1808652002&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
+      "band": "Hønefoss Ungdomskorps",
+      "result_piece": "Floating Flags",
+      "recording_title": "Floating Flags - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5HLeAHBlxycIR4yI9OvCnu",
+      "apple_music": "https://music.apple.com/us/album/floating-flags-live/1808651247?i=1808651442&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
+      "band": "Klæbu Musikkorps",
+      "result_piece": "Prelude to a Celebration",
+      "recording_title": "Prelude to a Celebration - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5q3r5jjBCL0ReNoNhRdw8B",
+      "apple_music": "https://music.apple.com/us/album/prelude-to-a-celebration-live/1808651247?i=1808651434&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
+      "band": "Klæbu Musikkorps",
+      "result_piece": "Saint and the City",
+      "recording_title": "The Saint and The City - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1IrFeT2A3rCU2KtB9dfSYq",
+      "apple_music": "https://music.apple.com/us/album/the-saint-and-the-city-live/1808651247?i=1808651425&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
+      "band": "Lier og Drammen Ungdomskorps",
+      "result_piece": "Bunch O'Bones",
+      "recording_title": "Bunch O´Bones - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2cwe9aIuvG0MrOdIHkpE4B",
+      "apple_music": "https://music.apple.com/us/album/bunch-obones-live/1808651247?i=1808651444&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
+      "band": "Lier og Drammen Ungdomskorps",
+      "result_piece": "Noah’s Ark",
+      "recording_title": "Noah´s Ark - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0ms74W1KiVaSVqaGRbaihL",
+      "apple_music": "https://music.apple.com/us/album/noahs-ark-live/1808651247?i=1808651448&uo=4"
     },
     {
       "year": 2025,
@@ -858,39 +1008,59 @@
       "band": "Modum Janitsjar",
       "result_piece": "Second Suite for Band",
       "recording_title": "Second Suite for Band - Live",
-      "album": "Nm Janitsjar 2025 - 3. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/1fGuenp0yurbnF3wXrsVlu",
-      "apple_music": "https://music.apple.com/us/album/second-suite-for-band-live/1808651177?i=1808651976&uo=4"
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/03yDDatCyHayqHAKuGuA3g",
+      "apple_music": "https://music.apple.com/us/album/second-suite-for-band-live/1808651247?i=1808651804&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
+      "band": "Musikklaget Kornetten",
+      "result_piece": "Utopia",
+      "recording_title": "Utopia - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2Zfd7wT21dPi7LZ7Ojl2IS",
+      "apple_music": "https://music.apple.com/us/album/utopia-live/1808651247?i=1808651666&uo=4"
     },
     {
       "year": 2025,
       "division": "5. divisjon",
       "band": "Nidarvoll Ungdomskorps",
       "result_piece": "Angels in the Architecture",
-      "recording_title": "Angels in The Architecture - Live",
-      "album": "Nm Janitsjar 2025 - 1. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/2zuuyNOst4ysA1ShQI2M1z",
-      "apple_music": "https://music.apple.com/us/album/angels-in-the-architecture-live/1808651334?i=1808651732&uo=4"
+      "recording_title": "Angels in the Architecture - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/49GHF6O7P561dhL0Juu1lY",
+      "apple_music": "https://music.apple.com/us/album/angels-in-the-architecture-live/1808651247?i=1808652075&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
+      "band": "Rælingen Musikklag",
+      "result_piece": "Crown Him With Many Crowns",
+      "recording_title": "Crown him with many crowns - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2h0eXF3khCOTMJA8oVkNR8",
+      "apple_music": "https://music.apple.com/us/album/crown-him-with-many-crowns-live/1808651247?i=1808652007&uo=4"
     },
     {
       "year": 2025,
       "division": "5. divisjon",
       "band": "Rælingen Musikklag",
       "result_piece": "Of Castles and Legends",
-      "recording_title": "Tales and Legends - Live",
-      "album": "Nm Janitsjar 2025 - 1. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/6XPbbNTTdabI2vltPISc3h",
-      "apple_music": "https://music.apple.com/us/album/tales-and-legends-live/1808651334?i=1808651340&uo=4"
+      "recording_title": "Of Castles and Legends - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/7p1KBboP7HjtTP29U3qJgN",
+      "apple_music": "https://music.apple.com/us/album/of-castles-and-legends-live/1808651247?i=1808652062&uo=4"
     },
     {
       "year": 2025,
       "division": "5. divisjon",
       "band": "Strinda Ungdomskorps",
       "result_piece": "Festsodd: Divertimento for Korps",
-      "recording_title": "Divertimento (Live)",
-      "album": "Nm Janitsjar 2025 - 2. divisjon (Live)",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/divertimento-live/1808655359?i=1808655631&uo=4"
+      "recording_title": "Festsodd: Divertimento for korps - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5dcoP3pcxRkItOmWxt8blj",
+      "apple_music": "https://music.apple.com/us/album/festsodd-divertimento-for-korps-live/1808651247?i=1808652069&uo=4"
     },
     {
       "year": 2025,
@@ -898,9 +1068,39 @@
       "band": "Tolga-Os Janitsjar",
       "result_piece": "Lake of the Moon",
       "recording_title": "Lake of the Moon - Live",
-      "album": "Nm Janitsjar 2025 - 2. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/75UKX8SlCp1y6Sivzw7upM",
-      "apple_music": "https://music.apple.com/us/album/lake-of-the-moon-live/1808652240?i=1808652606&uo=4"
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/3n3BSTgzsBtFr0isLNWkNE",
+      "apple_music": "https://music.apple.com/us/album/lake-of-the-moon-live/1808651247?i=1808651680&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
+      "band": "Vålerenga Janitsjarkorps",
+      "result_piece": "Hispanola",
+      "recording_title": "Hispaniola - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/7HV25d9P456bPQuMwTel0W",
+      "apple_music": "https://music.apple.com/us/album/hispaniola-live/1808651247?i=1808651787&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
+      "band": "Ås og Vestby Musikkorps",
+      "result_piece": "Hispanola",
+      "recording_title": "Hispaniola - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1D0yltMEn0xKMLsYjsuFQM",
+      "apple_music": "https://music.apple.com/us/album/hispaniola-live/1808651247?i=1808651993&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "5. divisjon",
+      "band": "Østensjø Janitsjar",
+      "result_piece": "Hispanola",
+      "recording_title": "Hispaniola - Live",
+      "album": "Nm Janitsjar 2025 - 5. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/243TDcPWBO4PVFnn9fKHTo",
+      "apple_music": "https://music.apple.com/us/album/hispaniola-live/1808651247?i=1808651781&uo=4"
     },
     {
       "year": 2025,
@@ -947,10 +1147,10 @@
       "division": "6. divisjon",
       "band": "Jevnaker Ungdomskorps",
       "result_piece": "Overture to a new Age",
-      "recording_title": "Overture to a New Age - Live",
+      "recording_title": "Overture to a new age - Live",
       "album": "Nm Janitsjar 2025 - 6. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/1EhEuBKcglrqDAUxBjzp0f",
-      "apple_music": "https://music.apple.com/us/album/overture-to-a-new-age-live/1808661166?i=1808661930&uo=4"
+      "spotify": "https://open.spotify.com/track/1nCFiiJ3DkkBFriLDxxSVw",
+      "apple_music": "https://music.apple.com/us/album/overture-to-a-new-age-live/1808661166?i=1808662674&uo=4"
     },
     {
       "year": 2025,
@@ -1005,6 +1205,16 @@
     {
       "year": 2025,
       "division": "6. divisjon",
+      "band": "Skatval Hornmusikklag",
+      "result_piece": "Golden Peak",
+      "recording_title": "Golden Peak - Live",
+      "album": "Nm Janitsjar 2025 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0xbfGBXxcQIL6xIaHq7cOc",
+      "apple_music": "https://music.apple.com/us/album/golden-peak-live/1808661166?i=1808661940&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "6. divisjon",
       "band": "Søndre Nittedal Veterankorps",
       "result_piece": "Exultation",
       "recording_title": "Exultation - Live",
@@ -1031,6 +1241,16 @@
       "album": "Nm Janitsjar 2025 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/3ka66uHpJQSokg4QSmKCEM",
       "apple_music": "https://music.apple.com/us/album/christian-daae-p%C3%A5-maaenen-live/1808661166?i=1808661921&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "6. divisjon",
+      "band": "Tretten Musikkforening",
+      "result_piece": "Compostela",
+      "recording_title": "Compostella, The way of St James - Live",
+      "album": "Nm Janitsjar 2025 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/3baxtuMdLlqxFDxOpiwm0U",
+      "apple_music": "https://music.apple.com/us/album/compostella-the-way-of-st-james-live/1808661166?i=1808661416&uo=4"
     },
     {
       "year": 2025,
@@ -1071,6 +1291,16 @@
       "album": "Nm Janitsjar 2025 - 6. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/0B3QFSsavAAKaBf3Hqf8b1",
       "apple_music": "https://music.apple.com/us/album/eldorado-live/1808661166?i=1808662160&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "6. divisjon",
+      "band": "Åndalsnes Musikkforening",
+      "result_piece": "Ross Roy, Overture for Band",
+      "recording_title": "The Roy - Live",
+      "album": "Nm Janitsjar 2025 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5EMNSRa0oGJIGGVk0Wc3lf",
+      "apple_music": null
     },
     {
       "year": 2025,
@@ -1131,6 +1361,16 @@
       "album": "Nm Janitsjar 2025 - 7. divisjon (Live)",
       "spotify": "https://open.spotify.com/track/31eLk3hZgXzQEVTINUqEYK",
       "apple_music": "https://music.apple.com/us/album/rheinische-kirmest%C3%A4nze-live/1808647720?i=1808648140&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "7. divisjon",
+      "band": "Flisbyen Blåseensemble",
+      "result_piece": "Pilatus: Mountain of Dragons",
+      "recording_title": "Pilatus: Mountain of dragons - Live",
+      "album": "Nm Janitsjar 2025 - 7. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/6rCQlhku4LLzGE3qwEPx35",
+      "apple_music": "https://music.apple.com/us/album/pilatus-mountain-of-dragons-live/1808647720?i=1808647997&uo=4"
     },
     {
       "year": 2025,
@@ -1204,6 +1444,16 @@
     },
     {
       "year": 2025,
+      "division": "7. divisjon",
+      "band": "Øystese Musikklag",
+      "result_piece": "Concerto d’Amore",
+      "recording_title": "Concerto D´amore - Live",
+      "album": "Nm Janitsjar 2025 - 7. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1jAZkrzKrA2506s0r979AH",
+      "apple_music": "https://music.apple.com/us/album/concerto-damore-live/1808647720?i=1808647972&uo=4"
+    },
+    {
+      "year": 2025,
       "division": "Elite",
       "band": "Alvøens Musikkforening",
       "result_piece": "El Jardin de Las Herspérides",
@@ -1211,6 +1461,16 @@
       "album": "Nm Janitsjar 2025 - Elitedivisjon (Live)",
       "spotify": "https://open.spotify.com/track/4wn8dQ9PbdUZeCPboEceYk",
       "apple_music": "https://music.apple.com/us/album/el-jardin-de-las-hesp%C3%A9rides-live/1808651022?i=1808651445&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "Elite",
+      "band": "Byneset Musikkorps",
+      "result_piece": "From Ancient Times",
+      "recording_title": "From Anciet Times - Live",
+      "album": "Nm Janitsjar 2025 - Elitedivisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5nfIGe1p0gbJEw7q89RIpO",
+      "apple_music": "https://music.apple.com/us/album/from-anciet-times-live/1808651022?i=1808651258&uo=4"
     },
     {
       "year": 2025,
@@ -1240,7 +1500,7 @@
       "recording_title": "Svit ur Bergakungen - Live",
       "album": "Nm Janitsjar 2025 - Elitedivisjon (Live)",
       "spotify": "https://open.spotify.com/track/2lnvhFpO0ItxeSMtAJzIP1",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/svit-ur-bergakungen-live/1808651022?i=1808651786&uo=4"
     },
     {
       "year": 2025,
@@ -1281,6 +1541,16 @@
       "album": "Nm Janitsjar 2025 - Elitedivisjon (Live)",
       "spotify": "https://open.spotify.com/track/30C6rBhwy7acyeQbCLnzPc",
       "apple_music": "https://music.apple.com/us/album/the-merry-king-live/1808651022?i=1808651664&uo=4"
+    },
+    {
+      "year": 2025,
+      "division": "Elite",
+      "band": "Lørenskog Musikkorps",
+      "result_piece": "Symphony no. 1, ‘Gilgamesh’",
+      "recording_title": "Symphony No. 1: Gligamesh - Live",
+      "album": "Nm Janitsjar 2025 - Elitedivisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0DiiSxEbs2GqsivWhfuM9D",
+      "apple_music": "https://music.apple.com/us/album/symphony-no-1-gligamesh-live/1808651022?i=1808651262&uo=4"
     },
     {
       "year": 2025,
