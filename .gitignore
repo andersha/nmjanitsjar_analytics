@@ -185,5 +185,6 @@ competition_overview.png
 nmjanitsjar-scraper-*/
 node_modules/
 
-# Local credentials
+# Local credentials and cache files
 config/streaming_credentials.json
+config/streaming_cache.json

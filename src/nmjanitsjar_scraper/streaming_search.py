@@ -274,8 +274,8 @@ class StreamingCache:
     def __init__(self, path: Optional[Path]):
         self.path = path.expanduser() if path else None
         self._data = {
-            "spotify": {"album_tracks": {}},
-            "apple": {"album_tracks": {}},
+            "spotify": {"album_tracks": {}, "album_searches": {}},
+            "apple": {"album_tracks": {}, "album_searches": {}},
         }
         self._dirty = False
         if self.path and self.path.exists():
@@ -285,6 +285,9 @@ class StreamingCache:
                     for key in ("spotify", "apple"):
                         if key in loaded and isinstance(loaded[key], dict):
                             self._data[key].update(loaded[key])
+                    # Ensure album_searches exists for backward compatibility
+                    self._data.setdefault("spotify", {}).setdefault("album_searches", {})
+                    self._data.setdefault("apple", {}).setdefault("album_searches", {})
             except json.JSONDecodeError:
                 pass
 
@@ -298,12 +301,60 @@ class StreamingCache:
         }
         self._dirty = True
 
+    def get_spotify_album_search(self, year: int, division: str) -> Optional[List[Dict]]:
+        """Get cached Spotify album search results for a year/division."""
+        spotify = self._data.get("spotify", {})
+        searches = spotify.get("album_searches", {})
+        key = f"{year}|{division}"
+        entry = searches.get(key)
+        if not entry:
+            return None
+        albums = entry.get("albums") or []
+        return albums if albums else None
+
+    def set_spotify_album_search(self, year: int, division: str, albums: List[Dict]) -> None:
+        """Cache Spotify album search results for a year/division."""
+        if not albums:
+            return
+        spotify = self._data.setdefault("spotify", {})
+        searches = spotify.setdefault("album_searches", {})
+        key = f"{year}|{division}"
+        searches[key] = {
+            "albums": albums,
+            "fetched_at": time.time(),
+        }
+        self._dirty = True
+
     def get_apple_album_tracks(self, collection_id: str) -> Optional[List[Dict]]:
         return self._data.get("apple", {}).get("album_tracks", {}).get(collection_id, {}).get("tracks")
 
     def set_apple_album_tracks(self, collection_id: str, tracks: List[Dict]) -> None:
         self._data.setdefault("apple", {}).setdefault("album_tracks", {})[collection_id] = {
             "tracks": tracks,
+            "fetched_at": time.time(),
+        }
+        self._dirty = True
+
+    def get_apple_album_search(self, year: int, division: str) -> Optional[List[Dict]]:
+        """Get cached Apple Music album search results for a year/division."""
+        apple = self._data.get("apple", {})
+        searches = apple.get("album_searches", {})
+        key = f"{year}|{division}"
+        entry = searches.get(key)
+        if not entry:
+            return None
+        albums = entry.get("albums") or []
+        return albums if albums else None
+
+    def set_apple_album_search(self, year: int, division: str, albums: List[Dict]) -> None:
+        """Cache Apple Music album search results for a year/division."""
+        if not albums:
+            return
+        apple = self._data.setdefault("apple", {})
+        searches = apple.setdefault("album_searches", {})
+        key = f"{year}|{division}"
+        searches[key] = {
+            "albums": albums,
             "fetched_at": time.time(),
         }
         self._dirty = True
@@ -466,6 +517,17 @@ class AppleMusicClient:
 # ---------------------------------------------------------------------------
 
 
+DIVISION_CODE_MAP = {
+    "E": "Elite",
+    "1": "1. divisjon",
+    "2": "2. divisjon",
+    "3": "3. divisjon",
+    "4": "4. divisjon",
+    "5": "5. divisjon",
+    "6": "6. divisjon",
+    "7": "7. divisjon",
+}
+
 ALBUM_PREFIXES = {
     "wind": "NM Janitsjar",
     "brass": "NM Brass",
@@ -594,25 +656,43 @@ class StreamingLinkFinder:
             self._spotify_album_cache[key] = []
             return []
 
-        # Collect all candidate albums across all search terms
-        candidate_albums: List[Tuple[float, Dict]] = []  # (score, album)
-        seen_albums: set[str] = set()
+        # Check if we should use album search caching (years >= 2012)
+        use_album_cache = year >= 2012 and self.spotify.cache is not None
         
-        for term in resolve_album_search_terms(year, division, self.band_type):
-            albums = self.spotify.search_albums(term)
-            for album in albums:
-                album_id = album.get("id")
-                if not album_id or album_id in seen_albums:
-                    continue
-                seen_albums.add(album_id)
+        # Try to get cached album search results
+        all_albums_from_searches: List[Dict] = []
+        if use_album_cache:
+            cached_albums = self.spotify.cache.get_spotify_album_search(year, division)
+            if cached_albums:
+                print(f"[spotify] Album search cache HIT for {year}|{division} ({len(cached_albums)} albums)")
+                all_albums_from_searches = cached_albums
+        
+        # If no cache hit, perform album searches
+        if not all_albums_from_searches:
+            seen_albums: set[str] = set()
+            for term in resolve_album_search_terms(year, division, self.band_type):
+                albums = self.spotify.search_albums(term)
+                for album in albums:
+                    album_id = album.get("id")
+                    if not album_id or album_id in seen_albums:
+                        continue
+                    seen_albums.add(album_id)
+                    all_albums_from_searches.append(album)
                 
-                # Score this album's relevance
-                score = score_album_relevance(album, year, division)
-                candidate_albums.append((score, album))
+                # Stop early if we have enough candidates
+                if len(all_albums_from_searches) >= 15:
+                    break
             
-            # Stop early if we have enough good candidates
-            if len(candidate_albums) >= 15:
-                break
+            # Cache the album search results if we got any
+            if use_album_cache and all_albums_from_searches:
+                self.spotify.cache.set_spotify_album_search(year, division, all_albums_from_searches)
+                print(f"[spotify] Album search cache WRITE for {year}|{division} ({len(all_albums_from_searches)} albums)")
+        
+        # Now score and filter the albums
+        candidate_albums: List[Tuple[float, Dict]] = []  # (score, album)
+        for album in all_albums_from_searches:
+            score = score_album_relevance(album, year, division)
+            candidate_albums.append((score, album))
         
         # Sort by score descending (best matches first)
         candidate_albums.sort(key=lambda x: x[0], reverse=True)
@@ -776,25 +856,50 @@ class StreamingLinkFinder:
             self._apple_album_cache[key] = []
             return []
 
-        # Collect all candidate albums across all search terms
-        candidate_albums: List[Tuple[float, Dict]] = []  # (score, album)
-        seen_collections: set[int] = set()
+        # Check if we should use album search caching (years >= 2012)
+        use_album_cache = year >= 2012 and self.apple_music.cache is not None
         
-        for term in resolve_album_search_terms(year, division, self.band_type):
-            albums = self.apple_music.search_album(term)
-            for album in albums:
-                collection_id = album.get("collectionId")
-                if not collection_id or collection_id in seen_collections:
-                    continue
-                seen_collections.add(collection_id)
-                
-                # Score this album's relevance
-                score = score_album_relevance(album, year, division)
-                candidate_albums.append((score, album))
+        # Try to get cached album search results
+        all_albums_from_searches: List[Dict] = []
+        if use_album_cache:
+            cached_albums = self.apple_music.cache.get_apple_album_search(year, division)
+            if cached_albums:
+                print(f"[apple] Album search cache HIT for {year}|{division} ({len(cached_albums)} albums)")
+                all_albums_from_searches = cached_albums
+        
+        # If no cache hit, perform album searches
+        if not all_albums_from_searches:
+            seen_collections: set[int] = set()
+            for term in resolve_album_search_terms(year, division, self.band_type):
+                try:
+                    albums = self.apple_music.search_album(term)
+                    for album in albums:
+                        collection_id = album.get("collectionId")
+                        if not collection_id or collection_id in seen_collections:
+                            continue
+                        seen_collections.add(collection_id)
+                        all_albums_from_searches.append(album)
+                    
+                    # Stop early if we have enough candidates
+                    if len(all_albums_from_searches) >= 15:
+                        break
+                except Exception as e:
+                    # Handle 403/404 gracefully
+                    if "403" in str(e) or "404" in str(e):
+                        print(f"[apple] Search failed for '{term}' (rate limited or not found), continuing...")
+                        continue
+                    raise
             
-            # Stop early if we have enough good candidates
-            if len(candidate_albums) >= 15:
-                break
+            # Cache the album search results if we got any
+            if use_album_cache and all_albums_from_searches:
+                self.apple_music.cache.set_apple_album_search(year, division, all_albums_from_searches)
+                print(f"[apple] Album search cache WRITE for {year}|{division} ({len(all_albums_from_searches)} albums)")
+        
+        # Now score and filter the albums
+        candidate_albums: List[Tuple[float, Dict]] = []  # (score, album)
+        for album in all_albums_from_searches:
+            score = score_album_relevance(album, year, division)
+            candidate_albums.append((score, album))
         
         # Sort by score descending (best matches first)
         candidate_albums.sort(key=lambda x: x[0], reverse=True)
@@ -1164,10 +1269,54 @@ def build_year_streaming_entries(
     return serialised
 
 
-def write_year_file(output_dir: Path, band_type: str, year: int, entries: List[Dict[str, object]]) -> Path:
+def write_year_file(
+    output_dir: Path, 
+    band_type: str, 
+    year: int, 
+    entries: List[Dict[str, object]], 
+    divisions_filter: Optional[List[str]] = None
+) -> Path:
+    """Write year file, merging with existing entries when using division filter.
+    
+    When divisions_filter is provided, preserves entries from other divisions.
+    """
     year_dir = output_dir.expanduser() / band_type
     year_dir.mkdir(parents=True, exist_ok=True)
     year_path = year_dir / f"{year}.json"
+    
+    # If using division filter, merge with existing entries
+    if divisions_filter:
+        existing_entries: List[Dict[str, object]] = []
+        if year_path.exists():
+            try:
+                existing_data = json.loads(year_path.read_text(encoding="utf-8"))
+                if isinstance(existing_data, dict):
+                    existing_entries = existing_data.get("entries", [])
+                elif isinstance(existing_data, list):
+                    existing_entries = existing_data
+            except (json.JSONDecodeError, IOError):
+                pass
+        
+        # Keep entries from divisions NOT in the filter
+        preserved_entries = [
+            entry for entry in existing_entries
+            if entry.get("division") not in divisions_filter
+        ]
+        
+        # Combine preserved entries with new entries
+        all_entries = preserved_entries + entries
+        
+        # Sort combined entries
+        all_entries.sort(
+            key=lambda entry: (
+                entry.get("year", 0),
+                str(entry.get("division", "")),
+                str(entry.get("band", "")),
+                str(entry.get("result_piece", "")),
+            )
+        )
+        entries = all_entries
+    
     payload = {
         "band_type": band_type,
         "year": year,
@@ -1234,6 +1383,43 @@ def _load_credentials(credentials_path: Optional[Path], console) -> Tuple[Option
     return client_id, client_secret
 
 
+def parse_divisions_argument(codes: Optional[List[str]]) -> Optional[List[str]]:
+    """Parse division codes (E, 1, 2, etc.) into full division names.
+    
+    Args:
+        codes: List of division codes (e.g., ['E', '1', '2']) or full names
+    
+    Returns:
+        List of full division names, or None if codes is None/empty
+    
+    Raises:
+        ValueError: If an invalid division code is provided
+    """
+    if not codes:
+        return None
+    expanded = []
+    for raw in codes:
+        code = str(raw).strip()
+        # Accept exact full names too
+        if code in DIVISION_CODE_MAP:
+            expanded.append(DIVISION_CODE_MAP[code])
+        elif code in DIVISION_CODE_MAP.values():
+            expanded.append(code)
+        else:
+            valid_codes = ', '.join(list(DIVISION_CODE_MAP.keys()))
+            raise ValueError(
+                f"Invalid division '{raw}'. Use one of: {valid_codes}"
+            )
+    # De-duplicate while preserving order
+    seen = set()
+    result = []
+    for name in expanded:
+        if name not in seen:
+            seen.add(name)
+            result.append(name)
+    return result
+
+
 def generate_streaming_links(
     *,
     positions: Path,
@@ -1243,6 +1429,7 @@ def generate_streaming_links(
     years: Optional[List[int]] = None,
     start_year: Optional[int] = None,
     end_year: Optional[int] = None,
+    divisions_filter: Optional[List[str]] = None,
     spotify_client_id: Optional[str] = None,
     spotify_client_secret: Optional[str] = None,
     apple_country: str = "us",
@@ -1333,13 +1520,22 @@ def generate_streaming_links(
     year_map: Dict[int, List[Performance]] = {}
     for performance in performances:
         if performance.year in target_years:
-            year_map.setdefault(performance.year, []).append(performance)
-
+            # Apply division filter if specified
+            if divisions_filter is None or performance.division in divisions_filter:
+                year_map.setdefault(performance.year, []).append(performance)
+    
+    # Log division filtering
+    if divisions_filter:
+        divisions_being_processed = set()
+        for perfs in year_map.values():
+            divisions_being_processed.update(p.division for p in perfs)
+        console.print(f"[cyan]Processing divisions: {', '.join(sorted(divisions_being_processed))}[/cyan]")
+    
     total_entries = 0
     for year in track(sorted(year_map.keys()), description="Matching streaming links"):
         year_performances = year_map[year]
         entries = build_year_streaming_entries(year, year_performances, finder, override_resolver)
-        write_year_file(output_dir, band_type, year, entries)
+        write_year_file(output_dir, band_type, year, entries, divisions_filter)
         total_entries += len(entries)
 
     if aggregate:
@@ -1367,6 +1563,12 @@ def main() -> None:
     parser.add_argument("--overrides", type=Path, default=Path("config/streaming_overrides.json"))
     parser.add_argument("--cache", type=Path, default=Path("config/streaming_cache.json"))
     parser.add_argument("--band-type", type=str, default="wind", choices=("wind", "brass"))
+    parser.add_argument(
+        "--divisions",
+        nargs="+",
+        metavar="DIV",
+        help="Division codes to process (E=Elite, 1-7 for divisions). If omitted, all divisions are processed. Example: --divisions E 1 2"
+    )
     parser.add_argument("--spotify-client-id", type=str, default=os.getenv("SPOTIFY_CLIENT_ID"))
     parser.add_argument("--spotify-client-secret", type=str, default=os.getenv("SPOTIFY_CLIENT_SECRET"))
     parser.add_argument("--apple-country", type=str, default="us", help="Apple Music store country code (default: us)")
@@ -1374,6 +1576,14 @@ def main() -> None:
     parser.add_argument("--skip-apple", action="store_true", help="Skip Apple Music lookup")
 
     args = parser.parse_args()
+    
+    # Parse division codes
+    divisions_filter = None
+    if args.divisions:
+        try:
+            divisions_filter = parse_divisions_argument(args.divisions)
+        except ValueError as e:
+            parser.error(str(e))
 
     generate_streaming_links(
         positions=args.positions,
@@ -1383,6 +1593,7 @@ def main() -> None:
         years=args.years,
         start_year=args.start_year,
         end_year=args.end_year,
+        divisions_filter=divisions_filter,
         spotify_client_id=args.spotify_client_id,
         spotify_client_secret=args.spotify_client_secret,
         apple_country=args.apple_country,

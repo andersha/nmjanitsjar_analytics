@@ -1,0 +1,9 @@
+{
+  "spotify": {
+    "album_tracks": {}
+  },
+  "apple": {
+    "album_tracks": {},
+    "album_searches": {}
+  }
+}

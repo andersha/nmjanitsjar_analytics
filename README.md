@@ -44,6 +44,35 @@ poetry install
 pip install -r requirements.txt
 ```
 
+## Configuration
+
+### Streaming Link Discovery (Optional)
+
+If you want to use the streaming link discovery feature for Spotify and Apple Music:
+
+1. **Create credentials file** (required for Spotify):
+   ```bash
+   cp config/streaming_credentials.json.example config/streaming_credentials.json
+   ```
+   Then edit `config/streaming_credentials.json` with your Spotify API credentials.
+
+2. **Cache file setup** (automatic):
+   - The cache file `config/streaming_cache.json` is created automatically on first run
+   - This file is **not tracked in git** (machine-specific, can grow to 8+ MB)
+   - If needed, you can create it manually:
+     ```bash
+     cp config/streaming_cache.json.example config/streaming_cache.json
+     ```
+
+3. **Cache management**:
+   - View cache contents: `cat config/streaming_cache.json | jq '.apple.album_searches'`
+   - Clear specific entries: Edit the JSON file and remove unwanted keys
+   - Full reset: `rm config/streaming_cache.json` (will be recreated on next run)
+
+**Note**: The cache significantly reduces API rate limiting by storing:
+- Album track listings (Spotify & Apple Music)
+- Album search results (Apple Music only, for years ≥ 2012)
+
 ## Quick Start
 
 ### Run Complete Pipeline

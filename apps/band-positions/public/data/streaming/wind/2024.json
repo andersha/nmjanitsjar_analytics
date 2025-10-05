@@ -7,9 +7,9 @@
       "division": "1. divisjon",
       "band": "Borge Musikkorps",
       "result_piece": "Divertimento for Band, 4., 5. og 6. sats",
-      "recording_title": "Divertimento for band, Op42: IV, V, VI (Live)",
+      "recording_title": "Divertimento for band, Op42: IV, V, VI - Live",
       "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/33QJtc31DN66AM02vNAmEu",
       "apple_music": "https://music.apple.com/us/album/divertimento-for-band-op42-iv-v-vi-live/1737793406?i=1737793626&uo=4"
     },
     {
@@ -17,9 +17,9 @@
       "division": "1. divisjon",
       "band": "Borge Musikkorps",
       "result_piece": "Konzertmusik Für Blasorchester",
-      "recording_title": "Konzertmusik fûr Blasorchester, Op.41 (Live)",
+      "recording_title": "Konzertmusik fûr Blasorchester, Op.41 - Live",
       "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/2ZBh6XAKwsbBcPiiPuHuFc",
       "apple_music": "https://music.apple.com/us/album/konzertmusik-f%C3%BBr-blasorchester-op-41-live/1737793406?i=1737793623&uo=4"
     },
     {
@@ -27,29 +27,59 @@
       "division": "1. divisjon",
       "band": "Kolbotn Konsertorkester",
       "result_piece": "D'un Soir Triste",
-      "recording_title": "D'un soir triste (Live)",
+      "recording_title": "D´un soir triste - Live",
       "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/6aFVkIrBMqu5KB72lATGdu",
       "apple_music": "https://music.apple.com/us/album/dun-soir-triste-live/1737793406?i=1737794032&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "1. divisjon",
+      "band": "Kolbotn Konsertorkester",
+      "result_piece": "Norsk Rapsodi nr. 1",
+      "recording_title": "Rhapsody Norvegienne No. 1 - Live",
+      "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/6XUcT1hbYq16Er8Tpwb2gv",
+      "apple_music": "https://music.apple.com/us/album/rhapsody-norvegienne-no-1-live/1737793406?i=1737794034&uo=4"
     },
     {
       "year": 2024,
       "division": "1. divisjon",
       "band": "Kolbu Janitsjarkorps",
       "result_piece": "Equus",
-      "recording_title": "Equus (Live)",
+      "recording_title": "Equus - Live",
       "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/1jwvYcBcGMZpDqiWTt7qjj",
       "apple_music": "https://music.apple.com/us/album/equus-live/1737793406?i=1737794358&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "1. divisjon",
+      "band": "Kolbu Janitsjarkorps",
+      "result_piece": "Fanfare and Choral",
+      "recording_title": "Fanfare og koral - Live",
+      "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/12loXN9XQuS1uqZQmYHcJ6",
+      "apple_music": "https://music.apple.com/us/album/fanfare-og-koral-live/1737793406?i=1737794055&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "1. divisjon",
+      "band": "Lørenskog Musikkorps",
+      "result_piece": "Symphony No IV: Bookmarks from Japan",
+      "recording_title": "Bookmarks from Japan - Live",
+      "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2kTuRHeSmbmnbRz4ytMIMO",
+      "apple_music": "https://music.apple.com/us/album/bookmarks-from-japan-live/1737793406?i=1737794037&uo=4"
     },
     {
       "year": 2024,
       "division": "1. divisjon",
       "band": "Nittedal og Hakadal Janitsjar",
       "result_piece": "Symphony for Wind Orchestra",
-      "recording_title": "Symphony for Wind Orchestra - Montage (Live)",
+      "recording_title": "Symphony for Wind Orchestra - Montage - Live",
       "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/2JJ8BQICgwcnBlwjKzHUMv",
       "apple_music": "https://music.apple.com/us/album/symphony-for-wind-orchestra-montage-live/1737793406?i=1737794665&uo=4"
     },
     {
@@ -57,19 +87,19 @@
       "division": "1. divisjon",
       "band": "Os Musikkforening",
       "result_piece": "Armenian Dances, Part 1",
-      "recording_title": "Armenian Dances: 1: Part 1 - Live",
-      "album": "Nm Janitsjar 2024 - Elitedivisjon (Live)",
-      "spotify": "https://open.spotify.com/track/3hf3Ett70TjCSIiPduhTVE",
-      "apple_music": "https://music.apple.com/us/album/armenian-dances-1-part-1-live/1737790756?i=1737792868&uo=4"
+      "recording_title": "Armenian Dances: I: Part 1 - Live",
+      "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5c0aJGtTTJ3U4COGqVydCE",
+      "apple_music": "https://music.apple.com/us/album/armenian-dances-i-part-1-live/1737793406?i=1737794682&uo=4"
     },
     {
       "year": 2024,
       "division": "1. divisjon",
       "band": "Os Musikkforening",
       "result_piece": "Vesuvius",
-      "recording_title": "Vesuvius (Live)",
+      "recording_title": "Vesuvius - Live",
       "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/4sodV8W3Vc0B6ZkXF0JWwz",
       "apple_music": "https://music.apple.com/us/album/vesuvius-live/1737793406?i=1737794678&uo=4"
     },
     {
@@ -77,19 +107,19 @@
       "division": "1. divisjon",
       "band": "Sandefjord Musikkorps",
       "result_piece": "An Gé Fhián",
-      "recording_title": "An Gé Fhiáin (The Wild Goose) - Live",
-      "album": "Nm Janitsjar 2024 - Elitedivisjon (Live)",
-      "spotify": "https://open.spotify.com/track/4QG5nJNli2Sl6nGT4hChSq",
-      "apple_music": "https://music.apple.com/us/album/an-g%C3%A9-fhi%C3%A1in-the-wild-goose-live/1737790756?i=1737792137&uo=4"
+      "recording_title": "An Gé fhiáin (The wild goose) - Live",
+      "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4mTZoMkg8dGJSGVneW5zA9",
+      "apple_music": "https://music.apple.com/us/album/an-g%C3%A9-fhi%C3%A1in-the-wild-goose-live/1737793406?i=1737794668&uo=4"
     },
     {
       "year": 2024,
       "division": "1. divisjon",
       "band": "Sandefjord Musikkorps",
       "result_piece": "Aurora Awakes",
-      "recording_title": "Aurora Awakes (Live)",
+      "recording_title": "Aurora Awakes - Live",
       "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/6rb0d2VuTB0e0MIgzCtIza",
       "apple_music": "https://music.apple.com/us/album/aurora-awakes-live/1737793406?i=1737794675&uo=4"
     },
     {
@@ -97,9 +127,9 @@
       "division": "1. divisjon",
       "band": "Sandvikens Ungdomskorps",
       "result_piece": "Gloriosa",
-      "recording_title": "Gloriosa (Live)",
+      "recording_title": "Gloriosa - Live",
       "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/3OnyUNRgbH6jNRv7mwRu0V",
       "apple_music": "https://music.apple.com/us/album/gloriosa-live/1737793406?i=1737793518&uo=4"
     },
     {
@@ -108,18 +138,18 @@
       "band": "Sarpsborg Janitsjarkorps",
       "result_piece": "Godspeed",
       "recording_title": "Godspeed - Live",
-      "album": "Nm Janitsjar 2024 - Elitedivisjon (Live)",
-      "spotify": "https://open.spotify.com/track/3cb8fTfc7mxpeIP04QY2P0",
-      "apple_music": "https://music.apple.com/us/album/godspeed-live/1737790756?i=1737791496&uo=4"
+      "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4nuSB1geAJ6KUcKqTnwx1C",
+      "apple_music": "https://music.apple.com/us/album/godspeed-live/1737793406?i=1737794028&uo=4"
     },
     {
       "year": 2024,
       "division": "1. divisjon",
       "band": "Sarpsborg Janitsjarkorps",
       "result_piece": "Redline Tango",
-      "recording_title": "Redline Tango (Live)",
+      "recording_title": "Redline Tango - Live",
       "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/1SwbniWx1cDP7JAHY0cxHY",
       "apple_music": "https://music.apple.com/us/album/redline-tango-live/1737793406?i=1737793790&uo=4"
     },
     {
@@ -127,19 +157,29 @@
       "division": "1. divisjon",
       "band": "Sarpsborg Janitsjarkorps",
       "result_piece": "Sentimental Pebbles",
-      "recording_title": "Sentimental Pebbles (Live)",
+      "recording_title": "Sentimental Pebbles - Live",
       "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/1YooaqZM5mm5oxRNgceV1p",
       "apple_music": "https://music.apple.com/us/album/sentimental-pebbles-live/1737793406?i=1737793815&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "1. divisjon",
+      "band": "Skjold Nesttun Janitsjar",
+      "result_piece": "From Ancient Times",
+      "recording_title": "From Ancient Times - Live",
+      "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5l9R85H5X0rbGF44osz2Sp",
+      "apple_music": "https://music.apple.com/us/album/from-ancient-times-live/1737793406?i=1737794666&uo=4"
     },
     {
       "year": 2024,
       "division": "1. divisjon",
       "band": "Stavanger Musikkorps av 1919",
       "result_piece": "Magnolia Star",
-      "recording_title": "Magnolia Star (Live)",
+      "recording_title": "Magnolia Star - Live",
       "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/2glLdGdDJewVlhor6Grjsq",
       "apple_music": "https://music.apple.com/us/album/magnolia-star-live/1737793406?i=1737794384&uo=4"
     },
     {
@@ -147,40 +187,110 @@
       "division": "1. divisjon",
       "band": "Stavanger Musikkorps av 1919",
       "result_piece": "The Frozen Cathedral",
-      "recording_title": "The Frozen Cathedral (Live)",
+      "recording_title": "The Frozen Cathedral - Live",
       "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/6FwPy1YrnZsaUAaalhQUJu",
       "apple_music": "https://music.apple.com/us/album/the-frozen-cathedral-live/1737793406?i=1737794659&uo=4"
     },
     {
       "year": 2024,
       "division": "1. divisjon",
       "band": "Vestre Aker Musikkorps",
+      "result_piece": "Concert Overture for Symphonic Band",
+      "recording_title": "Concert ouverture - Live",
+      "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2562Qeu192ag8Z3YkuosLM",
+      "apple_music": "https://music.apple.com/us/album/concert-ouverture-live/1737793406?i=1737795409&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "1. divisjon",
+      "band": "Vestre Aker Musikkorps",
       "result_piece": "Incantation and Dance",
-      "recording_title": "Incantation and Dance (Live)",
-      "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/incantation-and-dance-live/1737781717?i=1737782499&uo=4"
+      "recording_title": "Incantation and Dance - Live",
+      "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4fjx4XDf2DbOyN65CA5TU4",
+      "apple_music": "https://music.apple.com/us/album/incantation-and-dance-live/1737793406?i=1737795416&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "1. divisjon",
+      "band": "Vestre Aker Musikkorps",
+      "result_piece": "Symphonic Metamorphosis of themes by Carl Maria von Weber, 4. sats March",
+      "recording_title": "Symfoniske metamorfoser: March - Live",
+      "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/657NFQAchIIahnaIRjzSPS",
+      "apple_music": "https://music.apple.com/us/album/symfoniske-metamorfoser-march-live/1737793406?i=1737795422&uo=4"
     },
     {
       "year": 2024,
       "division": "1. divisjon",
       "band": "Ådalsbruk Musikkforening",
       "result_piece": "Symphony no. 1",
-      "recording_title": "Symphony no. 1: 1: Gilgamesh - Live",
-      "album": "Nm Janitsjar 2024 - Elitedivisjon (Live)",
-      "spotify": "https://open.spotify.com/track/3G9FGFnZvvkUEsETrA7O1y",
-      "apple_music": "https://music.apple.com/us/album/symphony-no-1-1-gilgamesh-live/1737790756?i=1737794409&uo=4"
+      "recording_title": "Asgard - Symphony No. 1 - Live",
+      "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/7t1M0NpCpnBmuXPbL8OKZz",
+      "apple_music": "https://music.apple.com/us/album/asgard-symphony-no-1-live/1737793406?i=1737794376&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Asker Musikkorps",
+      "result_piece": "Stratoscape",
+      "recording_title": "Stratoscape - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4JSuXRf46kVXmGhTZ6HGEj",
+      "apple_music": "https://music.apple.com/us/album/stratoscape-live/1738048279?i=1738049248&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Bispehaugen Ungdomskorps",
+      "result_piece": "Jungla, Poema ambientado en la Selva Africana",
+      "recording_title": "Jungla (Live)",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": null,
+      "apple_music": "https://music.apple.com/us/album/jungla-live/1738048279?i=1738051382&uo=4"
     },
     {
       "year": 2024,
       "division": "2. divisjon",
       "band": "Bjølsen Ungdomskorps",
       "result_piece": "Symphony No IV: Bookmarks from Japan, 1., 2., 4., 5., og 6. sats",
-      "recording_title": "Bookmarks from Japan (Live)",
-      "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/bookmarks-from-japan-live/1737793406?i=1737794037&uo=4"
+      "recording_title": "Symphoni No. 4 - Bookmarks from Japan: I, II, IV, V, VI - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/27b95ulRHL2qbqgLmlejH1",
+      "apple_music": "https://music.apple.com/us/album/symphoni-no-4-bookmarks-from-japan-i-ii-iv-v-vi-live/1738048279?i=1738050498&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Drammen Konsertorkester",
+      "result_piece": "Canto d'ommagio",
+      "recording_title": "Canto d´Ommagio - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0W8OVhBJfIRrMa5lzruXWA",
+      "apple_music": "https://music.apple.com/us/album/canto-dommagio-live/1738048279?i=1738048306&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Drammen Konsertorkester",
+      "result_piece": "Tam o'Shanter",
+      "recording_title": "Tam O´Shanter - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1vs1d7kY48sjqjBv2M5cku",
+      "apple_music": "https://music.apple.com/us/album/tam-oshanter-live/1738048279?i=1738048789&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Gjøvik Bykorps",
+      "result_piece": "Battle of Hearts",
+      "recording_title": "Battle of hearts - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1OxVwSMrE84sO7QF7Mx71G",
+      "apple_music": "https://music.apple.com/us/album/battle-of-hearts-live/1738048279?i=1738050510&uo=4"
     },
     {
       "year": 2024,
@@ -188,9 +298,59 @@
       "band": "Hov Musikkorps",
       "result_piece": "Arabesque",
       "recording_title": "Arabesque - Live",
-      "album": "Nm Janitsjar 2024 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/3BwDkNIZgX4etz2rzp1Yd4",
-      "apple_music": null
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/7fw2CKB09lJfJU9EA6FWKS",
+      "apple_music": "https://music.apple.com/us/album/arabesque-live/1738048279?i=1738051216&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Hov Musikkorps",
+      "result_piece": "Third Suite for Band",
+      "recording_title": "Third Suite for Band - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/3OEG6t7SeV4PLB8nXDDmCz",
+      "apple_music": "https://music.apple.com/us/album/third-suite-for-band-live/1738048279?i=1738051188&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Hovin Musikkorps",
+      "result_piece": "Las Aventuras del Principito",
+      "recording_title": "Las Aventuras del Principito - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1Y7YwLz1tNYptKlRLEbtCz",
+      "apple_music": "https://music.apple.com/us/album/las-aventuras-del-principito-live/1738048279?i=1738051645&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Lungegaardens Musikkorps",
+      "result_piece": "Seinsumarsdraum",
+      "recording_title": "Seinsumarsdraum - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4x2FUqMCBF83g57EoEtuID",
+      "apple_music": "https://music.apple.com/us/album/seinsumarsdraum-live/1738048279?i=1738049260&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Musikklaget Brage",
+      "result_piece": "Firework",
+      "recording_title": "Firework - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/3GuxquDfn9Y4GEU6cr9n0R",
+      "apple_music": "https://music.apple.com/us/album/firework-live/1738048279?i=1738048809&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Musikklaget Brage",
+      "result_piece": "Milestones",
+      "recording_title": "Milestones - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1EvBvh6sVVW0WRt8z03k5l",
+      "apple_music": "https://music.apple.com/us/album/milestones-live/1738048279?i=1738049096&uo=4"
     },
     {
       "year": 2024,
@@ -198,18 +358,78 @@
       "band": "Ringsaker Janitjsar",
       "result_piece": "Carnival",
       "recording_title": "Carnival - Live",
-      "album": "Nm Janitsjar 2024 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/2IyTJIZ2Z7MpxXTVIjqRsI",
-      "apple_music": null
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1yx6eorkhNwTZpPtVoghVV",
+      "apple_music": "https://music.apple.com/us/album/carnival-live/1738048279?i=1738049498&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Ringsaker Janitjsar",
+      "result_piece": "Metroplex: Three Postcards from Manhattan",
+      "recording_title": "Metroplex - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1IoCFBHRoLzcmbQV9r6sR4",
+      "apple_music": "https://music.apple.com/us/album/metroplex-live/1738048279?i=1738049482&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Sinsen Konsertorkester",
+      "result_piece": "Colas Breugnon Overture",
+      "recording_title": "Colas Breugnon Overture - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/68Sp7FFGpFTD0MUHguPa5J",
+      "apple_music": "https://music.apple.com/us/album/colas-breugnon-overture-live/1738048279?i=1738050521&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Sinsen Konsertorkester",
+      "result_piece": "Masquerad",
+      "recording_title": "Masquerad - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2QG0AQL215ILluoluVcv7e",
+      "apple_music": "https://music.apple.com/us/album/masquerad-live/1738048279?i=1738050987&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Tromsø Orkesterforenings Janitsjarkorps",
+      "result_piece": "Nord",
+      "recording_title": "Nord - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/6h6ebThqdlRqpoDtc087Q8",
+      "apple_music": "https://music.apple.com/us/album/nord-live/1738048279?i=1738050119&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Tønsberg Janitsjarkorps",
+      "result_piece": "Apocalyptic Dreams",
+      "recording_title": "Apocalyptic Dreams - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1eol6J3fSo4PSnqt86i136",
+      "apple_music": "https://music.apple.com/us/album/apocalyptic-dreams-live/1738048279?i=1738050107&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "2. divisjon",
+      "band": "Vestsidens Musikkorps",
+      "result_piece": "Sidus",
+      "recording_title": "Sidus - Live",
+      "album": "Nm Janitsjar 2024 - 2. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2pw6CAQW3Tujh8jLzIxhus",
+      "apple_music": "https://music.apple.com/us/album/sidus-live/1738048279?i=1738049899&uo=4"
     },
     {
       "year": 2024,
       "division": "3. divisjon",
       "band": "Aalesunds Ungdomsmusikkorps",
       "result_piece": "Unbroken",
-      "recording_title": "Unbroken (Live)",
+      "recording_title": "Unbroken - Live",
       "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/3xoMogZCi4m6R8OawL79rk",
       "apple_music": "https://music.apple.com/us/album/unbroken-live/1737781717?i=1737783138&uo=4"
     },
     {
@@ -217,29 +437,19 @@
       "division": "3. divisjon",
       "band": "Asker og Bærum Ungdomskorps",
       "result_piece": "Pompeii: The Ruins Know the Long and Magnificent History",
-      "recording_title": "Pompeii - the Ruins Know the Long and Magnificent History (Live)",
+      "recording_title": "Pompeii - the Ruins Know the Long and Magnificent History - Live",
       "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/0agHOM01K6BgwAU7JFI0eQ",
       "apple_music": "https://music.apple.com/us/album/pompeii-the-ruins-know-the-long-and/1737781717?i=1737782851&uo=4"
-    },
-    {
-      "year": 2024,
-      "division": "3. divisjon",
-      "band": "Fet Janitsjar",
-      "result_piece": "Triptych",
-      "recording_title": "Triptych - Live",
-      "album": "Nm Janitsjar 2024 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/64MZCS504A3q6ieCrJXwQ1",
-      "apple_music": null
     },
     {
       "year": 2024,
       "division": "3. divisjon",
       "band": "Halsen Musikkforening",
       "result_piece": "Lake of the Moon",
-      "recording_title": "Lake of the Moon - Live",
-      "album": "Nm Janitsjar 2024 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/6ebmU4oZogKQAn7SgZ3DtN",
+      "recording_title": "Lake of the moon - Live",
+      "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5GhjrSWUa6n2zEBwKAwpJ1",
       "apple_music": "https://music.apple.com/us/album/lake-of-the-moon-live/1737781717?i=1737782840&uo=4"
     },
     {
@@ -247,9 +457,9 @@
       "division": "3. divisjon",
       "band": "Hamar Musikkorps",
       "result_piece": "Saga Maligna",
-      "recording_title": "Saga Maligna (Live)",
+      "recording_title": "Saga Maligna - Live",
       "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/7h4PS5VpFDHNb1f20oSRO9",
       "apple_music": "https://music.apple.com/us/album/saga-maligna-live/1737781717?i=1737782479&uo=4"
     },
     {
@@ -257,19 +467,19 @@
       "division": "3. divisjon",
       "band": "Kongsberg Byorkester",
       "result_piece": "Give us this Day",
-      "recording_title": "Give us this day - Live",
-      "album": "Nm Janitsjar 2024 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/6QBVJSty4wv3EFdvoRY5lj",
-      "apple_music": "https://music.apple.com/us/album/give-us-this-day-live/1737781717?i=1737782858&uo=4"
+      "recording_title": "Give Us This Day - Live",
+      "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0lVrwiCQ75Y1puC2DmNp9G",
+      "apple_music": "https://music.apple.com/us/album/give-us-this-day-live/1737781717?i=1737783183&uo=4"
     },
     {
       "year": 2024,
       "division": "3. divisjon",
       "band": "Moss og omegn Janitsjar",
       "result_piece": "Give us this Day",
-      "recording_title": "Give us this day - Live",
-      "album": "Nm Janitsjar 2024 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/6QBVJSty4wv3EFdvoRY5lj",
+      "recording_title": "Give Us This Day - Live",
+      "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2z4fjC8O53KAr9apf90n9R",
       "apple_music": "https://music.apple.com/us/album/give-us-this-day-live/1737781717?i=1737782858&uo=4"
     },
     {
@@ -277,9 +487,9 @@
       "division": "3. divisjon",
       "band": "Nes Janitsjarkorps",
       "result_piece": "Headland Fantasy",
-      "recording_title": "Headland Fantasty (Live)",
+      "recording_title": "Headland Fantasty - Live",
       "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/7F4WTMVHdvInfGW4UldPFQ",
       "apple_music": "https://music.apple.com/us/album/headland-fantasty-live/1737781717?i=1737782505&uo=4"
     },
     {
@@ -287,9 +497,9 @@
       "division": "3. divisjon",
       "band": "Sagene Janitsjarkorps",
       "result_piece": "Symphonic Suite",
-      "recording_title": "Symphonic Suite (Live)",
+      "recording_title": "Symphonic Suite - Live",
       "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/1OG9fUHjUwnVVYnWE9n2Em",
       "apple_music": "https://music.apple.com/us/album/symphonic-suite-live/1737781717?i=1737781725&uo=4"
     },
     {
@@ -297,19 +507,9 @@
       "division": "3. divisjon",
       "band": "Sofienberg Musikkorps",
       "result_piece": "Lake of the Moon",
-      "recording_title": "Lake of the Moon - Live",
-      "album": "Nm Janitsjar 2024 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/6ebmU4oZogKQAn7SgZ3DtN",
-      "apple_music": "https://music.apple.com/us/album/lake-of-the-moon-live/1737781717?i=1737782840&uo=4"
-    },
-    {
-      "year": 2024,
-      "division": "3. divisjon",
-      "band": "Stabekk Janitsjarorkester",
-      "result_piece": "Triptych",
-      "recording_title": "Triptych - Live",
-      "album": "Nm Janitsjar 2024 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/64MZCS504A3q6ieCrJXwQ1",
+      "recording_title": "Lake of the moon - Live",
+      "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5GhjrSWUa6n2zEBwKAwpJ1",
       "apple_music": null
     },
     {
@@ -317,9 +517,9 @@
       "division": "3. divisjon",
       "band": "Strindheim Janitsjar",
       "result_piece": "Incantation and Dance",
-      "recording_title": "Incantation and Dance (Live)",
+      "recording_title": "Incantation and Dance - Live",
       "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/51ofR6c4w5YROxherpMSt7",
       "apple_music": "https://music.apple.com/us/album/incantation-and-dance-live/1737781717?i=1737782499&uo=4"
     },
     {
@@ -327,9 +527,9 @@
       "division": "3. divisjon",
       "band": "Strindheim Janitsjar",
       "result_piece": "Xerxes",
-      "recording_title": "Xerxes (Live)",
+      "recording_title": "Xerxes - Live",
       "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/6PWK8KJxZ9bQALQ2H2fZrw",
       "apple_music": "https://music.apple.com/us/album/xerxes-live/1737781717?i=1737782482&uo=4"
     },
     {
@@ -337,9 +537,9 @@
       "division": "3. divisjon",
       "band": "Sykkylven Janitsjarorkester",
       "result_piece": "Banja Luka",
-      "recording_title": "Banja Luka (Live)",
+      "recording_title": "Banja Luka - Live",
       "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/7dL30cRsPOkRUK8BLloMQF",
       "apple_music": "https://music.apple.com/us/album/banja-luka-live/1737781717?i=1737781721&uo=4"
     },
     {
@@ -348,8 +548,8 @@
       "band": "Åsane Musikklag",
       "result_piece": "Compostela",
       "recording_title": "Compostela - Live",
-      "album": "Nm Janitsjar 2024 - 5. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/3QjnhABzVyiPXG1Lb7B5GA",
+      "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/6EqUfpqKsA1dViyKdzXMql",
       "apple_music": "https://music.apple.com/us/album/compostela-live/1737781717?i=1737783179&uo=4"
     },
     {
@@ -357,9 +557,9 @@
       "division": "3. divisjon",
       "band": "Åsane Musikklag",
       "result_piece": "Ignition",
-      "recording_title": "Ignition (Live)",
+      "recording_title": "Ignition - Live",
       "album": "Nm Janitsjar 2024 - 3. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/49RbRZwzGh9gJ844OlN28a",
       "apple_music": "https://music.apple.com/us/album/ignition-live/1737781717?i=1737783170&uo=4"
     },
     {
@@ -787,30 +987,160 @@
       "division": "6. divisjon",
       "band": "Bjørgvin Blåseensemble",
       "result_piece": "Astronauten-Marsch",
-      "recording_title": "Astronauten-Marsch - Live",
-      "album": "Nm Janitsjar 2024 - 5. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/0rZBjkcRW58pHBsvjFb4GQ",
-      "apple_music": "https://music.apple.com/us/album/astronauten-marsch-live/1739590005?i=1739591409&uo=4"
+      "recording_title": "Astronauten - Marsch - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4lQZKRM0InJYsDzBOvBbNe",
+      "apple_music": "https://music.apple.com/us/album/astronauten-marsch-live/1737785171?i=1737786068&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Bjørgvin Blåseensemble",
+      "result_piece": "Norwegian Dance",
+      "recording_title": "Norwegian Dance - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5pdTvODma9OpUNe3f7Zkm4",
+      "apple_music": "https://music.apple.com/us/album/norwegian-dance-live/1737785171?i=1737785999&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Bjørgvin Blåseensemble",
+      "result_piece": "Slava!",
+      "recording_title": "Slava! - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/3En5CMGWcyTeUxT6qFtkJL",
+      "apple_music": "https://music.apple.com/us/album/slava-live/1737785171?i=1737786590&uo=4"
     },
     {
       "year": 2024,
       "division": "6. divisjon",
       "band": "Drøbak Musikkorps",
       "result_piece": "Lake of the Moon",
-      "recording_title": "Lake of the Moon - Live",
-      "album": "Nm Janitsjar 2024 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/6ebmU4oZogKQAn7SgZ3DtN",
-      "apple_music": "https://music.apple.com/us/album/lake-of-the-moon-live/1737781717?i=1737782840&uo=4"
+      "recording_title": "Lake of the moon - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/7d68Z2ffhPxWVdLKZJ86pk",
+      "apple_music": "https://music.apple.com/us/album/lake-of-the-moon-live/1737785171?i=1737786744&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Follebu og Vestre Gausdal Musikkforening",
+      "result_piece": "Golden Peak",
+      "recording_title": "Golden Peak - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1E1d8Q3tuZuzp3CwCk2Wxu",
+      "apple_music": "https://music.apple.com/us/album/golden-peak-live/1737785171?i=1737789720&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Hegra Hornmusikklag",
+      "result_piece": "First Suite in Eb for Military Band, 1. sats, Chaconne",
+      "recording_title": "First Suite in E flat: I: 1. movement - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2Ya2bdM5FUuneyJF52lUGl",
+      "apple_music": "https://music.apple.com/us/album/first-suite-in-e-flat-i-1-movement-live/1737785171?i=1737787224&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Hegra Hornmusikklag",
+      "result_piece": "Yosemite Autumn",
+      "recording_title": "Yosemite Autumn - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/3n8Rno3QbTbBXCj94hQtjB",
+      "apple_music": "https://music.apple.com/us/album/yosemite-autumn-live/1737785171?i=1737787587&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Hommelvik Musikkorps",
+      "result_piece": "Prevision",
+      "recording_title": "Prevision - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1F6VRk4u6wu8Vc5Ba9ocER",
+      "apple_music": "https://music.apple.com/us/album/prevision-live/1737785171?i=1737787922&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Jevnaker Ungdomskorps",
+      "result_piece": "Freedom Defended",
+      "recording_title": "Freedom Defended - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1w6xxMiE4QyyZrA5hfpU1t",
+      "apple_music": "https://music.apple.com/us/album/freedom-defended-live/1737785171?i=1737788446&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Jevnaker Ungdomskorps",
+      "result_piece": "Minnen från Holmen",
+      "recording_title": "Minnen från holmen - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5IX7vnkGeYUSrpdErbPN3q",
+      "apple_music": "https://music.apple.com/us/album/minnen-fr%C3%A5n-holmen-live/1737785171?i=1737788432&uo=4"
     },
     {
       "year": 2024,
       "division": "6. divisjon",
       "band": "Kila Musikkforening",
       "result_piece": "Candide Overture",
-      "recording_title": "Concert ouverture (Live)",
-      "album": "Nm Janitsjar 2024 - 1. divisjon (Live)",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/concert-ouverture-live/1737793406?i=1737795409&uo=4"
+      "recording_title": "Overture to candide - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/58qfP3JqgCfqZgJ0FoIsvH",
+      "apple_music": "https://music.apple.com/us/album/overture-to-candide-live/1737785171?i=1737789381&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Kila Musikkforening",
+      "result_piece": "Symphony no. 1, The Lord of the Rings, \"Gandalf\"",
+      "recording_title": "Symphony no. 1 - The Lord of the Rings: I: Gandalf - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/7nC2TiSPzA7VrOneGqXMgN",
+      "apple_music": "https://music.apple.com/us/album/symphony-no-1-the-lord-of-the-rings-i-gandalf-live/1737785171?i=1737789399&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Klæbu Musikkorps",
+      "result_piece": "Variations for Band",
+      "recording_title": "Variations for band - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4sxVfKptBQfCy1ADgot1gX",
+      "apple_music": "https://music.apple.com/us/album/variations-for-band-live/1737785171?i=1737785526&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Musikkorpset TEMPO",
+      "result_piece": "The Air Race",
+      "recording_title": "The Air Race - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2zpE2P3tPTejv491UgkC0x",
+      "apple_music": "https://music.apple.com/us/album/the-air-race-live/1737785171?i=1737788761&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Musikkorpset TEMPO",
+      "result_piece": "Veslemøys Sang",
+      "recording_title": "Veslemøys sang - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/13gC9FnfzHT33ThGFWqmXf",
+      "apple_music": "https://music.apple.com/us/album/veslem%C3%B8ys-sang-live/1737785171?i=1737788756&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Namsos Musikkorps",
+      "result_piece": "On the Way to 100 Years",
+      "recording_title": "On the way to 100 years - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/7EuWs3N9sFxMCAzwFlrYKH",
+      "apple_music": "https://music.apple.com/us/album/on-the-way-to-100-years-live/1737785171?i=1737787929&uo=4"
     },
     {
       "year": 2024,
@@ -818,19 +1148,59 @@
       "band": "Namsos Musikkorps",
       "result_piece": "Underlige Aftenlufte",
       "recording_title": "Underlige Aftenlufte - Live",
-      "album": "Nm Janitsjar 2024 - 5. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/45ruKEMDqzIEG4jw7tlFwa",
-      "apple_music": "https://music.apple.com/us/album/underlige-aftenlufte-live/1739590005?i=1739591395&uo=4"
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/6kXrI0SYABvav5oOscLLDU",
+      "apple_music": "https://music.apple.com/us/album/underlige-aftenlufte-live/1737785171?i=1737788418&uo=4"
     },
     {
       "year": 2024,
       "division": "6. divisjon",
       "band": "Nordre Aker Janitsjar",
       "result_piece": "A Springtime Celebration",
-      "recording_title": "Time for celebration - Live",
-      "album": "Nm Janitsjar 2024 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/7A8S4lTwUCTIKxKQmh0ncb",
-      "apple_music": "https://music.apple.com/us/album/a-symphonic-celebration-live/1737782962?i=1737784272&uo=4"
+      "recording_title": "A Springtime Celebration - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/3pb4MbmMPx4b6LnOEAfjSG",
+      "apple_music": "https://music.apple.com/us/album/a-springtime-celebration-live/1737785171?i=1737785512&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Nordre Aker Janitsjar",
+      "result_piece": "New York: 1927",
+      "recording_title": "New York: 1927 - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/6oDxJFAIREfertFYB511vT",
+      "apple_music": "https://music.apple.com/us/album/new-york-1927-live/1737785171?i=1737785522&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Skatval Hornmusikklag",
+      "result_piece": "Symphony no. 1, The Lord of the Rings, \"Hobbits\"",
+      "recording_title": "Symphony no. 1 - The Lord of the Rings: V: Hobbits - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4FCqG4a2uGJg6rneSL9QIL",
+      "apple_music": "https://music.apple.com/us/album/symphony-no-1-the-lord-of-the-rings-v-hobbits-live/1737785171?i=1737787219&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Trøgstad Janitsjar",
+      "result_piece": "Cassiopeia",
+      "recording_title": "Cassiopeia - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/42HxfAnpzYfG8a6npmBcfq",
+      "apple_music": "https://music.apple.com/us/album/cassiopeia-live/1737785171?i=1737789051&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Trøgstad Janitsjar",
+      "result_piece": "Hoch Heidecksburg, op. 10",
+      "recording_title": "Hoch Heidecksburg Op. 10 - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/1A4vizVeSqECExyi8BbXpX",
+      "apple_music": "https://music.apple.com/us/album/hoch-heidecksburg-op-10-live/1737785171?i=1737789069&uo=4"
     },
     {
       "year": 2024,
@@ -838,18 +1208,28 @@
       "band": "Vålerenga Janitsjarkorps",
       "result_piece": "Eldorado",
       "recording_title": "Eldorado - Live",
-      "album": "Nm Janitsjar 2024 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/1eH2aTLHNxKTTvwOS3rBMo",
-      "apple_music": "https://music.apple.com/us/album/eldorado-live/1737782962?i=1737783810&uo=4"
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0H8WwGoBTWbNi8cHj3VJ6O",
+      "apple_music": "https://music.apple.com/us/album/eldorado-live/1737785171?i=1737787597&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "6. divisjon",
+      "band": "Åndalsnes Musikkforening",
+      "result_piece": "Music for a Solemnity",
+      "recording_title": "Music for a Solemnity - Live",
+      "album": "Nm Janitsjar 2024 - 6. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/7yxd01MgymOuXt9GQUcCLH",
+      "apple_music": "https://music.apple.com/us/album/music-for-a-solemnity-live/1737785171?i=1737785175&uo=4"
     },
     {
       "year": 2024,
       "division": "7. divisjon",
       "band": "Egersund Musikkorps",
       "result_piece": "A Symphonic Celebration",
-      "recording_title": "A Symphonic Celebration (Live)",
+      "recording_title": "A Symphonic Celebration - Live",
       "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/4GPWwxH10s8VQqXwsafBgQ",
       "apple_music": "https://music.apple.com/us/album/a-symphonic-celebration-live/1737782962?i=1737784272&uo=4"
     },
     {
@@ -857,9 +1237,9 @@
       "division": "7. divisjon",
       "band": "Egersund Musikkorps",
       "result_piece": "Mount Everest",
-      "recording_title": "Mount Everest (Live)",
+      "recording_title": "Mount Everest - Live",
       "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/4PnIXGUO0LL7CHmTkL1qoU",
       "apple_music": "https://music.apple.com/us/album/mount-everest-live/1737782962?i=1737784637&uo=4"
     },
     {
@@ -867,9 +1247,9 @@
       "division": "7. divisjon",
       "band": "Hennummusikken",
       "result_piece": "Corpo Hennum festivo",
-      "recording_title": "Corpo Hennum festivo (Live)",
+      "recording_title": "Corpo Hennum festivo - Live",
       "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/7DQwirtwuFtrJIIPqRJr5q",
       "apple_music": "https://music.apple.com/us/album/corpo-hennum-festivo-live/1737782962?i=1737783818&uo=4"
     },
     {
@@ -878,8 +1258,8 @@
       "band": "Hennummusikken",
       "result_piece": "Eldorado",
       "recording_title": "Eldorado - Live",
-      "album": "Nm Janitsjar 2024 - 4. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/1eH2aTLHNxKTTvwOS3rBMo",
+      "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4z7aohArxA3F88cE2YuURN",
       "apple_music": "https://music.apple.com/us/album/eldorado-live/1737782962?i=1737783810&uo=4"
     },
     {
@@ -887,9 +1267,9 @@
       "division": "7. divisjon",
       "band": "Lier og Drammen Ungdomskorps",
       "result_piece": "Concerto d’Amore",
-      "recording_title": "Concerto D'Amore (Live)",
+      "recording_title": "Concerto D´Amore - Live",
       "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/6oXA3stJUQRr9p8hTaxal5",
       "apple_music": "https://music.apple.com/us/album/concerto-damore-live/1737782962?i=1737784944&uo=4"
     },
     {
@@ -897,9 +1277,9 @@
       "division": "7. divisjon",
       "band": "Lier og Drammen Ungdomskorps",
       "result_piece": "Highlights from the Greatest Showman",
-      "recording_title": "Highlights from the Greatest Showman (Live)",
+      "recording_title": "Highlights from the Greatest Showman - Live",
       "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/4f8K7xFrYaxU77ehB7yclY",
       "apple_music": "https://music.apple.com/us/album/highlights-from-the-greatest-showman-live/1737782962?i=1737784663&uo=4"
     },
     {
@@ -907,19 +1287,19 @@
       "division": "7. divisjon",
       "band": "Musikklaget Kornetten",
       "result_piece": "Overture to a new Age",
-      "recording_title": "Overture Op. 2 - Live",
-      "album": "Nm Janitsjar 2024 - Elitedivisjon (Live)",
-      "spotify": "https://open.spotify.com/track/2ykMprkin0cJUglvfLjWWW",
-      "apple_music": "https://music.apple.com/us/album/overture-to-a-new-age-live/1737782962?i=1737784270&uo=4"
+      "recording_title": "Overture to a new age - Live",
+      "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/0vb7hyOQwHThPDgUIEihJb",
+      "apple_music": "https://music.apple.com/us/album/overture-to-a-new-age-live/1737782962?i=1737784639&uo=4"
     },
     {
       "year": 2024,
       "division": "7. divisjon",
       "band": "Musikklaget Laat",
       "result_piece": "Another Way Home",
-      "recording_title": "Another Way Home (Live)",
+      "recording_title": "Another Way Home - Live",
       "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/2Z28U53oE0EPJDxTu9ihIP",
       "apple_music": "https://music.apple.com/us/album/another-way-home-live/1737782962?i=1737783531&uo=4"
     },
     {
@@ -927,9 +1307,9 @@
       "division": "7. divisjon",
       "band": "Musikklaget Laat",
       "result_piece": "Fanfare for an Occasion",
-      "recording_title": "Fanfare for an Occasion (Live)",
+      "recording_title": "Fanfare for an Occasion - Live",
       "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/3xI46yL8QYHPocctAU4iic",
       "apple_music": "https://music.apple.com/us/album/fanfare-for-an-occasion-live/1737782962?i=1737783387&uo=4"
     },
     {
@@ -937,9 +1317,9 @@
       "division": "7. divisjon",
       "band": "Musikklaget Laat",
       "result_piece": "They Solemnly Served",
-      "recording_title": "They Solemnly Served (Live)",
+      "recording_title": "They Solemnly Served - Live",
       "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/6WQLuwEAb2iNanmxJ01i96",
       "apple_music": "https://music.apple.com/us/album/they-solemnly-served-live/1737782962?i=1737783527&uo=4"
     },
     {
@@ -947,19 +1327,19 @@
       "division": "7. divisjon",
       "band": "Nørvøy Ungdomskorps",
       "result_piece": "Compostela",
-      "recording_title": "Compostela - Live",
-      "album": "Nm Janitsjar 2024 - 5. divisjon (Live)",
-      "spotify": "https://open.spotify.com/track/3QjnhABzVyiPXG1Lb7B5GA",
-      "apple_music": "https://music.apple.com/us/album/compostela-live/1737781717?i=1737783179&uo=4"
+      "recording_title": "Compostela - The Way of St James - Live",
+      "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/4c1eXZgRDIx8vkj8GaxIFr",
+      "apple_music": "https://music.apple.com/us/album/compostela-the-way-of-st-james-live/1737782962?i=1737783826&uo=4"
     },
     {
       "year": 2024,
       "division": "7. divisjon",
       "band": "Søndre Nittedal Veterankorps",
       "result_piece": "Merlin",
-      "recording_title": "Merlin (Live)",
+      "recording_title": "Merlin - Live",
       "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/4FizF6updrmN56NnXr5tcL",
       "apple_music": "https://music.apple.com/us/album/merlin-live/1737782962?i=1737784075&uo=4"
     },
     {
@@ -967,9 +1347,9 @@
       "division": "7. divisjon",
       "band": "Søndre Nittedal Veterankorps",
       "result_piece": "Novena",
-      "recording_title": "Novena (Live)",
+      "recording_title": "Novena - Live",
       "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/6I2Zgip0CX1cUtGI1cpzZH",
       "apple_music": "https://music.apple.com/us/album/novena-live/1737782962?i=1737784253&uo=4"
     },
     {
@@ -977,9 +1357,9 @@
       "division": "7. divisjon",
       "band": "TUBE",
       "result_piece": "Christian Daae på setra",
-      "recording_title": "Christian Daae på setra (Live)",
+      "recording_title": "Christian Daae på setra - Live",
       "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/5FB6prrddY6EpBXO1X0MAc",
       "apple_music": "https://music.apple.com/us/album/christian-daae-p%C3%A5-setra-live/1737782962?i=1737784953&uo=4"
     },
     {
@@ -987,9 +1367,9 @@
       "division": "7. divisjon",
       "band": "Tretten Musikkforening",
       "result_piece": "Ammerland",
-      "recording_title": "Ammerland (Live)",
+      "recording_title": "Ammerland - Live",
       "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/4j5R3FEOYnWbDntGeHSJRJ",
       "apple_music": "https://music.apple.com/us/album/ammerland-live/1737782962?i=1737783764&uo=4"
     },
     {
@@ -997,9 +1377,9 @@
       "division": "7. divisjon",
       "band": "Tretten Musikkforening",
       "result_piece": "The Last Letter from Murdoch",
-      "recording_title": "The last letter from Murdoch (Live)",
+      "recording_title": "The last letter from Murdoch - Live",
       "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/5OsHRdpRU6BBFDTN4dIFdS",
       "apple_music": "https://music.apple.com/us/album/the-last-letter-from-murdoch-live/1737782962?i=1737783801&uo=4"
     },
     {
@@ -1007,9 +1387,9 @@
       "division": "7. divisjon",
       "band": "Valldal Hornmusikklag",
       "result_piece": "The Flood",
-      "recording_title": "The Flood (Live)",
+      "recording_title": "The Flood - Live",
       "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
-      "spotify": null,
+      "spotify": "https://open.spotify.com/track/2kBeF2fwfGvxKJ16975CjM",
       "apple_music": "https://music.apple.com/us/album/the-flood-live/1737782962?i=1737784262&uo=4"
     },
     {
@@ -1017,9 +1397,9 @@
       "division": "7. divisjon",
       "band": "Vang Musikkforening",
       "result_piece": "Overture to a new Age",
-      "recording_title": "Overture Op. 2 - Live",
-      "album": "Nm Janitsjar 2024 - Elitedivisjon (Live)",
-      "spotify": "https://open.spotify.com/track/2ykMprkin0cJUglvfLjWWW",
+      "recording_title": "Overture to a new Age - Live",
+      "album": "Nm Janitsjar 2024 - 7. divisjon (Live)",
+      "spotify": "https://open.spotify.com/track/6HOE94A6AzRUejLb6tj52B",
       "apple_music": "https://music.apple.com/us/album/overture-to-a-new-age-live/1737782962?i=1737784270&uo=4"
     },
     {
@@ -1045,6 +1425,56 @@
     {
       "year": 2024,
       "division": "Elite",
+      "band": "Christiania Blåseensemble",
+      "result_piece": "Vårofferet",
+      "recording_title": "The Rite of Spring (Live)",
+      "album": "NM Janitsjar 2024 - Elitedivisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5BChs0DHLaQzUUsuzPKSWt?si=2577c646aaa54419",
+      "apple_music": "https://music.apple.com/no/album/the-rite-of-spring-live/1737790756?i=1737793781"
+    },
+    {
+      "year": 2024,
+      "division": "Elite",
+      "band": "Christiania Blåseensemble",
+      "result_piece": "Vårofferet",
+      "recording_title": "The Rite of Spring (Live)",
+      "album": "NM Janitsjar 2024 - Elitedivisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5BChs0DHLaQzUUsuzPKSWt?si=2577c646aaa54419",
+      "apple_music": "https://music.apple.com/no/album/the-rite-of-spring-live/1737790756?i=1737793781"
+    },
+    {
+      "year": 2024,
+      "division": "Elite",
+      "band": "Christiania Blåseensemble",
+      "result_piece": "Vårofferet",
+      "recording_title": "The Rite of Spring (Live)",
+      "album": "NM Janitsjar 2024 - Elitedivisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5BChs0DHLaQzUUsuzPKSWt?si=2577c646aaa54419",
+      "apple_music": "https://music.apple.com/no/album/the-rite-of-spring-live/1737790756?i=1737793781"
+    },
+    {
+      "year": 2024,
+      "division": "Elite",
+      "band": "Christiania Blåseensemble",
+      "result_piece": "Vårofferet",
+      "recording_title": "The Rite of Spring (Live)",
+      "album": "NM Janitsjar 2024 - Elitedivisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5BChs0DHLaQzUUsuzPKSWt?si=2577c646aaa54419",
+      "apple_music": "https://music.apple.com/no/album/the-rite-of-spring-live/1737790756?i=1737793781"
+    },
+    {
+      "year": 2024,
+      "division": "Elite",
+      "band": "Christiania Blåseensemble",
+      "result_piece": "Vårofferet",
+      "recording_title": "The Rite of Spring (Live)",
+      "album": "NM Janitsjar 2024 - Elitedivisjon (Live)",
+      "spotify": "https://open.spotify.com/track/5BChs0DHLaQzUUsuzPKSWt?si=2577c646aaa54419",
+      "apple_music": "https://music.apple.com/no/album/the-rite-of-spring-live/1737790756?i=1737793781"
+    },
+    {
+      "year": 2024,
+      "division": "Elite",
       "band": "Dragefjellets Musikkorps Bergen",
       "result_piece": "Armenian Dances, Part 1",
       "recording_title": "Armenian Dances: 1: Part 1 - Live",
@@ -1060,7 +1490,7 @@
       "recording_title": "Dirty Dancing for Large Wind Ensemble - Live",
       "album": "Nm Janitsjar 2024 - Elitedivisjon (Live)",
       "spotify": "https://open.spotify.com/track/5rmLmXF7kRvHZ8UcNMBieY",
-      "apple_music": "https://music.apple.com/us/album/dirty-dancing-live/1737790756?i=1737793270&uo=4"
+      "apple_music": "https://music.apple.com/us/album/dirty-dancing-for-large-wind-ensemble-live/1737790756?i=1737792885&uo=4"
     },
     {
       "year": 2024,
@@ -1160,16 +1590,26 @@
       "recording_title": "Svit ur Bergakungen - Live",
       "album": "Nm Janitsjar 2024 - Elitedivisjon (Live)",
       "spotify": "https://open.spotify.com/track/0oRHa7wnxeXkBUMP7B92E3",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/svit-ur-bergakungen-live/1737790756?i=1737794255&uo=4"
+    },
+    {
+      "year": 2024,
+      "division": "Elite",
+      "band": "Opus 82",
+      "result_piece": "Ouverture, op. 2",
+      "recording_title": "Overture Op. 2 - Live",
+      "album": "Nm Janitsjar 2024 - Elitedivisjon (Live)",
+      "spotify": "https://open.spotify.com/track/2ykMprkin0cJUglvfLjWWW",
+      "apple_music": "https://music.apple.com/us/album/overture-op-2-live/1737790756?i=1737794061&uo=4"
     },
     {
       "year": 2024,
       "division": "Elite",
       "band": "Strusshamn Musikkforening",
       "result_piece": "Dirty Dancing",
-      "recording_title": "Dirty Dancing for Large Wind Ensemble - Live",
+      "recording_title": "Dirty Dancing - Live",
       "album": "Nm Janitsjar 2024 - Elitedivisjon (Live)",
-      "spotify": "https://open.spotify.com/track/5rmLmXF7kRvHZ8UcNMBieY",
+      "spotify": "https://open.spotify.com/track/4jkuiveDeUgoYQGH99ugzZ",
       "apple_music": "https://music.apple.com/us/album/dirty-dancing-live/1737790756?i=1737793270&uo=4"
     },
     {

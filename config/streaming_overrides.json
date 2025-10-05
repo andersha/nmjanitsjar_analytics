@@ -77,6 +77,18 @@
       "spotify": "https://open.spotify.com/track/2bi2aO63xQmS475RjDl3Ba?si=5c4489ebaa1e4e7b",
       "allow_album_mismatch": true,
       "band_type": "brass"
+    },
+    {
+      "year": 2024,
+      "division": "Elite",
+      "band": "Christiania Blåseensemble",
+      "piece": "Vårofferet",
+      "album": "NM Janitsjar 2024 - Elitedivisjon (Live)",
+      "recording_title": "The Rite of Spring (Live)",
+      "spotify": "https://open.spotify.com/track/5BChs0DHLaQzUUsuzPKSWt?si=2577c646aaa54419",
+      "apple_music": "https://music.apple.com/no/album/the-rite-of-spring-live/1737790756?i=1737793781",
+      "notes": "Norwegian title 'Vårofferet' vs English album title 'The Rite of Spring'",
+      "band_type": "wind"
     }
   ]
 }
