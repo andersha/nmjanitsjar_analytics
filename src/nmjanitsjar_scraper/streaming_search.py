@@ -819,8 +819,18 @@ class StreamingLinkFinder:
                         if score > band_match_score:
                             band_match_score = score
             
+            # If artist matching is weak, also check if the band name appears in the track title
+            # This handles cases where track titles include band names (e.g., "Piece - Band Name")
+            if band_match_score < 0.5 and band_slug:
+                title_slug = normalize_title(track.title)
+                title_match = similarity_score(band_slug, title_slug)
+                # Check if band name is a substring or very similar to part of the title
+                if title_match > band_match_score or band_slug in title_slug:
+                    band_match_score = max(band_match_score, title_match)
+            
             # Combined score: piece matching is primary, band matching is crucial for disambiguation
             # For test pieces where multiple bands perform the same piece, band matching is essential
+            # However, for own-choice pieces where each piece is unique, allow strong piece matches
             if band_match_score > 0.85:
                 # Excellent band match: very likely the correct track
                 combined_score = piece_match_score * 0.5 + band_match_score * 0.5
@@ -834,8 +844,13 @@ class StreamingLinkFinder:
                 # Weak band match: heavily penalize to avoid wrong matches
                 combined_score = piece_match_score * 0.5 + band_match_score * 0.1
             else:
-                # Very weak or no band match: significant penalty
-                combined_score = piece_match_score * 0.4
+                # Very weak or no band match
+                # For very strong piece matches (>0.9), allow matching without band info
+                # This handles own-choice pieces where each piece title is unique on the album
+                if piece_match_score >= 0.9:
+                    combined_score = piece_match_score * 0.7  # Reduced penalty for perfect/near-perfect matches
+                else:
+                    combined_score = piece_match_score * 0.4  # Significant penalty for weaker matches
             
             if combined_score > best_score:
                 best_score = combined_score
@@ -1269,6 +1284,30 @@ def build_year_streaming_entries(
     return serialised
 
 
+def load_existing_entries(
+    output_dir: Path,
+    band_type: str,
+    year: int,
+) -> List[Dict[str, object]]:
+    """Load existing entries from a year file if it exists."""
+    year_dir = output_dir.expanduser() / band_type
+    year_path = year_dir / f"{year}.json"
+    
+    if not year_path.exists():
+        return []
+    
+    try:
+        existing_data = json.loads(year_path.read_text(encoding="utf-8"))
+        if isinstance(existing_data, dict):
+            return existing_data.get("entries", [])
+        elif isinstance(existing_data, list):
+            return existing_data
+    except (json.JSONDecodeError, IOError):
+        pass
+    
+    return []
+
+
 def write_year_file(
     output_dir: Path, 
     band_type: str, 
@@ -1284,19 +1323,9 @@ def write_year_file(
     year_dir.mkdir(parents=True, exist_ok=True)
     year_path = year_dir / f"{year}.json"
     
-    # If using division filter, merge with existing entries
+    # If using division filter, merge with existing entries from other divisions
     if divisions_filter:
-        existing_entries: List[Dict[str, object]] = []
-        if year_path.exists():
-            try:
-                existing_data = json.loads(year_path.read_text(encoding="utf-8"))
-                if isinstance(existing_data, dict):
-                    existing_entries = existing_data.get("entries", [])
-                elif isinstance(existing_data, list):
-                    existing_entries = existing_data
-            except (json.JSONDecodeError, IOError):
-                pass
-        
+        existing_entries = load_existing_entries(output_dir, band_type, year)
         # Keep entries from divisions NOT in the filter
         preserved_entries = [
             entry for entry in existing_entries
@@ -1440,6 +1469,7 @@ def generate_streaming_links(
     cache_path: Optional[Path] = None,
     console=None,
     band_type: str = "wind",
+    preserve_existing: bool = False,
 ) -> int:
     from rich.console import Console
     from rich.progress import track
@@ -1534,7 +1564,59 @@ def generate_streaming_links(
     total_entries = 0
     for year in track(sorted(year_map.keys()), description="Matching streaming links"):
         year_performances = year_map[year]
-        entries = build_year_streaming_entries(year, year_performances, finder, override_resolver)
+        
+        # If preserve_existing is True, filter out performances that already have links
+        if preserve_existing:
+            existing_entries = load_existing_entries(output_dir, band_type, year)
+            
+            # Build a set of performance keys that already have links
+            existing_with_links = set()
+            for entry in existing_entries:
+                if entry.get("spotify") or entry.get("apple_music"):
+                    # Create unique key: year|division|band|piece
+                    key = f"{entry.get('year')}|{entry.get('division')}|{entry.get('band')}|{entry.get('result_piece')}"
+                    existing_with_links.add(key)
+            
+            # Filter performances to only those that need linking
+            performances_to_process = []
+            for perf in year_performances:
+                perf_key = f"{perf.year}|{perf.division}|{perf.band}|{perf.piece}"
+                if perf_key not in existing_with_links:
+                    performances_to_process.append(perf)
+            
+            # Build entries for performances that need linking
+            new_entries = build_year_streaming_entries(year, performances_to_process, finder, override_resolver)
+            
+            # Combine with existing entries that have links
+            all_entries = []
+            for entry in existing_entries:
+                entry_key = f"{entry.get('year')}|{entry.get('division')}|{entry.get('band')}|{entry.get('result_piece')}"
+                # Keep existing entries with links, or those from other divisions if filter is active
+                if entry_key in existing_with_links:
+                    if divisions_filter is None or entry.get("division") in divisions_filter:
+                        all_entries.append(entry)
+                    elif entry.get("division") not in divisions_filter:
+                        # Keep entries from other divisions
+                        all_entries.append(entry)
+            
+            # Add newly processed entries
+            all_entries.extend(new_entries)
+            
+            # Sort combined entries
+            all_entries.sort(
+                key=lambda entry: (
+                    entry.get("year", 0),
+                    str(entry.get("division", "")),
+                    str(entry.get("band", "")),
+                    str(entry.get("result_piece", "")),
+                )
+            )
+            
+            entries = all_entries
+        else:
+            # Force overwrite mode - process all performances
+            entries = build_year_streaming_entries(year, year_performances, finder, override_resolver)
+        
         write_year_file(output_dir, band_type, year, entries, divisions_filter)
         total_entries += len(entries)
 
@@ -1574,6 +1656,11 @@ def main() -> None:
     parser.add_argument("--apple-country", type=str, default="us", help="Apple Music store country code (default: us)")
     parser.add_argument("--skip-spotify", action="store_true", help="Skip Spotify lookup")
     parser.add_argument("--skip-apple", action="store_true", help="Skip Apple Music lookup")
+    parser.add_argument(
+        "--force-overwrite",
+        action="store_true",
+        help="Force overwrite existing streaming links. By default, existing links are preserved."
+    )
 
     args = parser.parse_args()
     
@@ -1594,6 +1681,7 @@ def main() -> None:
         start_year=args.start_year,
         end_year=args.end_year,
         divisions_filter=divisions_filter,
+        preserve_existing=not args.force_overwrite,
         spotify_client_id=args.spotify_client_id,
         spotify_client_secret=args.spotify_client_secret,
         apple_country=args.apple_country,
