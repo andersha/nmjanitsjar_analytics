@@ -136,11 +136,31 @@
       "year": 2017,
       "division": "1. divisjon",
       "band": "Sandefjord Musikkorps",
+      "result_piece": "Profanation from Jeremiah, Symphony nr. 1",
+      "recording_title": "Profanation fra Symphony no 1 \"Jeremiah\"",
+      "album": "Nm Janitsjar 2017 - 1 Divisjon",
+      "spotify": "https://open.spotify.com/track/7wBHtLyrFNuwqogLRNBJoT",
+      "apple_music": "https://music.apple.com/us/album/profanation-fra-symphony-no-1-jeremiah/1224961450?i=1224961725&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "1. divisjon",
+      "band": "Sandefjord Musikkorps",
       "result_piece": "Sensemayà",
       "recording_title": "Sensemaya",
       "album": "Nm Janitsjar 2017 - 1 Divisjon",
       "spotify": "https://open.spotify.com/track/7KvT7kZBv34Nq6rVUgUHGx",
       "apple_music": "https://music.apple.com/us/album/sensemaya/1224961450?i=1224961727&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "1. divisjon",
+      "band": "Skjold Nesttun Janitsjar",
+      "result_piece": "Pines of Rome",
+      "recording_title": "Pini di Roma",
+      "album": "Nm Janitsjar 2017 - 1 Divisjon",
+      "spotify": "https://open.spotify.com/track/4cbTmGk6V1ta5xeeL0OTqL",
+      "apple_music": "https://music.apple.com/us/album/pini-di-roma/1224961450?i=1224961680&uo=4"
     },
     {
       "year": 2017,
@@ -208,9 +228,19 @@
       "band": "Aalesunds Ungdomsmusikkorps",
       "result_piece": "The Bermuda Triangle",
       "recording_title": "The Bermuda Triangle",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/78iYJ1M9PfSF4IaJ1iXFUr",
       "apple_music": "https://music.apple.com/us/album/the-bermuda-triangle/1224959117?i=1224959138&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "2. divisjon",
+      "band": "Bispehaugen Ungdomskorps",
+      "result_piece": "Las Aventuras del Principito",
+      "recording_title": "Las Aventura del Principoito",
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/7FwXfUk5Wi6XX6qyjrfku9",
+      "apple_music": "https://music.apple.com/us/album/las-aventura-del-principoito/1224959117?i=1224959121&uo=4"
     },
     {
       "year": 2017,
@@ -218,8 +248,8 @@
       "band": "Bjergsted Blåseensemble",
       "result_piece": "Blue Shades",
       "recording_title": "Blue Shades",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/1tmxmEMm3gWSoxtdjNH2rd",
       "apple_music": "https://music.apple.com/us/album/blue-shades/1224959117?i=1224959536&uo=4"
     },
     {
@@ -228,9 +258,19 @@
       "band": "Bjergsted Blåseensemble",
       "result_piece": "Symphony in B flat for Concert Band, 1. sats",
       "recording_title": "Symphony in B flat, 1 .sats",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/2OGVdAwLeewCvfVJRkZmPE",
       "apple_music": "https://music.apple.com/us/album/symphony-in-b-flat-1-sats/1224959117?i=1224959532&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "2. divisjon",
+      "band": "Bjølsen Ungdomskorps",
+      "result_piece": "Saga Candida",
+      "recording_title": "Saga Candida - Bjølsen",
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/3tRWWvSysr0wbSklR07lBg",
+      "apple_music": "https://music.apple.com/us/album/saga-candida-bj%C3%B8lsen/1224959117?i=1224959129&uo=4"
     },
     {
       "year": 2017,
@@ -238,9 +278,19 @@
       "band": "Gjøvik Bykorps",
       "result_piece": "Pentium",
       "recording_title": "Pentium",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/5fwbk1GJw8qP8ZhYmuZvMw",
       "apple_music": "https://music.apple.com/us/album/pentium/1224959117?i=1224959127&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "2. divisjon",
+      "band": "Gjøvik Bykorps",
+      "result_piece": "Saga Candida",
+      "recording_title": "Saga Candida - Gjøvik",
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/7pmguL0rIaTJMbth3OKOFn",
+      "apple_music": "https://music.apple.com/us/album/saga-candida-gj%C3%B8vik/1224959117?i=1224959128&uo=4"
     },
     {
       "year": 2017,
@@ -248,8 +298,8 @@
       "band": "Halsen Musikkforening",
       "result_piece": "The Hounds of Spring",
       "recording_title": "The Hounds of Spring",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/2vLJf3A6U5MojG6MaGfWv4",
       "apple_music": "https://music.apple.com/us/album/the-hounds-of-spring/1224959117?i=1224959118&uo=4"
     },
     {
@@ -258,8 +308,8 @@
       "band": "Halsen Musikkforening",
       "result_piece": "Xerxes",
       "recording_title": "Xerxes",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/6OccJV3JdaJGbNeM5pDyVr",
       "apple_music": "https://music.apple.com/us/album/xerxes/1224959117?i=1224959119&uo=4"
     },
     {
@@ -268,8 +318,8 @@
       "band": "Hov Musikkorps",
       "result_piece": "California",
       "recording_title": "California",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/6oAgLmyHQnez5Tb0v9R7FD",
       "apple_music": "https://music.apple.com/us/album/california/1224959117?i=1224959542&uo=4"
     },
     {
@@ -278,8 +328,8 @@
       "band": "Hov Musikkorps",
       "result_piece": "Satiric Dances (for a comedy of Arisophanes)",
       "recording_title": "Satiric Dances",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/0TkIC2kGcNRA0PxuEq0lp7",
       "apple_music": "https://music.apple.com/us/album/satiric-dances/1224959117?i=1224959538&uo=4"
     },
     {
@@ -288,8 +338,8 @@
       "band": "Lisleby Musikkorps",
       "result_piece": "Bergakungen Suite, 2., 4., 6. og 7. sats",
       "recording_title": "Svit ur Bergakungen - 2,4,6 og 7 sats",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/3xv5VSc1y4mqyyEmFJKm3a",
       "apple_music": "https://music.apple.com/us/album/svit-ur-bergakungen-2-4-6-og-7-sats/1224959117?i=1224959126&uo=4"
     },
     {
@@ -301,6 +351,36 @@
       "album": "Nm Janitsjar 2017 - 1 Divisjon",
       "spotify": "https://open.spotify.com/track/6XwhIvQ1UVv0hXGgO3nWpY",
       "apple_music": "https://music.apple.com/us/album/prelude-and-dance/1224959117?i=1224959122&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "2. divisjon",
+      "band": "Lungegaardens Musikkorps",
+      "result_piece": "Give us this Day",
+      "recording_title": "Give Us This Day",
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/1uNaSGfp7Y0Kwpk9U4HhmS",
+      "apple_music": "https://music.apple.com/us/album/give-us-this-day/1224959117?i=1224959543&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "2. divisjon",
+      "band": "Lørenskog Musikkorps",
+      "result_piece": "Saga Candida",
+      "recording_title": "Saga Candida",
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/5lBQHd6231fiaMCPwQ4o4e",
+      "apple_music": "https://music.apple.com/us/album/saga-candida/1224959117?i=1224959120&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "2. divisjon",
+      "band": "Nittedal og Hakadal Janitsjar",
+      "result_piece": "Paris Sketches",
+      "recording_title": "Paris Sketches",
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/7D6rpHaVrBpIc0pJUbMuBx",
+      "apple_music": "https://music.apple.com/us/album/paris-sketches/1224959117?i=1224959130&uo=4"
     },
     {
       "year": 2017,
@@ -318,8 +398,8 @@
       "band": "Sinsen Konsertorkester",
       "result_piece": "Aurora Awakes",
       "recording_title": "Aurora Awakes",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/7tPV13GtMiYpp696cg7TNX",
       "apple_music": "https://music.apple.com/us/album/aurora-awakes/1224959117?i=1224959131&uo=4"
     },
     {
@@ -328,8 +408,8 @@
       "band": "Sinsen Konsertorkester",
       "result_piece": "Magnolia Star",
       "recording_title": "Magnolia Star",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/0tpiASpwHQksaCz1zSWnB8",
       "apple_music": "https://music.apple.com/us/album/magnolia-star/1224959117?i=1224959132&uo=4"
     },
     {
@@ -338,8 +418,8 @@
       "band": "Stabekk Janitsjarorkester",
       "result_piece": "Cheetah",
       "recording_title": "Cheetah",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/4VkUql0slP5B0tItY9F31k",
       "apple_music": "https://music.apple.com/us/album/cheetah/1224959117?i=1224959547&uo=4"
     },
     {
@@ -348,9 +428,19 @@
       "band": "Stabekk Janitsjarorkester",
       "result_piece": "Four Scottisch Dances",
       "recording_title": "Four Scottish Dances",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/4igj7nYn1KQJVl95L7vYod",
       "apple_music": "https://music.apple.com/us/album/four-scottish-dances/1224959117?i=1224959544&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "2. divisjon",
+      "band": "Sykkylven Janitsjarorkester",
+      "result_piece": "Sidus",
+      "recording_title": "Sidus",
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/1f8h3R6uN1Q07RDJSifClR",
+      "apple_music": "https://music.apple.com/us/album/sidus/1224959117?i=1224959548&uo=4"
     },
     {
       "year": 2017,
@@ -358,8 +448,8 @@
       "band": "Tromsø Orkesterforenings Janitsjarkorps",
       "result_piece": "Homenaje a Joaquìn Sorolla Cuados Sinfònicos",
       "recording_title": "Homenaje a Joaquin Sorolla",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 2 Divisjon",
+      "spotify": "https://open.spotify.com/track/1OTbMPZjIiNN1QTHl1RLXy",
       "apple_music": "https://music.apple.com/us/album/homenaje-a-joaquin-sorolla/1224959117?i=1224959137&uo=4"
     },
     {
@@ -371,6 +461,16 @@
       "album": "Nm Janitsjar 2017 - 3 Divisjon",
       "spotify": "https://open.spotify.com/track/5I1kiVV2wKxWXkxFz0kky5",
       "apple_music": "https://music.apple.com/us/album/lei-milde-ljos/1224988378?i=1224989124&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "3. divisjon",
+      "band": "Arendal Byorkester",
+      "result_piece": "Norsk Kunstnerkarneval, Op. 14",
+      "recording_title": "Norsk Kunstnerkarneval",
+      "album": "Nm Janitsjar 2017 - 3 Divisjon",
+      "spotify": "https://open.spotify.com/track/2fN42c3gr4iAkaqxwZY1QK",
+      "apple_music": "https://music.apple.com/us/album/norsk-kunstnerkarneval/1224988378?i=1224989123&uo=4"
     },
     {
       "year": 2017,
@@ -465,6 +565,16 @@
     {
       "year": 2017,
       "division": "3. divisjon",
+      "band": "Prosjekt MMXIX",
+      "result_piece": "Underlige Aftenlufte",
+      "recording_title": "Underlige Aftenlufte",
+      "album": "Nm Janitsjar 2017 - 3 Divisjon",
+      "spotify": "https://open.spotify.com/track/1JoA1ylxiiYfKEZNoJ69Td",
+      "apple_music": "https://music.apple.com/us/album/underlige-aftenlufte/1224988378?i=1224989116&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "3. divisjon",
       "band": "Ranheim Musikkforening",
       "result_piece": "Firestorm",
       "recording_title": "Firestorm",
@@ -501,6 +611,16 @@
       "album": "Nm Janitsjar 2017 - 3 Divisjon",
       "spotify": "https://open.spotify.com/track/6fO8rZffp6JvFodniXTAgt",
       "apple_music": "https://music.apple.com/us/album/rise-of-the-firebird/1224988378?i=1224989104&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "3. divisjon",
+      "band": "Sofienberg Musikkorps",
+      "result_piece": "Give us this Day",
+      "recording_title": "Give Us this Day",
+      "album": "Nm Janitsjar 2017 - 3 Divisjon",
+      "spotify": "https://open.spotify.com/track/4KMPneT5mvKPt9x2nUbPsJ",
+      "apple_music": "https://music.apple.com/us/album/give-us-this-day/1224988378?i=1224989117&uo=4"
     },
     {
       "year": 2017,
@@ -558,9 +678,19 @@
       "band": "Arne Musikforening",
       "result_piece": "The Magnetic Mountain",
       "recording_title": "The Magnetic Mountain",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/5rAY9VfLoGGfEdGydcwnyy",
       "apple_music": "https://music.apple.com/us/album/the-magnetic-mountain/1224955385?i=1224955390&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "4. divisjon",
+      "band": "Bøler Janitsjar og Ila Ungdomskorps",
+      "result_piece": "Armenian Dances, Part 1",
+      "recording_title": "Armenian Dances, Pt. 1",
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/7EkHXvYiCNrTxRg7MrEzZk",
+      "apple_music": "https://music.apple.com/us/album/armenian-dances-part-1/1224955385?i=1224955648&uo=4"
     },
     {
       "year": 2017,
@@ -568,8 +698,8 @@
       "band": "Eidsvoll Janitsjarkorps",
       "result_piece": "Between the Two Rivers",
       "recording_title": "Between the two Rivers",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/3KxGSXKYgs1U3IAXBVNbOe",
       "apple_music": "https://music.apple.com/us/album/between-the-two-rivers/1224955385?i=1224955386&uo=4"
     },
     {
@@ -578,8 +708,8 @@
       "band": "Eina Musikkforening",
       "result_piece": "La Vouivre (The Giant Snake)",
       "recording_title": "La Vouivre",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/7ojVolYHPCiZNoNlCT9WXY",
       "apple_music": "https://music.apple.com/us/album/la-vouivre/1224955385?i=1224955651&uo=4"
     },
     {
@@ -587,9 +717,9 @@
       "division": "4. divisjon",
       "band": "Fet Janitsjar",
       "result_piece": "Gulliver's Travels",
-      "recording_title": "Gulliver's Travels",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "recording_title": "Gulliver´s Travels",
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/30EumDRP5KV5AE8x5JAlCD",
       "apple_music": "https://music.apple.com/us/album/gullivers-travels/1224955385?i=1224955655&uo=4"
     },
     {
@@ -598,8 +728,8 @@
       "band": "Fet Janitsjar",
       "result_piece": "Mercury March",
       "recording_title": "Mercury March",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/2AG1uu5sif5CK7GzAznenk",
       "apple_music": "https://music.apple.com/us/album/mercury-march/1224955385?i=1224955654&uo=4"
     },
     {
@@ -608,9 +738,19 @@
       "band": "Heimdal Musikkorps",
       "result_piece": "The Verdict",
       "recording_title": "The Verdict",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/5kDGnyxzZEsWdLNDOT3SOk",
       "apple_music": "https://music.apple.com/us/album/the-verdict/1224955385?i=1224955653&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "4. divisjon",
+      "band": "Melhus Janitsjarkorps",
+      "result_piece": "An Original Suite for Military Band, 1. sats",
+      "recording_title": "An Orginal Suite",
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/5OqLNTeAYDtBoAqgX8cXRC",
+      "apple_music": "https://music.apple.com/us/album/an-orginal-suite/1224955385?i=1224955658&uo=4"
     },
     {
       "year": 2017,
@@ -628,8 +768,8 @@
       "band": "Musikkforeningen Viken",
       "result_piece": "First Suite in Eb for Military Band",
       "recording_title": "First Suite in Eb for Military Band",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/7M0wh6zBhmtE7VOeoFrJVN",
       "apple_music": "https://music.apple.com/us/album/first-suite-in-eb-for-military-band/1224955385?i=1224955649&uo=4"
     },
     {
@@ -638,8 +778,8 @@
       "band": "Musikkforeningen Viken",
       "result_piece": "Haldensernes Marsj",
       "recording_title": "Haldensernes Marsj",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/6OuMKNdNl3cZCZVBqcHXJL",
       "apple_music": "https://music.apple.com/us/album/haldensernes-marsj/1224955385?i=1224955650&uo=4"
     },
     {
@@ -648,8 +788,8 @@
       "band": "Musikklaget Kornetten",
       "result_piece": "Quad City Stomp",
       "recording_title": "Quad City Stomp",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/0V3WM3WTId4wXNw29ams2w",
       "apple_music": "https://music.apple.com/us/album/quad-city-stomp/1224955385?i=1224955647&uo=4"
     },
     {
@@ -658,8 +798,8 @@
       "band": "Musikklaget Kornetten",
       "result_piece": "Western Dance",
       "recording_title": "Western Dance",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/6lmSjmUXwNf7IhtwWWsYB0",
       "apple_music": "https://music.apple.com/us/album/western-dance/1224955385?i=1224955646&uo=4"
     },
     {
@@ -668,8 +808,8 @@
       "band": "Musikklaget Ulf",
       "result_piece": "Symphonic Songs for Band",
       "recording_title": "Symphonic songs for Band",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/04YnXYzV8NYys98OaOWomj",
       "apple_music": "https://music.apple.com/us/album/symphonic-songs-for-band/1224955385?i=1224955656&uo=4"
     },
     {
@@ -678,8 +818,8 @@
       "band": "Nes Janitsjarkorps",
       "result_piece": "Deliverance",
       "recording_title": "Deliverance",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/4qfF4zUCDAfnfEP5z934o2",
       "apple_music": "https://music.apple.com/us/album/deliverance/1224955385?i=1224955389&uo=4"
     },
     {
@@ -688,8 +828,8 @@
       "band": "Oppegård Janitsjar",
       "result_piece": "Pinocchio",
       "recording_title": "Pinocchio",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/3fiR03iqlj0n4OrTVpBU65",
       "apple_music": "https://music.apple.com/us/album/pinocchio/1224955385?i=1224955641&uo=4"
     },
     {
@@ -697,9 +837,9 @@
       "division": "4. divisjon",
       "band": "Oppegård Janitsjar",
       "result_piece": "Sheperd's Hey, English Morris Dance",
-      "recording_title": "Sheperd's Hey",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "recording_title": "Sheperd´s Hey",
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/0vQVKMRAoLUtitIpzbCmT3",
       "apple_music": "https://music.apple.com/us/album/sheperds-hey/1224955385?i=1224955640&uo=4"
     },
     {
@@ -708,9 +848,9 @@
       "band": "Ringsaker Janitjsar",
       "result_piece": "Saga Candida",
       "recording_title": "Saga Candida",
-      "album": "Nm Janitsjar 2017 - 6 divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/saga-candida/1224953962?i=1224953973&uo=4"
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/0JdX4dd3WAakXOxq6nCJQ0",
+      "apple_music": "https://music.apple.com/us/album/saga-candida/1224955385?i=1224955652&uo=4"
     },
     {
       "year": 2017,
@@ -728,8 +868,8 @@
       "band": "Svolvær Musikkforening",
       "result_piece": "Toccata e Corale",
       "recording_title": "Toccata e Chorale",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/5sLgbF2e1wJ9RfjW5z0ENZ",
       "apple_music": "https://music.apple.com/us/album/toccata-e-chorale/1224955385?i=1224955388&uo=4"
     },
     {
@@ -738,9 +878,19 @@
       "band": "Østensjø Janitsjar",
       "result_piece": "Arabesque",
       "recording_title": "Arabesque",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/4c9e82jmybz9UWzH8BWUwb",
       "apple_music": "https://music.apple.com/us/album/arabesque/1224955385?i=1224955639&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "4. divisjon",
+      "band": "Østensjø Janitsjar",
+      "result_piece": "Symfonia no. 3",
+      "recording_title": "Sinfornia nr 3 \"La Salsa, 1.sats \"",
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/55TEM56e5jCYEJNmu2pZqE",
+      "apple_music": "https://music.apple.com/us/album/sinfornia-nr-3-la-salsa-1-sats/1224955385?i=1224955633&uo=4"
     },
     {
       "year": 2017,
@@ -748,8 +898,8 @@
       "band": "Østre Gausdal Musikkforening",
       "result_piece": "Lincolnshire Posy",
       "recording_title": "Lincolnshire Posy",
-      "album": "Nm Janitsjar 2017 - 4 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 4 Divisjon",
+      "spotify": "https://open.spotify.com/track/4URsDllaELKRjvMFxGJXBs",
       "apple_music": "https://music.apple.com/us/album/lincolnshire-posy/1224955385?i=1224955642&uo=4"
     },
     {
@@ -768,8 +918,8 @@
       "band": "Brevik Musikkorps",
       "result_piece": "Huckleberry Finn Suite, 1. og 3. sats",
       "recording_title": "Huckleberry Finn Suite - 1 og 3 sats",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/61cvcn2FVGwKwLpwcdng93",
       "apple_music": "https://music.apple.com/us/album/huckleberry-finn-suite-1-og-3-sats/1224954465?i=1224954475&uo=4"
     },
     {
@@ -797,19 +947,19 @@
       "division": "5. divisjon",
       "band": "Drøbak Musikkorps",
       "result_piece": "Huckleberry Finn Suite",
-      "recording_title": "Huckleberry Finn Suite - 1 og 3 sats",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/huckleberry-finn-suite-1-og-3-sats/1224954465?i=1224954475&uo=4"
+      "recording_title": "Huckleberry Finn Suite - Four Scenes from Mark Twain",
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/5J9Cf3hs8qIpYCMubOe0BY",
+      "apple_music": "https://music.apple.com/us/album/huckleberry-finn-suite-four-scenes-from-mark-twain/1224954465?i=1224954487&uo=4"
     },
     {
       "year": 2017,
       "division": "5. divisjon",
       "band": "Gloppen Janitsjar",
       "result_piece": "Eg ser deg utfor gluggen",
-      "recording_title": "Eg Ser Deg Utfor Gluggen",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "recording_title": "Eg ser deg utfor gluggen",
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/56pbPMnceDwzWWIDahSHN0",
       "apple_music": "https://music.apple.com/us/album/eg-ser-deg-utfor-gluggen/1224954465?i=1224954482&uo=4"
     },
     {
@@ -818,8 +968,8 @@
       "band": "Gloppen Janitsjar",
       "result_piece": "Prelude, Siciliano and Rondo",
       "recording_title": "Prelude, Siciliano and Rondo",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/6jwkF3E3WOJUiBA6oMdVVU",
       "apple_music": "https://music.apple.com/us/album/prelude-siciliano-and-rondo/1224954465?i=1224954481&uo=4"
     },
     {
@@ -828,8 +978,8 @@
       "band": "Jernbanens Musikkorps Oslo",
       "result_piece": "Walkabout",
       "recording_title": "Walkabout - A Kaleidoscopic Journey for band",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/0Dux64isOfDHMQwMIiN9XG",
       "apple_music": "https://music.apple.com/us/album/walkabout-a-kaleidoscopic-journey-for-band/1224954465?i=1224954489&uo=4"
     },
     {
@@ -838,9 +988,9 @@
       "band": "Kongsberg Byorkester",
       "result_piece": "subTERRA",
       "recording_title": "subTERRA",
-      "album": "Nm Janitsjar 2017 - 6 divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/subterra/1224953962?i=1224953972&uo=4"
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/6kENARBQtatyEesVotB39o",
+      "apple_music": "https://music.apple.com/us/album/subterra/1224954465?i=1224954488&uo=4"
     },
     {
       "year": 2017,
@@ -848,8 +998,8 @@
       "band": "Moss og omegn Janitsjar",
       "result_piece": "Hjalarljod",
       "recording_title": "Hjalarljod",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/196mdr4ifr9hCLTIHHvpYJ",
       "apple_music": "https://music.apple.com/us/album/hjalarljod/1224954465?i=1224954490&uo=4"
     },
     {
@@ -858,8 +1008,8 @@
       "band": "Moss og omegn Janitsjar",
       "result_piece": "Parkour",
       "recording_title": "Parkour",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/7De7RWTXA2fobtP7oFNjoe",
       "apple_music": "https://music.apple.com/us/album/parkour/1224954465?i=1224954791&uo=4"
     },
     {
@@ -868,8 +1018,8 @@
       "band": "Musikklaget Brage",
       "result_piece": "Flashback",
       "recording_title": "Flashback",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/2Pw2Ny2XemSKlBU5SAyMmW",
       "apple_music": "https://music.apple.com/us/album/flashback/1224954465?i=1224954471&uo=4"
     },
     {
@@ -877,9 +1027,9 @@
       "division": "5. divisjon",
       "band": "Nannestad Janitsjarkorps",
       "result_piece": "Noah’s Ark",
-      "recording_title": "Noah's Ark",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "recording_title": "Noah´s Ark",
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/7cGuGPK2ZXRgzS2kGM7XLh",
       "apple_music": "https://music.apple.com/us/album/noahs-ark/1224954465?i=1224954466&uo=4"
     },
     {
@@ -888,8 +1038,8 @@
       "band": "Odda Musikklag",
       "result_piece": "The Glenmasan Manuscript",
       "recording_title": "The Glenmasan Manuscript",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/2sjevg4SiVEMZqK9xfHrM6",
       "apple_music": "https://music.apple.com/us/album/the-glenmasan-manuscript/1224954465?i=1224954472&uo=4"
     },
     {
@@ -908,8 +1058,8 @@
       "band": "Rælingen Musikklag",
       "result_piece": "Rise of the Firebird",
       "recording_title": "Rise of the Firebird",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/2aLjZiV2LsnU22fdll3rKy",
       "apple_music": "https://music.apple.com/us/album/rise-of-the-firebird/1224954465?i=1224954467&uo=4"
     },
     {
@@ -918,8 +1068,8 @@
       "band": "Strinda Ungdomskorps",
       "result_piece": "Fantasia Norvegese",
       "recording_title": "Fantasia Norvegese",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/1jlL53keUXjTXxDITLOI4Y",
       "apple_music": "https://music.apple.com/us/album/fantasia-norvegese/1224954465?i=1224954469&uo=4"
     },
     {
@@ -928,8 +1078,8 @@
       "band": "Strinda Ungdomskorps",
       "result_piece": "Iditarod Dog Sled Race",
       "recording_title": "Iditarod Dog Sled Race",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/3rnFDkouuwzjve6oMEvo0f",
       "apple_music": "https://music.apple.com/us/album/iditarod-dog-sled-race/1224954465?i=1224954470&uo=4"
     },
     {
@@ -938,8 +1088,8 @@
       "band": "Tolga-Os Janitsjar",
       "result_piece": "Machu Picchu - City in the sky - the mystery of the hidden sun Temple",
       "recording_title": "Machu Picchu - City in the Sky",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/6kRfxi1fsqw0rThcoiOEot",
       "apple_music": "https://music.apple.com/us/album/machu-picchu-city-in-the-sky/1224954465?i=1224954473&uo=4"
     },
     {
@@ -948,8 +1098,8 @@
       "band": "Torshov Janitsjarorkester",
       "result_piece": "Music for a Festival",
       "recording_title": "Music for a Festival",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/76XBxeT0MENQELq9bfaG7e",
       "apple_music": "https://music.apple.com/us/album/music-for-a-festival/1224954465?i=1224954477&uo=4"
     },
     {
@@ -958,9 +1108,9 @@
       "band": "Tvedestrand Musikkorps",
       "result_piece": "Pentium",
       "recording_title": "Pentium",
-      "album": "Nm Janitsjar 2017 - 2 divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/pentium/1224959117?i=1224959127&uo=4"
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/1UecGWdfBDYxnV8S19EQkA",
+      "apple_music": "https://music.apple.com/us/album/pentium/1224954465?i=1224954483&uo=4"
     },
     {
       "year": 2017,
@@ -968,8 +1118,8 @@
       "band": "Tvedestrand Musikkorps",
       "result_piece": "Postcard",
       "recording_title": "Postcard",
-      "album": "Nm Janitsjar 2017 - 5 divisjon",
-      "spotify": null,
+      "album": "Nm Janitsjar 2017 - 5 Divisjon",
+      "spotify": "https://open.spotify.com/track/7JbozJYIxorMHzs4We0Dt9",
       "apple_music": "https://music.apple.com/us/album/postcard/1224954465?i=1224954484&uo=4"
     },
     {
@@ -1141,6 +1291,16 @@
       "album": "Nm Janitsjar 2017 - 6 Divisjon",
       "spotify": "https://open.spotify.com/track/5881Qc6MkDioP4Kazg5RLI",
       "apple_music": "https://music.apple.com/us/album/by-the-river/1224953962?i=1224953978&uo=4"
+    },
+    {
+      "year": 2017,
+      "division": "6. divisjon",
+      "band": "Musikklaget Ustemt",
+      "result_piece": "Nitro",
+      "recording_title": "Nitro",
+      "album": "Nm Janitsjar 2017 - 6 Divisjon",
+      "spotify": "https://open.spotify.com/track/0VtycwJxjj61KCWPyeCVPS",
+      "apple_music": "https://music.apple.com/us/album/nitro/1224953962?i=1224953977&uo=4"
     },
     {
       "year": 2017,
@@ -1560,7 +1720,7 @@
       "recording_title": "Norsk Rapsodi nr.1",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/61wE2LxPNMIg1wjoowsGSp",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/norsk-rapsodi-nr-1/1224955304?i=1224955307&uo=4"
     },
     {
       "year": 2017,
@@ -1570,7 +1730,7 @@
       "recording_title": "Ouverture Op. 2",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/2n8V2yevVUvqxL0C84lz4O",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/ouverture-op-2/1224955304?i=1224955305&uo=4"
     },
     {
       "year": 2017,
@@ -1580,7 +1740,7 @@
       "recording_title": "Tics and Tiffs",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/5wZbdlxqkKgSwvnfy5OTS0",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/tics-and-tiffs/1224955304?i=1224955306&uo=4"
     },
     {
       "year": 2017,
@@ -1590,7 +1750,7 @@
       "recording_title": "Svensk Rapsodi no. 1, op 19",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/3UNTTckOpCIBRG2pMyExTR",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/svensk-rapsodi-no-1-op-19/1224955304?i=1224955310&uo=4"
     },
     {
       "year": 2017,
@@ -1600,7 +1760,7 @@
       "recording_title": "Symphony no 3, Finale",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/126j04YahsfdSgTv7DpwRt",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/symphony-no-3-finale/1224955304?i=1224955311&uo=4"
     },
     {
       "year": 2017,
@@ -1610,7 +1770,7 @@
       "recording_title": "Asphalt Coctail",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/3AAd2LSmLBFCiBMrPzlP6j",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/asphalt-coctail/1224955304?i=1224955426&uo=4"
     },
     {
       "year": 2017,
@@ -1630,7 +1790,7 @@
       "recording_title": "In Brief",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/2LieCp012gSmJtsoSxsR5F",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/in-brief/1224955304?i=1224955427&uo=4"
     },
     {
       "year": 2017,
@@ -1640,7 +1800,7 @@
       "recording_title": "A Cotswold Symphony",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/5D2DAYhdOmap0kor2DptoB",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/a-cotswold-symphony/1224955304?i=1224955425&uo=4"
     },
     {
       "year": 2017,
@@ -1650,7 +1810,7 @@
       "recording_title": "Redline Tango",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/7D1a78bFLgihA46EtAqhhG",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/redline-tango/1224955304?i=1224955422&uo=4"
     },
     {
       "year": 2017,
@@ -1660,7 +1820,7 @@
       "recording_title": "Vientos",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/1o4mJbyburNXPj6n5IMUtS",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/vientos/1224955304?i=1224955329&uo=4"
     },
     {
       "year": 2017,
@@ -1670,7 +1830,7 @@
       "recording_title": "Extreme Make-over",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/3dryiHcgTQgiq95n5oiKKs",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/extreme-make-over/1224955304?i=1224955321&uo=4"
     },
     {
       "year": 2017,
@@ -1680,7 +1840,7 @@
       "recording_title": "Variasjoner over en folketone fra Valdres",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/7HPL0m5lTriAn806A7nHed",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/variasjoner-over-en-folketone-fra-valdres/1224955304?i=1224955320&uo=4"
     },
     {
       "year": 2017,
@@ -1690,7 +1850,7 @@
       "recording_title": "Continental divide",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/5UdwfLOwp2PjjFhnQZmU56",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/continental-divide/1224955304?i=1224955308&uo=4"
     },
     {
       "year": 2017,
@@ -1700,7 +1860,7 @@
       "recording_title": "Dionysiaques Op. 62",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/5vvUM4cKq5xIK64bCOjsJ7",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/dionysiaques-op-62/1224955304?i=1224955309&uo=4"
     },
     {
       "year": 2017,
@@ -1710,7 +1870,7 @@
       "recording_title": "Out of Earth, 3.sats \"Emrgico\"",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/47gWcLXdF1ihwl2nzs0Ioq",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/out-of-earth-3-sats-emrgico/1224955304?i=1224955328&uo=4"
     },
     {
       "year": 2017,
@@ -1720,7 +1880,7 @@
       "recording_title": "Trance",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/3QC3tTMvG5JveIoox6Y47u",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/trance/1224955304?i=1224955324&uo=4"
     },
     {
       "year": 2017,
@@ -1740,7 +1900,7 @@
       "recording_title": "Recoil",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/4oV2fEfeh8CDFaeoLy0aD9",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/recoil/1224955304?i=1224955315&uo=4"
     },
     {
       "year": 2017,
@@ -1750,7 +1910,7 @@
       "recording_title": "Masquerade",
       "album": "Nm Janitsjar 2017 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/2DdRWt193O01b8sHromIfi",
-      "apple_music": null
+      "apple_music": "https://music.apple.com/us/album/masquerade/1224955304?i=1224955423&uo=4"
     },
     {
       "year": 2017,

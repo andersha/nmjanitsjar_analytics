@@ -10,7 +10,7 @@
       "recording_title": "Spiritual Planet",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/25Py3ytRLq4cZ4mxvauXFr",
-      "apple_music": "https://music.apple.com/us/album/spiritual-planet/981719334?i=981719660&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -20,7 +20,7 @@
       "recording_title": "Time to take back the knights",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/7Cg04ExCtaHQ9bW1WYzyu0",
-      "apple_music": "https://music.apple.com/us/album/time-to-take-back-the-knights/981719334?i=981719659&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -30,7 +30,7 @@
       "recording_title": "Extreme Beethoven",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/3m2QbVP3TszMHIZzUIwOLY",
-      "apple_music": "https://music.apple.com/us/album/extreme-beethoven/981719334?i=981719340&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -40,7 +40,7 @@
       "recording_title": "Luces y Sombras",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/66P6yaQFmfZP0jjSAMAQaA",
-      "apple_music": "https://music.apple.com/us/album/luces-y-sombras/981719334?i=981719662&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -50,7 +50,7 @@
       "recording_title": "Fanfare and Choral",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/3gjeT0NJeoDsO6nIZKW69u",
-      "apple_music": "https://music.apple.com/us/album/fanfare-and-choral/981719334?i=981719650&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -60,7 +60,7 @@
       "recording_title": "Hammersmith - Prelude and scherzo",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/7gWo1C1qzBHCXCoVz2JDxm",
-      "apple_music": "https://music.apple.com/us/album/hammersmith-prelude-and-scherzo/981719334?i=981719651&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -70,7 +70,7 @@
       "recording_title": "Symphonic Suite from On the Waterfront",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/6OQRAwx5be2zJcvcl6Rhn5",
-      "apple_music": "https://music.apple.com/us/album/symphonic-suite-from-on-the-waterfront/981719334?i=981719649&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -80,7 +80,7 @@
       "recording_title": "Arrival platform Humlet",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/5VlMXd07bRnDYgp85qOC9d",
-      "apple_music": "https://music.apple.com/us/album/arrival-platform-humlet/981719334?i=981719653&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -90,7 +90,7 @@
       "recording_title": "Fanfares and arias",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/0fpaW9ry7leFrhdMZOTl95",
-      "apple_music": "https://music.apple.com/us/album/fanfares-and-arias/981719334?i=981719654&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -100,7 +100,7 @@
       "recording_title": "The \"Gum-Suckers\" march",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/3mODZBizpS7EgqsB1O3n6T",
-      "apple_music": "https://music.apple.com/us/album/the-gum-suckers-march/981719334?i=981719655&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -110,7 +110,7 @@
       "recording_title": "Festival Ouverture, op. 39",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/7z5CfmluJCHbfgAnWIqcpX",
-      "apple_music": "https://music.apple.com/us/album/festival-ouverture-op-39/981719334?i=981719344&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -120,7 +120,17 @@
       "recording_title": "Legend op. 81",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/6cGqtXgKakRAyeNCU5B8ht",
-      "apple_music": "https://music.apple.com/us/album/legend-op-81/981719334?i=981719645&uo=4"
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "1. divisjon",
+      "band": "Mo Hornmusikk",
+      "result_piece": "Duende",
+      "recording_title": "Duende",
+      "album": "NM Janitsjar 2015 - 1.divisjon",
+      "spotify": "https://open.spotify.com/track/2k5UUShprg6WpmKZfP4fjv",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -130,7 +140,7 @@
       "recording_title": "Nitro",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/77IpH38bysvM2WYhUgS3xm",
-      "apple_music": "https://music.apple.com/us/album/nitro/981719334?i=981719647&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -140,7 +150,7 @@
       "recording_title": "Sinfonietta",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/1Q52h5NhLQZlYqHRpWh0zB",
-      "apple_music": "https://music.apple.com/us/album/sinfonietta/981719334?i=981719648&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -150,7 +160,7 @@
       "recording_title": "Fetes fra Nocturnes",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/0FD4Nylu4K27wy4OU47qod",
-      "apple_music": "https://music.apple.com/us/album/fetes-fra-nocturnes/981719334?i=981719341&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -160,7 +170,7 @@
       "recording_title": "Oktob, Symfonisk dikt, op. 131",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/0ysn7vNA0uPAvxyrLrebbR",
-      "apple_music": "https://music.apple.com/us/album/oktob-symfonisk-dikt-op-131/981719334?i=981719342&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -170,7 +180,7 @@
       "recording_title": "Sidus",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/5Cp91HPuqSk17aKpg4qNgU",
-      "apple_music": "https://music.apple.com/us/album/sidus/981719334?i=981719343&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -180,7 +190,7 @@
       "recording_title": "Evolution, op 23",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/6vxdFeqE3NgRe6Xn2pwJ98",
-      "apple_music": "https://music.apple.com/us/album/evolution-op-23/981719334?i=981719657&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -190,7 +200,7 @@
       "recording_title": "Luceafarul",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/4hzCkA0LkTtupoZcIFyLJP",
-      "apple_music": "https://music.apple.com/us/album/luceafarul/981719334?i=981719658&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -200,17 +210,17 @@
       "recording_title": "Memorias de un hombre de ciudad",
       "album": "NM Janitsjar 2015 - 1.divisjon",
       "spotify": "https://open.spotify.com/track/2lNTezdufndNIeVANTuyca",
-      "apple_music": "https://music.apple.com/us/album/memorias-de-un-hombre-de-ciudad/981719334?i=981719656&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
       "division": "2. divisjon",
       "band": "Aalesunds Ungdomsmusikkorps",
       "result_piece": "Måndalen Landscapes",
-      "recording_title": "Måndalen Landscapes",
+      "recording_title": "Måndalen landscapes",
       "album": "NM Janitsjar 2015 - 2.divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/m%C3%A5ndalen-landscapes/981716114?i=981716335&uo=4"
+      "spotify": "https://open.spotify.com/track/4wYkPCCzqBWCgly7jD1dXm",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -219,8 +229,8 @@
       "result_piece": "Trittico",
       "recording_title": "Trittico",
       "album": "NM Janitsjar 2015 - 2.divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/trittico/981716114?i=981716334&uo=4"
+      "spotify": "https://open.spotify.com/track/2uuDcFr4x4nxPTBnghkKyW",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -229,8 +239,58 @@
       "result_piece": "Paganini Variations",
       "recording_title": "Paganini Variations",
       "album": "NM Janitsjar 2015 - 2.divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/paganini-variations/981716114?i=981716315&uo=4"
+      "spotify": "https://open.spotify.com/track/7DuDGPuxpuy5r1WhrtgYX1",
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "2. divisjon",
+      "band": "Bjølsen Ungdomskorps",
+      "result_piece": "Paris Sketches",
+      "recording_title": "Paris Sketches - Bjølsen",
+      "album": "NM Janitsjar 2015 - 2.divisjon",
+      "spotify": "https://open.spotify.com/track/3EBFphK1mWGMBZRr3qxayK",
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "2. divisjon",
+      "band": "Fåberg Musikkforening",
+      "result_piece": "Las Aventuras del Principito",
+      "recording_title": "Las aventuras del pricipito",
+      "album": "NM Janitsjar 2015 - 2.divisjon",
+      "spotify": "https://open.spotify.com/track/0t7taOrWqCNsZm1eCJ2N29",
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "2. divisjon",
+      "band": "Gjøvik Bykorps",
+      "result_piece": "Paris Sketches",
+      "recording_title": "Paris Sketches - Gjøvik",
+      "album": "NM Janitsjar 2015 - 2.divisjon",
+      "spotify": "https://open.spotify.com/track/2UX2tP3zOrvWByXd8ojCEI",
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "2. divisjon",
+      "band": "Halsen Musikkforening",
+      "result_piece": "Sidus",
+      "recording_title": "Sidus - Halsen",
+      "album": "NM Janitsjar 2015 - 2.divisjon",
+      "spotify": "https://open.spotify.com/track/4onf9P22AGCkFMrxkIeR2M",
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "2. divisjon",
+      "band": "Hov Musikkorps",
+      "result_piece": "Sidus",
+      "recording_title": "Sidus - Hov",
+      "album": "NM Janitsjar 2015 - 2.divisjon",
+      "spotify": "https://open.spotify.com/track/6PqGhrzYXnNrSaV1Dfioal",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -239,28 +299,38 @@
       "result_piece": "Exultate",
       "recording_title": "Exultate",
       "album": "NM Janitsjar 2015 - 2.divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/exultate/981716114?i=981716326&uo=4"
+      "spotify": "https://open.spotify.com/track/1Tffd15cRVGu3WoqMm6pAA",
+      "apple_music": null
     },
     {
       "year": 2015,
       "division": "2. divisjon",
       "band": "Lungegaardens Musikkorps",
       "result_piece": "subTERRA",
-      "recording_title": "SubTERRA - Heimdal",
-      "album": "Nm Janitsjar 2015 - 3.Divisjon",
-      "spotify": "https://open.spotify.com/track/68w2uORt8KgjNV4lzqfEWq",
-      "apple_music": "https://music.apple.com/us/album/subterra/981716114?i=981716325&uo=4"
+      "recording_title": "SubTERRA",
+      "album": "NM Janitsjar 2015 - 2.divisjon",
+      "spotify": "https://open.spotify.com/track/6XOrl8lmvC37YCnTvpgPfc",
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "2. divisjon",
+      "band": "Ranheim Musikkforening",
+      "result_piece": "Sidus",
+      "recording_title": "Sidus - Ranheim",
+      "album": "NM Janitsjar 2015 - 2.divisjon",
+      "spotify": "https://open.spotify.com/track/2Pp7YZJNvOcbALPUcG7S5w",
+      "apple_music": null
     },
     {
       "year": 2015,
       "division": "2. divisjon",
       "band": "Sagene Janitsjarkorps",
       "result_piece": "Sinfonietta no. 2",
-      "recording_title": "Sinfonietta No. 2",
+      "recording_title": "Sinfonietta no. 2",
       "album": "NM Janitsjar 2015 - 2.divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/sinfonietta-no-2/981716114?i=981716324&uo=4"
+      "spotify": "https://open.spotify.com/track/4WWRzhtz0TnkwpGXogq7jb",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -269,28 +339,38 @@
       "result_piece": "Per La Flor Del Lliri Blau",
       "recording_title": "Per la flor del Lliri blau",
       "album": "NM Janitsjar 2015 - 2.divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/per-la-flor-del-lliri-blau/981716114?i=981716284&uo=4"
+      "spotify": "https://open.spotify.com/track/4gxSEpbwIFs2xoR07n8RVv",
+      "apple_music": null
     },
     {
       "year": 2015,
       "division": "2. divisjon",
       "band": "Sandefjord Musikkorps",
       "result_piece": "Shake, rattle and roll",
-      "recording_title": "Shake, Rattle and Roll",
+      "recording_title": "Shake, rattle and roll",
       "album": "NM Janitsjar 2015 - 2.divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/shake-rattle-and-roll/981716114?i=981716319&uo=4"
+      "spotify": "https://open.spotify.com/track/7wj0Ors6QFH7EJqBkArWSs",
+      "apple_music": null
     },
     {
       "year": 2015,
       "division": "2. divisjon",
       "band": "Stabekk Janitsjarorkester",
       "result_piece": "Gavorkna fanfare",
-      "recording_title": "Victory fanfare",
-      "album": "NM Janitsjar 2015 - 4.divisjon",
-      "spotify": "https://open.spotify.com/track/6Nj07EQF7eMNhZXHsjiFo3",
-      "apple_music": "https://music.apple.com/us/album/gavorkna-fanfare/981716114?i=981716338&uo=4"
+      "recording_title": "Gavorkna fanfare",
+      "album": "NM Janitsjar 2015 - 2.divisjon",
+      "spotify": "https://open.spotify.com/track/7jEve3QdM3f0fRsrU58mGY",
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "2. divisjon",
+      "band": "Stabekk Janitsjarorkester",
+      "result_piece": "Paris Sketches",
+      "recording_title": "Paris Sketches - Stabekk",
+      "album": "NM Janitsjar 2015 - 2.divisjon",
+      "spotify": "https://open.spotify.com/track/37EHQAPd26dAOvWoZdmqF3",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -299,8 +379,8 @@
       "result_piece": "Galactic Empires",
       "recording_title": "Galactic Empires",
       "album": "NM Janitsjar 2015 - 2.divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/galactic-empires/981716114?i=981716337&uo=4"
+      "spotify": "https://open.spotify.com/track/7Kdbs2JnEKtYj4vAHtyxk9",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -309,18 +389,18 @@
       "result_piece": "Pentium",
       "recording_title": "Pentium",
       "album": "NM Janitsjar 2015 - 2.divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/pentium/981716114?i=981716336&uo=4"
+      "spotify": "https://open.spotify.com/track/2d6L5BLQWlwvkC3itrSPIH",
+      "apple_music": null
     },
     {
       "year": 2015,
       "division": "2. divisjon",
       "band": "Vestsidens Musikkorps",
       "result_piece": "Aurora Awakes",
-      "recording_title": "Aurora Awakes",
+      "recording_title": "Aurora awakes",
       "album": "NM Janitsjar 2015 - 2.divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/aurora-awakes/981716114?i=981716332&uo=4"
+      "spotify": "https://open.spotify.com/track/5FUROgtXW7iRD7iPZ1G1aE",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -329,8 +409,8 @@
       "result_piece": "Black Bolt",
       "recording_title": "Black Bolt",
       "album": "NM Janitsjar 2015 - 2.divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/black-bolt/981716114?i=981716333&uo=4"
+      "spotify": "https://open.spotify.com/track/2HiNyyo8duyU3jTAaXCPSH",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -339,8 +419,8 @@
       "result_piece": "Flashback",
       "recording_title": "Flashback",
       "album": "NM Janitsjar 2015 - 2.divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/flashback/981716114?i=981716317&uo=4"
+      "spotify": "https://open.spotify.com/track/4UXdYaU78CbylJ6IkXWacE",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -349,8 +429,8 @@
       "result_piece": "January fra Winter Dances",
       "recording_title": "January fra Winter Dances",
       "album": "NM Janitsjar 2015 - 2.divisjon",
-      "spotify": null,
-      "apple_music": "https://music.apple.com/us/album/january-fra-winter-dances/981716114?i=981716318&uo=4"
+      "spotify": "https://open.spotify.com/track/7w1ZosZBqtogoPR20BezSh",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -360,7 +440,7 @@
       "recording_title": "Morgen, middag og aften",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/5CwhSQYippuTPNMCoN5F4I",
-      "apple_music": "https://music.apple.com/us/album/morgen-middag-og-aften/981955707?i=981957585&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -370,7 +450,7 @@
       "recording_title": "Underlige aftenlufte",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/795ROhPLAvKDUEiETgwnOG",
-      "apple_music": "https://music.apple.com/us/album/underlige-aftenlufte/981955707?i=981957586&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -380,7 +460,7 @@
       "recording_title": "Spartacus",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/3Ojke2w1Fz2IW3mBvhX1N0",
-      "apple_music": "https://music.apple.com/us/album/spartacus/981955707?i=981957591&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -390,7 +470,7 @@
       "recording_title": "SubTERRA - Heimdal",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/68w2uORt8KgjNV4lzqfEWq",
-      "apple_music": "https://music.apple.com/us/album/subterra-heimdal/981955707?i=981957186&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -400,7 +480,7 @@
       "recording_title": "Hymn to the Sun Earth with the Beat of the Mother",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/6WgVzRtyc2EbIcNMaixvY9",
-      "apple_music": "https://music.apple.com/us/album/hymn-to-the-sun-earth-with-the-beat-of-the-mother/981955707?i=981957598&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -410,7 +490,7 @@
       "recording_title": "Mother Earth",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/53ZGNRVSvykqx3LB7VfGBl",
-      "apple_music": "https://music.apple.com/us/album/mother-earth/981955707?i=981957599&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -420,17 +500,27 @@
       "recording_title": "Armenian Dances, Pt. 1",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/2a13MqkDGYwenXwMtU5wJo",
-      "apple_music": "https://music.apple.com/us/album/armenian-dances-part-1/981955707?i=981957595&uo=4"
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "3. divisjon",
+      "band": "Musikklaget Kornetten",
+      "result_piece": "Karaktersuite",
+      "recording_title": "Pasttime with good company",
+      "album": "Nm Janitsjar 2015 - 3.Divisjon",
+      "spotify": "https://open.spotify.com/track/1bm0IgTk6cz1MA8UEdD5hb",
+      "apple_music": null
     },
     {
       "year": 2015,
       "division": "3. divisjon",
       "band": "Oppegård Janitsjar",
       "result_piece": "subTERRA",
-      "recording_title": "SubTERRA - Heimdal",
+      "recording_title": "SubTERRA - Oppegård",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
-      "spotify": "https://open.spotify.com/track/68w2uORt8KgjNV4lzqfEWq",
-      "apple_music": "https://music.apple.com/us/album/subterra-heimdal/981955707?i=981957186&uo=4"
+      "spotify": "https://open.spotify.com/track/70z3PVy4URPrt3CTfhlOyA",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -440,7 +530,7 @@
       "recording_title": "Jubilee Overture",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/4zqxQrmyuKXiKxurpbLgcr",
-      "apple_music": "https://music.apple.com/us/album/jubilee-overture/981955707?i=981956760&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -450,7 +540,7 @@
       "recording_title": "Tocatta e Corale",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/6zwgPCQyFuqWbF3SeI4jbj",
-      "apple_music": "https://music.apple.com/us/album/tocatta-e-corale/981955707?i=981956932&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -460,17 +550,17 @@
       "recording_title": "Gallimaufry",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/0wexcfZrtSiCsmKX5mu2Qn",
-      "apple_music": "https://music.apple.com/us/album/gallimaufry/981955707?i=981956941&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
       "division": "3. divisjon",
       "band": "Skedsmo Janitsjarorkester",
       "result_piece": "Banja Luka",
-      "recording_title": "Banja Luka - Tromsø",
+      "recording_title": "Banja Luke - Skedsmo",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
-      "spotify": "https://open.spotify.com/track/0wODz4QMyzAE702FdtXHMp",
-      "apple_music": "https://music.apple.com/us/album/banja-luka-troms%C3%B8/981955707?i=981957596&uo=4"
+      "spotify": "https://open.spotify.com/track/7uZVdVbineKwust69asKAy",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -480,7 +570,7 @@
       "recording_title": "Alpine Saga",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/370EzqOZnIG4U1h4ejaZUo",
-      "apple_music": "https://music.apple.com/us/album/alpine-saga/981955707?i=981956744&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -490,7 +580,7 @@
       "recording_title": "Caribbean Hideaway",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/59bwQJ76rJ3MuzpNDpq2Rd",
-      "apple_music": "https://music.apple.com/us/album/caribbean-hideaway/981955707?i=981956740&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -500,7 +590,7 @@
       "recording_title": "Symphonic Overture",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/0HWNSO0MgwV2zOIbQjS2vH",
-      "apple_music": "https://music.apple.com/us/album/symphonic-overture/981955707?i=981956739&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -510,7 +600,7 @@
       "recording_title": "Resurgam",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/4CWBkHXlAh3KTJmZFx2d8p",
-      "apple_music": "https://music.apple.com/us/album/resurgam/981955707?i=981957583&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -520,7 +610,7 @@
       "recording_title": "Banja Luka - Tromsø",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/0wODz4QMyzAE702FdtXHMp",
-      "apple_music": "https://music.apple.com/us/album/banja-luka-troms%C3%B8/981955707?i=981957596&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -530,7 +620,7 @@
       "recording_title": "Land of the Long White Cloud",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/1lS5edJ5e1kvwHdkwQOKlA",
-      "apple_music": "https://music.apple.com/us/album/land-of-the-long-white-cloud/981955707?i=981957587&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -540,7 +630,17 @@
       "recording_title": "Symphony no. 1 for Band",
       "album": "Nm Janitsjar 2015 - 3.Divisjon",
       "spotify": "https://open.spotify.com/track/68K13YkJXzWLx3H7DuxxqS",
-      "apple_music": "https://music.apple.com/us/album/symphony-no-1-for-band/981955707?i=981957584&uo=4"
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "4. divisjon",
+      "band": "Arne Musikforening",
+      "result_piece": "El Camino Real",
+      "recording_title": "El Camino Real",
+      "album": "NM Janitsjar 2015 - 4.divisjon",
+      "spotify": "https://open.spotify.com/track/6OWdPCqF4fCTzoD0MskiH4",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -550,7 +650,7 @@
       "recording_title": "Promising Skies",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/1uL8RwGxh5hHvTTQgj0uaK",
-      "apple_music": "https://music.apple.com/us/album/promising-skies/981951875?i=981951892&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -560,7 +660,7 @@
       "recording_title": "Yiddish Dances",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/5zGalP8DttFNA4nwivv6Et",
-      "apple_music": "https://music.apple.com/us/album/yiddish-dances/981951875?i=981952034&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -570,7 +670,7 @@
       "recording_title": "Vaudeville Suite",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/0nehvtzbgeh3zW4ODctVtA",
-      "apple_music": "https://music.apple.com/us/album/vaudeville-suite/981951875?i=981952044&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -580,7 +680,7 @@
       "recording_title": "Ferdaminne",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/5U6q7gSMDrYLYUHXZvMBrf",
-      "apple_music": "https://music.apple.com/us/album/ferdaminne/981951875?i=981952043&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -590,7 +690,7 @@
       "recording_title": "Fra Borge",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/4988p4EeyvvrxinNAVDLwD",
-      "apple_music": "https://music.apple.com/us/album/fra-borge/981951875?i=981952039&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -600,7 +700,7 @@
       "recording_title": "Divertimento for band",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/6J6YCFuJQ89Mvuv3S4MeFk",
-      "apple_music": "https://music.apple.com/us/album/divertimento-for-band/981951875?i=981952026&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -610,7 +710,17 @@
       "recording_title": "In the bleak mid winther",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/6cBcMnR8ltsDa6gDaSz907",
-      "apple_music": "https://music.apple.com/us/album/in-the-bleak-mid-winther/981951875?i=981952054&uo=4"
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "4. divisjon",
+      "band": "Malvik Musikkorps",
+      "result_piece": "Music for a Festival",
+      "recording_title": "Music for a Festival - 1.sats",
+      "album": "NM Janitsjar 2015 - 4.divisjon",
+      "spotify": "https://open.spotify.com/track/4QgXHBHgpkSQ8Y146E2luS",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -620,7 +730,7 @@
       "recording_title": "Why not?",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/6wCFyUZcW9P3xMQrGdGPZo",
-      "apple_music": "https://music.apple.com/us/album/why-not/981951875?i=981952055&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -630,7 +740,7 @@
       "recording_title": "Songs of the British Isle, 3-4 sats",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/20FxtReFTrBSVxR4ThZeKH",
-      "apple_music": "https://music.apple.com/us/album/songs-of-the-british-isle-3-4-sats/981951875?i=981952052&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -640,7 +750,7 @@
       "recording_title": "Tivoli Festival Overture",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/4RSZR1YjYJqW1AXtfxTbon",
-      "apple_music": "https://music.apple.com/us/album/tivoli-festival-overture/981951875?i=981952048&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -650,7 +760,7 @@
       "recording_title": "Kungliga Älvborgs kustartellerireg marsch",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/4pR0pgYhCSkaNAVIzUCUL5",
-      "apple_music": "https://music.apple.com/us/album/kungliga-%C3%A4lvborgs-kustartellerireg-marsch/981951875?i=981952025&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -660,7 +770,7 @@
       "recording_title": "When Angels Sleep",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/6QoKCg7kmB9HktBiFeo5Gp",
-      "apple_music": "https://music.apple.com/us/album/when-angels-sleep/981951875?i=981951904&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -670,7 +780,17 @@
       "recording_title": "Ingnition",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/5VYUuH0kIQhzpEzwbnwRRv",
-      "apple_music": "https://music.apple.com/us/album/ingnition/981951875?i=981951898&uo=4"
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "4. divisjon",
+      "band": "Musikklaget Brage",
+      "result_piece": "Reach for the Sky",
+      "recording_title": "Harlequin",
+      "album": "NM Janitsjar 2015 - 4.divisjon",
+      "spotify": "https://open.spotify.com/track/4SvXe05aJqZG3YxawFpkvZ",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -680,7 +800,7 @@
       "recording_title": "Pilatus: Mountain of dragons",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/6OpJejGtWhejFookPsCbBq",
-      "apple_music": "https://music.apple.com/us/album/pilatus-mountain-of-dragons/981951875?i=981951894&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -690,7 +810,7 @@
       "recording_title": "Victory fanfare",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/6Nj07EQF7eMNhZXHsjiFo3",
-      "apple_music": "https://music.apple.com/us/album/victory-fanfare/981951875?i=981951893&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -700,7 +820,7 @@
       "recording_title": "Symphony for Wind Orchestra - Montage",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/7J6v48mA45L4RJcZGCGxok",
-      "apple_music": "https://music.apple.com/us/album/symphony-for-wind-orchestra-montage/981951875?i=981951897&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -710,7 +830,7 @@
       "recording_title": "Intrada",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/0oC4mQ2BLirWlGYlwYO72C",
-      "apple_music": "https://music.apple.com/us/album/intrada/981951875?i=981952035&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -720,7 +840,7 @@
       "recording_title": "Our Yesterdays Lengthen like Shadows",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/60L1Ej7vCAZLS9cCOBUkH2",
-      "apple_music": "https://music.apple.com/us/album/our-yesterdays-lengthen-like-shadows/981951875?i=981952036&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -730,7 +850,7 @@
       "recording_title": "Viva Musica",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/1b0HM9ndf1gnbucWApUloO",
-      "apple_music": "https://music.apple.com/us/album/viva-musica/981951875?i=981952037&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -740,7 +860,7 @@
       "recording_title": "Beethoven´s Greeting",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/7zVEDNgBBAHcfpOhxWfXh8",
-      "apple_music": "https://music.apple.com/us/album/beethovens-greeting/981951875?i=981952027&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -750,7 +870,7 @@
       "recording_title": "Suite of Old America Dances - 2,5 sats",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/1EQGWfq4AF6aFoZxnHebYZ",
-      "apple_music": "https://music.apple.com/us/album/suite-of-old-america-dances-2-5-sats/981951875?i=981952028&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -760,7 +880,7 @@
       "recording_title": "Jericho",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/304yhVWJfjSmL1tqAoBTMC",
-      "apple_music": "https://music.apple.com/us/album/jericho/981951875?i=981951895&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -770,7 +890,7 @@
       "recording_title": "Summer",
       "album": "NM Janitsjar 2015 - 4.divisjon",
       "spotify": "https://open.spotify.com/track/4cz803g6azLD0uFDwiJgpL",
-      "apple_music": "https://music.apple.com/us/album/summer/981951875?i=981951896&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -780,7 +900,7 @@
       "recording_title": "Fanfare and Call to the Post",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/6PcKEUbuM9Npe3XRQkmy0F",
-      "apple_music": "https://music.apple.com/us/album/fanfare-and-call-to-the-post/981950297?i=981950417&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -790,7 +910,7 @@
       "recording_title": "Pilatus: Mounain of Dragons",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/54dRI3quOA1KclQZoZsJzj",
-      "apple_music": "https://music.apple.com/us/album/pilatus-mountain-of-dragons/981951875?i=981951894&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -800,7 +920,7 @@
       "recording_title": "Fate of the Gods",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/4LUtA3b2KWBSW5TV5E5yux",
-      "apple_music": "https://music.apple.com/us/album/fate-of-the-gods/981950297?i=981950535&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -810,7 +930,7 @@
       "recording_title": "Puszta 4.sats",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/7CwKx0m5opvWh6DYQJAm9Q",
-      "apple_music": "https://music.apple.com/us/album/puszta-4-sats/981950297?i=981950537&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -820,7 +940,7 @@
       "recording_title": "Puszta",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/7qJNlXs78y9pwsbaoNxwdb",
-      "apple_music": "https://music.apple.com/us/album/puszta/981950297?i=981950533&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -830,7 +950,7 @@
       "recording_title": "Rise of the Firebird",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/7w9CYPH8W2O4yYJpUYtFxi",
-      "apple_music": "https://music.apple.com/us/album/rise-of-the-firebird/981950297?i=981950433&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -840,7 +960,17 @@
       "recording_title": "The Witch and the Saint",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/5U8ug5kfvsycbDNqbuHyDU",
-      "apple_music": "https://music.apple.com/us/album/the-witch-and-the-saint/981950297?i=981950528&uo=4"
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "5. divisjon",
+      "band": "Eina Musikkforening",
+      "result_piece": "Overture to a new Age",
+      "recording_title": "Overture to a New Age",
+      "album": "NM Janitsjar 2015 - 5.divisjon",
+      "spotify": "https://open.spotify.com/track/3K8hRTuaQMsId2U8ulpYgl",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -850,17 +980,17 @@
       "recording_title": "Noah´s Ark",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/3qTfFQbCVb0pEnx1Ovhmsc",
-      "apple_music": "https://music.apple.com/us/album/noahs-ark/981950297?i=981950431&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
       "division": "5. divisjon",
       "band": "Hadeland Janitsjar",
       "result_piece": "subTERRA",
-      "recording_title": "SubTERRA - Heimdal",
-      "album": "Nm Janitsjar 2015 - 3.Divisjon",
-      "spotify": "https://open.spotify.com/track/68w2uORt8KgjNV4lzqfEWq",
-      "apple_music": "https://music.apple.com/us/album/subterra/981716114?i=981716325&uo=4"
+      "recording_title": "SubTERRA - Hadeland",
+      "album": "NM Janitsjar 2015 - 5.divisjon",
+      "spotify": "https://open.spotify.com/track/61QrAL9O2visTFE9f26jN4",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -870,7 +1000,7 @@
       "recording_title": "1814",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/3uxVpBylajHLQ8MKOtLQfQ",
-      "apple_music": "https://music.apple.com/us/album/1814/981950297?i=981950425&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -880,7 +1010,7 @@
       "recording_title": "Les Parapluis de Cherbourg",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/5i8NsdciDywgPd6MZRTu1f",
-      "apple_music": "https://music.apple.com/us/album/les-parapluis-de-cherbourg/981950297?i=981950426&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -890,17 +1020,17 @@
       "recording_title": "The Legende of Ali Baba",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/2VRTOKapZOzjN6MDDSW9Vx",
-      "apple_music": "https://music.apple.com/us/album/the-legende-of-ali-baba/981950297?i=981950427&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
       "division": "5. divisjon",
       "band": "Odda Musikklag",
       "result_piece": "subTERRA",
-      "recording_title": "SubTERRA - Heimdal",
-      "album": "Nm Janitsjar 2015 - 3.Divisjon",
-      "spotify": "https://open.spotify.com/track/68w2uORt8KgjNV4lzqfEWq",
-      "apple_music": "https://music.apple.com/us/album/subterra/981716114?i=981716325&uo=4"
+      "recording_title": "SubTERRA - Odda",
+      "album": "NM Janitsjar 2015 - 5.divisjon",
+      "spotify": "https://open.spotify.com/track/4gFKDssjeMbtcSQ44W061J",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -910,7 +1040,7 @@
       "recording_title": "Concert Prelude",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/4sJGwlSnZRpwAcSYFBpiCX",
-      "apple_music": "https://music.apple.com/us/album/concert-prelude/981950297?i=981950416&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -920,7 +1050,7 @@
       "recording_title": "Prelude, Siciliano and Rondo",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/2ncutYyriqedzQvLdoaErJ",
-      "apple_music": "https://music.apple.com/us/album/prelude-siciliano-and-rondo/981950297?i=981950415&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -928,19 +1058,29 @@
       "band": "Sofienberg Musikkorps",
       "result_piece": "Symphonic Overture",
       "recording_title": "Symphonic Overture",
-      "album": "Nm Janitsjar 2015 - 3.Divisjon",
-      "spotify": "https://open.spotify.com/track/0HWNSO0MgwV2zOIbQjS2vH",
-      "apple_music": "https://music.apple.com/us/album/symphonic-overture/981950297?i=981950586&uo=4"
+      "album": "NM Janitsjar 2015 - 5.divisjon",
+      "spotify": "https://open.spotify.com/track/3C942ObQ9sgvhKGL8e7CUO",
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "5. divisjon",
+      "band": "Stord Musikklag",
+      "result_piece": "Vesuvius",
+      "recording_title": "Vesuvius",
+      "album": "NM Janitsjar 2015 - 5.divisjon",
+      "spotify": "https://open.spotify.com/track/0r19oVWfszu0kylvw2nPhf",
+      "apple_music": null
     },
     {
       "year": 2015,
       "division": "5. divisjon",
       "band": "Tolga-Os Janitsjar",
       "result_piece": "American Dances",
-      "recording_title": "Armenian Dances, Pt. 1",
-      "album": "Nm Janitsjar 2015 - 3.Divisjon",
-      "spotify": "https://open.spotify.com/track/2a13MqkDGYwenXwMtU5wJo",
-      "apple_music": "https://music.apple.com/us/album/armenian-dances-part-1/981950297?i=981950424&uo=4"
+      "recording_title": "Armenian Dances Part 1",
+      "album": "NM Janitsjar 2015 - 5.divisjon",
+      "spotify": "https://open.spotify.com/track/3IeUV4Ru8N8g33Z5ss3Sct",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -950,7 +1090,7 @@
       "recording_title": "Four Scottish Dances - 1. Sats",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/1uZuSoBOtrmSsFgWndQziC",
-      "apple_music": "https://music.apple.com/us/album/four-scottish-dances-1-sats/981950297?i=981950552&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -960,7 +1100,7 @@
       "recording_title": "Symphonic Rahsody",
       "album": "NM Janitsjar 2015 - 5.divisjon",
       "spotify": "https://open.spotify.com/track/0JmkvcEYnqMmwiSdGgO7IK",
-      "apple_music": "https://music.apple.com/us/album/symphonic-rahsody/981950297?i=981950554&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -970,7 +1110,7 @@
       "recording_title": "Arabesque",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/1FZS481P8OlQpCsJfRWDxp",
-      "apple_music": "https://music.apple.com/us/album/arabesque/981973083?i=981973667&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -980,7 +1120,7 @@
       "recording_title": "Norwegian Carnival",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/6jT93bAKsPsZqctPKUdl21",
-      "apple_music": "https://music.apple.com/us/album/norwegian-carnival/981973083?i=981973668&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -990,7 +1130,7 @@
       "recording_title": "Arsenal",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/0Exafr6IOq5QNavn2SxLV3",
-      "apple_music": "https://music.apple.com/us/album/arsenal/981973083?i=981973669&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1000,17 +1140,17 @@
       "recording_title": "Rikudium",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/5tOYVbf9c6k2tUVwGWT0fd",
-      "apple_music": "https://music.apple.com/us/album/rikudium/981973083?i=981973670&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
       "division": "6. divisjon",
       "band": "Glommasvingen Janitsjar",
       "result_piece": "Around the World in 80 Days",
-      "recording_title": "Around the World in 80 Days",
+      "recording_title": "Around the World in 80 Days - Glommasvingen",
       "album": "NM Janitsjar 2015 - 6.divisjon",
-      "spotify": "https://open.spotify.com/track/64p84HImuaSqBVMa1AusiN",
-      "apple_music": "https://music.apple.com/us/album/around-the-world-in-80-days/981973083?i=981973664&uo=4"
+      "spotify": "https://open.spotify.com/track/6M546PYY1ztOQloI3zld7z",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1020,7 +1160,17 @@
       "recording_title": "Saga Maligna",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/1i6BxRAiHjOCnw9XJuLupO",
-      "apple_music": "https://music.apple.com/us/album/saga-maligna/981973083?i=981973665&uo=4"
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "6. divisjon",
+      "band": "Jernbanens Musikkorps Oslo",
+      "result_piece": "Fate of the Gods",
+      "recording_title": "Fate of the Gods",
+      "album": "NM Janitsjar 2015 - 6.divisjon",
+      "spotify": "https://open.spotify.com/track/5J4BSLcqRAGWRd7br7vmyG",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1030,7 +1180,7 @@
       "recording_title": "March a la Italiano",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/0ylg1R1NgNLPIsBnEhNJmr",
-      "apple_music": "https://music.apple.com/us/album/march-a-la-italiano/981973083?i=981973680&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1040,7 +1190,7 @@
       "recording_title": "March of the Belgian Paratroopers",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/5YGaWY7RErSCs7anvwHfEi",
-      "apple_music": "https://music.apple.com/us/album/march-of-the-belgian-paratroopers/981973083?i=981973676&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1050,7 +1200,7 @@
       "recording_title": "Quad City Stomp",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/3ZsnoJrWxSLqkGN7AY8KSH",
-      "apple_music": "https://music.apple.com/us/album/quad-city-stomp/981973083?i=981973675&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1060,7 +1210,7 @@
       "recording_title": "Hispaniola",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/2H8EcaeVI1zBPmmBQsUcTi",
-      "apple_music": "https://music.apple.com/us/album/hispaniola/981973083?i=981973671&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1070,7 +1220,7 @@
       "recording_title": "First Suite in Eb for military band",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/0FXTa3LLx3FnaX1cXBJLgl",
-      "apple_music": "https://music.apple.com/us/album/first-suite-in-eb-for-military-band/981973083?i=981973655&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1080,7 +1230,7 @@
       "recording_title": "Lux Aurumque",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/66reZZ22GNHYFUDioHR6xa",
-      "apple_music": "https://music.apple.com/us/album/lux-aurumque/981973083?i=981973659&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1090,7 +1240,7 @@
       "recording_title": "A Movement for Rosa",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/5fQLHP87SxRXUsUurlk2mw",
-      "apple_music": "https://music.apple.com/us/album/a-movement-for-rosa/981973083?i=981973666&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1100,7 +1250,17 @@
       "recording_title": "The Wind in the Willows",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/5i2AX6uC4YHvfpynQNYvGh",
-      "apple_music": "https://music.apple.com/us/album/the-wind-in-the-willows/981973083?i=981973663&uo=4"
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "6. divisjon",
+      "band": "Nordre Aker Janitsjar",
+      "result_piece": "Norwegian Rustic Dances",
+      "recording_title": "Norwegian Rustic Dance",
+      "album": "NM Janitsjar 2015 - 6.divisjon",
+      "spotify": "https://open.spotify.com/track/1rH3ish9xe0itwCatmoToY",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1110,7 +1270,7 @@
       "recording_title": "Postcard from Singapore",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/0pLq53ahXqx8cFg7TX7PIe",
-      "apple_music": "https://music.apple.com/us/album/postcard-from-singapore/981973083?i=981973677&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1120,7 +1280,7 @@
       "recording_title": "Around the World in 80 Days",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/64p84HImuaSqBVMa1AusiN",
-      "apple_music": "https://music.apple.com/us/album/around-the-world-in-80-days/981973083?i=981973664&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1130,7 +1290,7 @@
       "recording_title": "Theatre Music",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/4lx8edmY89dDVQLEZViwmM",
-      "apple_music": "https://music.apple.com/us/album/theatre-music/981973083?i=981973084&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1140,7 +1300,7 @@
       "recording_title": "Portrait of Freedom",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/3hJ0RRfbQKfp2NmfCtw9nT",
-      "apple_music": "https://music.apple.com/us/album/portrait-of-freedom/981973083?i=981973662&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1150,7 +1310,7 @@
       "recording_title": "The Last to Defend",
       "album": "NM Janitsjar 2015 - 6.divisjon",
       "spotify": "https://open.spotify.com/track/64x0gZ2enaB8p0v3dwGVJv",
-      "apple_music": "https://music.apple.com/us/album/the-last-to-defend/981973083?i=981973661&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1160,7 +1320,7 @@
       "recording_title": "Katruskha",
       "album": "NM Janitsjar 2015 - 7.divisjon",
       "spotify": "https://open.spotify.com/track/0RsiwLu4QvOPhFWbTenROY",
-      "apple_music": "https://music.apple.com/us/album/katruskha/981953846?i=981954104&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1170,7 +1330,7 @@
       "recording_title": "Southern Hymn",
       "album": "NM Janitsjar 2015 - 7.divisjon",
       "spotify": "https://open.spotify.com/track/5rEZnhxZYubGXPZQbHiFMG",
-      "apple_music": "https://music.apple.com/us/album/southern-hymn/981953846?i=981954100&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1180,7 +1340,17 @@
       "recording_title": "The Zest",
       "album": "NM Janitsjar 2015 - 7.divisjon",
       "spotify": "https://open.spotify.com/track/0CJEQjkutOuj7Z6Y9vxL57",
-      "apple_music": "https://music.apple.com/us/album/the-zest/981953846?i=981954105&uo=4"
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "7. divisjon",
+      "band": "Brumunddal Musikkorps",
+      "result_piece": "Arkansas",
+      "recording_title": "Arkansas",
+      "album": "NM Janitsjar 2015 - 7.divisjon",
+      "spotify": "https://open.spotify.com/track/4lgwFbg9jKCbMac1b5Lo5z",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1190,7 +1360,17 @@
       "recording_title": "SubTERRA",
       "album": "NM Janitsjar 2015 - 7.divisjon",
       "spotify": "https://open.spotify.com/track/0dZnypFSFwBUTbH75AwRAs",
-      "apple_music": "https://music.apple.com/us/album/subterra/981953846?i=981954081&uo=4"
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "7. divisjon",
+      "band": "Follebu og Vestre Gausdal Musikkforening",
+      "result_piece": "Pilatus: Mountain of Dragons",
+      "recording_title": "Pilatus: Mountain of Dragons",
+      "album": "NM Janitsjar 2015 - 7.divisjon",
+      "spotify": "https://open.spotify.com/track/5uvKfJtNcjMiXHdGXkrgte",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1200,7 +1380,7 @@
       "recording_title": "Fanfare and Flourishes",
       "album": "NM Janitsjar 2015 - 7.divisjon",
       "spotify": "https://open.spotify.com/track/2RaVTpMUpFFDgvDASxxNUI",
-      "apple_music": "https://music.apple.com/us/album/fanfare-and-flourishes/981953846?i=981954107&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1210,7 +1390,7 @@
       "recording_title": "Selections from the Motions Picture Les Miserables",
       "album": "NM Janitsjar 2015 - 7.divisjon",
       "spotify": "https://open.spotify.com/track/7zFc6ZhcBlkCk4Lhh0ucpa",
-      "apple_music": "https://music.apple.com/us/album/selections-from-the-motions-picture-les-miserables/981953846?i=981954115&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1220,7 +1400,7 @@
       "recording_title": "Two Sketches for Band",
       "album": "NM Janitsjar 2015 - 7.divisjon",
       "spotify": "https://open.spotify.com/track/4n1ieEzv7isKpVicxpXg6o",
-      "apple_music": "https://music.apple.com/us/album/two-sketches-for-band/981953846?i=981954114&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1230,7 +1410,7 @@
       "recording_title": "Call of the Valley",
       "album": "NM Janitsjar 2015 - 7.divisjon",
       "spotify": "https://open.spotify.com/track/7zBHLz7CM7WFqVNZFbSK8y",
-      "apple_music": "https://music.apple.com/us/album/call-of-the-valley/981953846?i=981954095&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1240,7 +1420,7 @@
       "recording_title": "Pacific Dreams",
       "album": "NM Janitsjar 2015 - 7.divisjon",
       "spotify": "https://open.spotify.com/track/6Q3BTDjWrjhD1RmUbeF8aq",
-      "apple_music": "https://music.apple.com/us/album/pacific-dreams/981953846?i=981954082&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1250,7 +1430,17 @@
       "recording_title": "The legend of Celobrium",
       "album": "NM Janitsjar 2015 - 7.divisjon",
       "spotify": "https://open.spotify.com/track/4qwhlFElwJuoRItojDxG2k",
-      "apple_music": "https://music.apple.com/us/album/the-legend-of-celobrium/981953846?i=981954075&uo=4"
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "7. divisjon",
+      "band": "Søndre Nittedal Veterankorps",
+      "result_piece": "Music for a Festival",
+      "recording_title": "Music for a Festival",
+      "album": "NM Janitsjar 2015 - 7.divisjon",
+      "spotify": "https://open.spotify.com/track/3JJUZP7lf7FZKl2XnWUcUP",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1260,7 +1450,7 @@
       "recording_title": "Queen´s Park Melody",
       "album": "NM Janitsjar 2015 - 7.divisjon",
       "spotify": "https://open.spotify.com/track/2anFv5rP6nbxpU6W2zNan0",
-      "apple_music": "https://music.apple.com/us/album/queens-park-melody/981953846?i=981954079&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1270,7 +1460,7 @@
       "recording_title": "The Lion King",
       "album": "NM Janitsjar 2015 - 7.divisjon",
       "spotify": "https://open.spotify.com/track/6o4RPU2eBv50f4taXJtT2H",
-      "apple_music": "https://music.apple.com/us/album/the-lion-king/981953846?i=981954080&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1280,7 +1470,7 @@
       "recording_title": "Les parapluis de Cherbourg",
       "album": "NM Janitsjar 2015 - 7.divisjon",
       "spotify": "https://open.spotify.com/track/5JzTN5sOGrMS94n3XvuVNb",
-      "apple_music": "https://music.apple.com/us/album/les-parapluis-de-cherbourg/981953846?i=981954072&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1290,7 +1480,7 @@
       "recording_title": "Pastime with good company",
       "album": "NM Janitsjar 2015 - 7.divisjon",
       "spotify": "https://open.spotify.com/track/6ofTd7I3tjVXlz8LHiYS8R",
-      "apple_music": "https://music.apple.com/us/album/pastime-with-good-company/981953846?i=981954073&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1300,7 +1490,7 @@
       "recording_title": "Armenian Dances, Pt. 1",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/5RxG4VTDgVA1TZAV5eaNg6",
-      "apple_music": "https://music.apple.com/us/album/armenian-dances-part-1/981729326?i=981729485&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1310,7 +1500,7 @@
       "recording_title": "Dirty dancing",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/3CK97ovUXo90YMXO9tKNfW",
-      "apple_music": "https://music.apple.com/us/album/dirty-dancing/981729326?i=981729334&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1320,7 +1510,7 @@
       "recording_title": "Ildfuglen",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/36gHFF62PrdmTzRhjnCEkk",
-      "apple_music": "https://music.apple.com/us/album/ildfuglen/981729326?i=981729486&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1330,17 +1520,17 @@
       "recording_title": "Bum´s Rush",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/6ZJGVXHlZoTNUWN2v6t4wl",
-      "apple_music": "https://music.apple.com/us/album/bums-rush/981729326?i=981729505&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
       "division": "Elite",
       "band": "Dragefjellets Musikkorps Bergen",
       "result_piece": "Symphonic Metamorphosis of themes by Carl Maria von Weber",
-      "recording_title": "Symphonic Metamorphosis",
+      "recording_title": "Symphonic Metamorphosis - Dragefjellets",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
-      "spotify": "https://open.spotify.com/track/0cySBSe5cDFAuWIKGV2oe9",
-      "apple_music": "https://music.apple.com/us/album/symphonic-metamorphosis/981729326?i=981729495&uo=4"
+      "spotify": "https://open.spotify.com/track/1mSGHiaJX88MGaqExGbhZm",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1350,7 +1540,7 @@
       "recording_title": "In the Beginning",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/3W8HlKO840dXZkXOyUfXA7",
-      "apple_music": "https://music.apple.com/us/album/in-the-beginning/981729326?i=981729489&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1360,7 +1550,7 @@
       "recording_title": "Stabsarabesk",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/6WA7dzgxV4FJaciHCDIUJu",
-      "apple_music": "https://music.apple.com/us/album/stabsarabesk/981729326?i=981729490&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1370,7 +1560,7 @@
       "recording_title": "Audivi Media Nocte",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/2Rm0n6XuPuSZE8yLuJWjcJ",
-      "apple_music": "https://music.apple.com/us/album/audivi-media-nocte/981729326?i=981729507&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1380,7 +1570,7 @@
       "recording_title": "Traveler",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/2VLloz5GTkk8R1IbqkkAsY",
-      "apple_music": "https://music.apple.com/us/album/traveler/981729326?i=981729506&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1390,7 +1580,7 @@
       "recording_title": "Lone Star Twister",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/5AS9kzD3SKfI8OiLowDwXB",
-      "apple_music": "https://music.apple.com/us/album/lone-star-twister/981729326?i=981729496&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1400,7 +1590,7 @@
       "recording_title": "Poema Alpestre",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/4sqUI7eggWSDncGDM5t6iZ",
-      "apple_music": "https://music.apple.com/us/album/poema-alpestre/981729326?i=981729497&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1410,7 +1600,7 @@
       "recording_title": "Daphnis and Chloe Suite no. 2",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/1EbZFTylSdyrXwuzShJdXx",
-      "apple_music": "https://music.apple.com/us/album/daphnis-and-chloe-suite-no-2/981729326?i=981729499&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1420,7 +1610,7 @@
       "recording_title": "Snake Alley",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/0jGwQw977k6av0dFmrRXLC",
-      "apple_music": "https://music.apple.com/us/album/snake-alley/981729326?i=981729498&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1430,7 +1620,7 @@
       "recording_title": "Symphonic Metamorphosis",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/0cySBSe5cDFAuWIKGV2oe9",
-      "apple_music": "https://music.apple.com/us/album/symphonic-metamorphosis/981729326?i=981729495&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1440,7 +1630,7 @@
       "recording_title": "The Shadow of Golgotha",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/77fio8xXllKPHsHvjQoUIw",
-      "apple_music": "https://music.apple.com/us/album/the-shadow-of-golgotha/981729326?i=981729491&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1450,7 +1640,7 @@
       "recording_title": "Ghost Train (1 og 3 sats)",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/2G1FLk8wAGuXcJt2K1mrsL",
-      "apple_music": "https://music.apple.com/us/album/ghost-train-1-og-3-sats/981729326?i=981729487&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1460,7 +1650,17 @@
       "recording_title": "Spiriti",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/0tHHJoflHXSjIp2FDobNFg",
-      "apple_music": "https://music.apple.com/us/album/spiriti/981729326?i=981729488&uo=4"
+      "apple_music": null
+    },
+    {
+      "year": 2015,
+      "division": "Elite",
+      "band": "Sarpsborg Janitsjarkorps",
+      "result_piece": "Symphony in B flat for Concert Band",
+      "recording_title": "Symphony in Bb flat",
+      "album": "NM Janitsjar 2015 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/5ByvAyrgeX3I2v42TACeWC",
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1470,7 +1670,7 @@
       "recording_title": "Unending Lightning",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/61TzBz2EPZghyfaFkm5t1u",
-      "apple_music": "https://music.apple.com/us/album/unending-lightning/981729326?i=981729503&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1480,7 +1680,7 @@
       "recording_title": "Chakra",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/3q1SIvESLkNYZqjK2DrPHi",
-      "apple_music": "https://music.apple.com/us/album/chakra/981729326?i=981729500&uo=4"
+      "apple_music": null
     },
     {
       "year": 2015,
@@ -1490,7 +1690,7 @@
       "recording_title": "Danzon no. 2",
       "album": "NM Janitsjar 2015 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/5n4DAKmOJ7QVRYwQrjCu5p",
-      "apple_music": "https://music.apple.com/us/album/danzon-no-2/981729326?i=981729501&uo=4"
+      "apple_music": null
     }
   ]
 }

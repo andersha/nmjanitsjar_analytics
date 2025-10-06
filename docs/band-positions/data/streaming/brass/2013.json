@@ -735,6 +735,16 @@
     {
       "year": 2013,
       "division": "Elite",
+      "band": "Manger Musikklag",
+      "result_piece": "Cantigas",
+      "recording_title": "Cantigas",
+      "album": "Nm Brass 2013 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/0TKgR8M638NnXQNxY8ETEx",
+      "apple_music": "https://music.apple.com/us/album/cantigas/605599268?i=605599710&uo=4"
+    },
+    {
+      "year": 2013,
+      "division": "Elite",
       "band": "Molde Brass Band",
       "result_piece": "A tale as yet Untold",
       "recording_title": "A Tale As Yet Untold - Molde Brass Band",
@@ -765,6 +775,16 @@
     {
       "year": 2013,
       "division": "Elite",
+      "band": "Oslo Brass Band",
+      "result_piece": "Masquerade",
+      "recording_title": "Masquerade",
+      "album": "Nm Brass 2013 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/11gD3GutCLaDctEpykIbw2",
+      "apple_music": "https://music.apple.com/us/album/masquerade/605599268?i=605599681&uo=4"
+    },
+    {
+      "year": 2013,
+      "division": "Elite",
       "band": "Sola Brass Band",
       "result_piece": "A tale as yet Untold",
       "recording_title": "A Tale As Yet Untold - Sola Brass Band",
@@ -791,6 +811,16 @@
       "album": "Nm Brass 2013 - Elitedivisjon",
       "spotify": "https://open.spotify.com/track/3Zfi4LCIUkD1qdwSby0aMA",
       "apple_music": null
+    },
+    {
+      "year": 2013,
+      "division": "Elite",
+      "band": "Stavanger Brass Band",
+      "result_piece": "From Ancient Times",
+      "recording_title": "From Ancient Times",
+      "album": "Nm Brass 2013 - Elitedivisjon",
+      "spotify": "https://open.spotify.com/track/6Oun3iNu0YOdROJUSZfl41",
+      "apple_music": "https://music.apple.com/us/album/a-tale-as-yet-untold-stavanger-brass-band/605599268?i=605599605&uo=4"
     },
     {
       "year": 2013,

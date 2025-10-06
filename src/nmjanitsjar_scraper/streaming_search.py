@@ -23,7 +23,8 @@ import json
 import os
 import time
 import unicodedata
-from dataclasses import dataclass
+from collections import defaultdict
+from dataclasses import dataclass, field, replace
 from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
@@ -224,12 +225,139 @@ def score_album_relevance(album: Dict, year: int, division: str) -> float:
 # ---------------------------------------------------------------------------
 
 
+def _sanitize_token(value: str) -> str:
+    return (
+        value.lower()
+        .replace(" ", "")
+        .replace(".", "")
+        .replace("-", "")
+        .replace("–", "")
+        .replace("—", "")
+    )
+
+
+def infer_band_type_from_name(name: str) -> Optional[str]:
+    sanitised = _sanitize_token(name)
+    if "nmbrass" in sanitised:
+        return "brass"
+    if "nmjanitsjar" in sanitised:
+        return "wind"
+    return None
+
+
+def infer_division_hints_from_name(name: str) -> List[str]:
+    sanitised = _sanitize_token(name)
+    hints: List[str] = []
+    for canonical, variants in DIVISION_SYNONYMS.items():
+        for variant in variants:
+            if _sanitize_token(variant) in sanitised:
+                hints.append(canonical)
+                break
+    return hints
+
+
+def is_winners_album_name(name: str) -> bool:
+    lower = name.lower()
+    for token in ("winner", "winners", "vinner", "vinnere", "vinnarar"):
+        if token in lower:
+            return True
+    return False
+
+
+def performance_key(performance: Performance) -> Tuple[int, str, str, str]:
+    return (
+        performance.year,
+        performance.division,
+        performance.band,
+        performance.piece,
+    )
+
+
+@dataclass
+class AlbumMetadata:
+    platform: str
+    album_id: str
+    name: str
+    release_date: Optional[str] = None
+    release_year: Optional[int] = None
+    album_type: Optional[str] = None
+    band_type: Optional[str] = None
+    division_hints: List[str] = field(default_factory=list)
+    is_winners_album: bool = False
+    fetched_at: Optional[float] = None
+    extra: Dict[str, object] = field(default_factory=dict)
+
+    def to_cache_dict(self) -> Dict[str, object]:
+        return {
+            "album_id": self.album_id,
+            "name": self.name,
+            "release_date": self.release_date,
+            "release_year": self.release_year,
+            "album_type": self.album_type,
+            "band_type": self.band_type,
+            "division_hints": list(self.division_hints),
+            "is_winners_album": self.is_winners_album,
+            "fetched_at": self.fetched_at,
+            "extra": self.extra,
+        }
+
+    def to_score_dict(self) -> Dict[str, object]:
+        data: Dict[str, object] = {
+            "name": self.name,
+        }
+        if self.release_date:
+            data["release_date"] = self.release_date
+            data["releaseDate"] = self.release_date
+        if self.album_type:
+            data["album_type"] = self.album_type
+            data.setdefault("type", self.album_type)
+        data.update(self.extra)
+        return data
+
+    @classmethod
+    def from_cache(cls, platform: str, album_id: str, payload: Dict[str, object]) -> "AlbumMetadata":
+        name = str(payload.get("name") or "")
+        release_date = payload.get("release_date")
+        release_year = payload.get("release_year")
+        album_type = payload.get("album_type")
+        band_type = payload.get("band_type")
+        division_hints_raw = payload.get("division_hints") or []
+        if isinstance(division_hints_raw, list):
+            division_hints = [str(item) for item in division_hints_raw if item]
+        else:
+            division_hints = []
+        extra_raw = payload.get("extra")
+        extra = dict(extra_raw) if isinstance(extra_raw, dict) else {}
+        fetched_at_value = payload.get("fetched_at")
+        fetched_at = float(fetched_at_value) if isinstance(fetched_at_value, (int, float)) else None
+        release_year_value = None
+        if isinstance(release_year, int):
+            release_year_value = release_year
+        elif isinstance(release_year, str) and release_year.isdigit():
+            release_year_value = int(release_year)
+        return cls(
+            platform=platform,
+            album_id=album_id,
+            name=name,
+            release_date=str(release_date) if release_date else None,
+            release_year=release_year_value,
+            album_type=str(album_type) if album_type else None,
+            band_type=str(band_type) if band_type else None,
+            division_hints=division_hints,
+            is_winners_album=bool(payload.get("is_winners_album")),
+            fetched_at=fetched_at,
+            extra=extra,
+        )
+
+
 @dataclass(frozen=True)
 class Performance:
     year: int
     division: str
     band: str
     piece: str
+    rank: Optional[int] = None
+    is_test_piece: bool = False
 
 
 @dataclass
@@ -273,9 +401,9 @@ class StreamingMatch:
 class StreamingCache:
     def __init__(self, path: Optional[Path]):
         self.path = path.expanduser() if path else None
-        self._data = {
-            "spotify": {"album_tracks": {}, "album_searches": {}},
-            "apple": {"album_tracks": {}, "album_searches": {}},
+        self._data: Dict[str, Dict[str, object]] = {
+            "spotify": {},
+            "apple": {},
         }
         self._dirty = False
         if self.path and self.path.exists():
@@ -285,17 +413,35 @@ class StreamingCache:
                     for key in ("spotify", "apple"):
                         if key in loaded and isinstance(loaded[key], dict):
                             self._data[key].update(loaded[key])
-                    # Ensure album_searches exists for backward compatibility
-                    self._data.setdefault("spotify", {}).setdefault("album_searches", {})
-                    self._data.setdefault("apple", {}).setdefault("album_searches", {})
             except json.JSONDecodeError:
                 pass
 
+        # Ensure expected platform sections exist (backwards compatible with older cache formats)
+        for platform in ("spotify", "apple"):
+            platform_section = self._data.setdefault(platform, {})
+            platform_section.setdefault("album_tracks", {})
+            platform_section.setdefault("album_searches", {})
+            platform_section.setdefault("albums", {})
+
+    def _platform_section(self, platform: str) -> Dict[str, object]:
+        if platform not in self._data:
+            self._data[platform] = {
+                "album_tracks": {},
+                "album_searches": {},
+                "albums": {},
+            }
+        else:
+            section = self._data[platform]
+            section.setdefault("album_tracks", {})
+            section.setdefault("album_searches", {})
+            section.setdefault("albums", {})
+        return self._data[platform]
+
     def get_spotify_album_tracks(self, album_id: str) -> Optional[List[Dict]]:
-        return self._data.get("spotify", {}).get("album_tracks", {}).get(album_id, {}).get("tracks")
+        return self._platform_section("spotify").get("album_tracks", {}).get(album_id, {}).get("tracks")
 
     def set_spotify_album_tracks(self, album_id: str, tracks: List[Dict]) -> None:
-        self._data.setdefault("spotify", {}).setdefault("album_tracks", {})[album_id] = {
+        self._platform_section("spotify").setdefault("album_tracks", {})[album_id] = {
             "tracks": tracks,
             "fetched_at": time.time(),
         }
@@ -303,7 +449,7 @@ class StreamingCache:
 
     def get_spotify_album_search(self, year: int, division: str) -> Optional[List[Dict]]:
         """Get cached Spotify album search results for a year/division."""
-        spotify = self._data.get("spotify", {})
+        spotify = self._platform_section("spotify")
         searches = spotify.get("album_searches", {})
         key = f"{year}|{division}"
         entry = searches.get(key)
@@ -316,7 +462,7 @@ class StreamingCache:
         """Cache Spotify album search results for a year/division."""
         if not albums:
             return
-        spotify = self._data.setdefault("spotify", {})
+        spotify = self._platform_section("spotify")
         searches = spotify.setdefault("album_searches", {})
         key = f"{year}|{division}"
         searches[key] = {
@@ -326,10 +472,10 @@ class StreamingCache:
         self._dirty = True
 
     def get_apple_album_tracks(self, collection_id: str) -> Optional[List[Dict]]:
-        return self._data.get("apple", {}).get("album_tracks", {}).get(collection_id, {}).get("tracks")
+        return self._platform_section("apple").get("album_tracks", {}).get(collection_id, {}).get("tracks")
 
     def set_apple_album_tracks(self, collection_id: str, tracks: List[Dict]) -> None:
-        self._data.setdefault("apple", {}).setdefault("album_tracks", {})[collection_id] = {
+        self._platform_section("apple").setdefault("album_tracks", {})[collection_id] = {
             "tracks": tracks,
             "fetched_at": time.time(),
         }
@@ -337,7 +483,7 @@ class StreamingCache:
 
     def get_apple_album_search(self, year: int, division: str) -> Optional[List[Dict]]:
         """Get cached Apple Music album search results for a year/division."""
-        apple = self._data.get("apple", {})
+        apple = self._platform_section("apple")
         searches = apple.get("album_searches", {})
         key = f"{year}|{division}"
         entry = searches.get(key)
@@ -350,13 +496,36 @@ class StreamingCache:
         """Cache Apple Music album search results for a year/division."""
         if not albums:
             return
-        apple = self._data.setdefault("apple", {})
+        apple = self._platform_section("apple")
         searches = apple.setdefault("album_searches", {})
         key = f"{year}|{division}"
         searches[key] = {
             "albums": albums,
             "fetched_at": time.time(),
         }
+        self._dirty = True
+
+    def get_platform_albums(self, platform: str) -> Dict[str, Dict[str, object]]:
+        """Return stored album metadata for the given platform."""
+        section = self._platform_section(platform)
+        albums = section.get("albums", {})
+        if isinstance(albums, dict):
+            return albums  # type: ignore[return-value]
+        return {}
+
+    def upsert_platform_album(self, platform: str, album_id: str, metadata: Dict[str, object]) -> None:
+        """Insert or update cached album metadata for a platform."""
+        section = self._platform_section(platform)
+        albums = section.setdefault("albums", {})
+        if not isinstance(albums, dict):  # defensive for legacy formats
+            section["albums"] = {}
+            albums = section["albums"]
+        albums[album_id] = metadata
+        self._dirty = True
+
+    def set_platform_albums(self, platform: str, albums: Dict[str, Dict[str, object]]) -> None:
+        section = self._platform_section(platform)
+        section["albums"] = dict(albums)
         self._dirty = True
 
     def save(self) -> None:
@@ -436,6 +605,37 @@ class SpotifyClient:
         data = self._get("/search", params=params).json()
         return data.get("albums", {}).get("items", [])
 
+    def search_all_albums(self, query: str, *, limit: int = 50, max_pages: int = 5) -> List[Dict]:
+        params = {
+            "q": query,
+            "type": "album",
+            "limit": limit,
+        }
+        if self.market:
+            params["market"] = self.market
+
+        results: List[Dict] = []
+        seen_ids: set[str] = set()
+        offset = 0
+
+        for _ in range(max_pages):
+            params["offset"] = offset
+            data = self._get("/search", params=params).json()
+            items = data.get("albums", {}).get("items", []) or []
+            if not items:
+                break
+            for item in items:
+                album_id = item.get("id")
+                if not album_id or album_id in seen_ids:
+                    continue
+                seen_ids.add(album_id)
+                results.append(item)
+            if len(items) < limit:
+                break
+            offset += limit
+
+        return results
+
     def get_album_tracks(self, album_id: str) -> List[Dict]:
         items: List[Dict] = []
         params = {"limit": 50}
@@ -492,6 +692,39 @@ class AppleMusicClient:
         data = response.json()
         return data.get("results", [])
 
+    def search_all_albums(self, term: str, *, limit: int = 200, max_pages: int = 5) -> List[Dict]:
+        results: List[Dict] = []
+        seen_ids: set[int] = set()
+        offset = 0
+
+        for _ in range(max_pages):
+            params = {
+                "term": term,
+                "entity": "album",
+                "limit": limit,
+                "country": self.country,
+                "offset": offset,
+            }
+            response = self.session.get(self.SEARCH_URL, params=params, timeout=15)
+            if response.status_code in (403, 404):
+                break
+            response.raise_for_status()
+            data = response.json()
+            items = data.get("results", []) or []
+            if not items:
+                break
+            for item in items:
+                collection_id = item.get("collectionId")
+                if not isinstance(collection_id, int) or collection_id in seen_ids:
+                    continue
+                seen_ids.add(collection_id)
+                results.append(item)
+            if len(items) < limit:
+                break
+            offset += limit
+
+        return results
+
     @retry(stop=stop_after_attempt(3), wait=wait_fixed(1))
     def lookup_album_tracks(self, collection_id: int) -> List[Dict]:
         params = {"id": collection_id, "entity": "song", "country": self.country}
@@ -513,6 +746,237 @@ class AppleMusicClient:
 
 
 # ---------------------------------------------------------------------------
+# Album catalogue
+# ---------------------------------------------------------------------------
+
+
+class AlbumCatalog:
+    def __init__(
+        self,
+        *,
+        spotify: Optional[SpotifyClient],
+        apple_music: Optional[AppleMusicClient],
+        cache: Optional[StreamingCache],
+        band_type: str,
+    ) -> None:
+        self.spotify = spotify
+        self.apple_music = apple_music
+        self.cache = cache
+        self.band_type = band_type
+        self._albums: Dict[str, Dict[str, AlbumMetadata]] = {"spotify": {}, "apple": {}}
+        self._platform_loaded: set[str] = set()
+        self._load_from_cache()
+
+    # -------------------------- cache coordination -------------------------
+
+    def _load_from_cache(self) -> None:
+        if not self.cache:
+            return
+        for platform in ("spotify", "apple"):
+            cached = self.cache.get_platform_albums(platform)
+            for album_id, payload in cached.items():
+                if not isinstance(payload, dict):
+                    continue
+                try:
+                    metadata = AlbumMetadata.from_cache(platform, album_id, payload)
+                except Exception:
+                    continue
+                self._register_album(metadata, persist=False)
+
+    def _register_album(self, metadata: AlbumMetadata, *, persist: bool = True) -> None:
+        platform_albums = self._albums.setdefault(metadata.platform, {})
+        existing = platform_albums.get(metadata.album_id)
+        if existing:
+            # Merge metadata, preferring existing non-empty values but extending hints.
+            if not existing.band_type and metadata.band_type:
+                existing.band_type = metadata.band_type
+            if metadata.release_date and not existing.release_date:
+                existing.release_date = metadata.release_date
+            if metadata.release_year and not existing.release_year:
+                existing.release_year = metadata.release_year
+            if metadata.album_type and not existing.album_type:
+                existing.album_type = metadata.album_type
+            if metadata.fetched_at:
+                existing.fetched_at = metadata.fetched_at
+            if metadata.extra:
+                merged_extra = dict(existing.extra)
+                merged_extra.update(metadata.extra)
+                existing.extra = merged_extra
+            # Combine division hints without duplicates
+            if metadata.division_hints:
+                combined = {hint for hint in existing.division_hints}
+                combined.update(metadata.division_hints)
+                existing.division_hints = sorted(combined)
+            existing.is_winners_album = existing.is_winners_album or metadata.is_winners_album
+            if persist and self.cache:
+                self.cache.upsert_platform_album(metadata.platform, metadata.album_id, existing.to_cache_dict())
+            return
+
+        platform_albums[metadata.album_id] = metadata
+        if persist and self.cache:
+            self.cache.upsert_platform_album(metadata.platform, metadata.album_id, metadata.to_cache_dict())
+
+    # --------------------------- API collection ---------------------------
+
+    def _ensure_platform_loaded(self, platform: str) -> None:
+        if platform in self._platform_loaded:
+            return
+        if platform == "spotify":
+            self._fetch_spotify_albums()
+        elif platform == "apple":
+            self._fetch_apple_albums()
+        self._platform_loaded.add(platform)
+
+    def _fetch_spotify_albums(self) -> None:
+        if not self.spotify:
+            return
+        queries = ["NM Brass"] if self.band_type == "brass" else ["NM Janitsjar"]
+        # Query both with and without quotes to catch typographical variants
+        base_term = queries[0]
+        queries.append(f'"{base_term}"')
+
+        for query in queries:
+            try:
+                items = self.spotify.search_all_albums(query, limit=50, max_pages=6)
+            except Exception as exc:
+                print(f"[spotify] Failed to search albums with '{query}': {exc}")
+                continue
+
+            for album in items:
+                album_id = album.get("id")
+                name = album.get("name") or ""
+                if not album_id or not name:
+                    continue
+                band_type = infer_band_type_from_name(name)
+                if band_type != self.band_type:
+                    continue
+                release_date = album.get("release_date") or album.get("releaseDate")
+                release_year = None
+                if isinstance(release_date, str) and len(release_date) >= 4:
+                    try:
+                        release_year = int(release_date[:4])
+                    except ValueError:
+                        release_year = None
+                division_hints = infer_division_hints_from_name(name)
+                metadata = AlbumMetadata(
+                    platform="spotify",
+                    album_id=album_id,
+                    name=name,
+                    release_date=release_date,
+                    release_year=release_year,
+                    album_type=album.get("album_type") or album.get("type"),
+                    band_type=band_type,
+                    division_hints=division_hints,
+                    is_winners_album=is_winners_album_name(name),
+                    fetched_at=time.time(),
+                    extra={"type": album.get("type") or "album"},
+                )
+                self._register_album(metadata)
+
+    def _fetch_apple_albums(self) -> None:
+        if not self.apple_music:
+            return
+        queries = ["NM Brass"] if self.band_type == "brass" else ["NM Janitsjar"]
+        queries.append(f'"{queries[0]}"')
+
+        for query in queries:
+            try:
+                items = self.apple_music.search_all_albums(query, limit=200, max_pages=5)
+            except Exception as exc:
+                print(f"[apple] Failed to search albums with '{query}': {exc}")
+                continue
+
+            for album in items:
+                collection_id = album.get("collectionId")
+                collection_name = album.get("collectionName") or ""
+                if not collection_id or not collection_name:
+                    continue
+                band_type = infer_band_type_from_name(collection_name)
+                if band_type != self.band_type:
+                    continue
+                release_date = album.get("releaseDate")
+                release_year = None
+                if isinstance(release_date, str) and len(release_date) >= 4:
+                    try:
+                        release_year = int(release_date[:4])
+                    except ValueError:
+                        release_year = None
+                metadata = AlbumMetadata(
+                    platform="apple",
+                    album_id=str(collection_id),
+                    name=collection_name,
+                    release_date=release_date,
+                    release_year=release_year,
+                    album_type=album.get("collectionType"),
+                    band_type=band_type,
+                    division_hints=infer_division_hints_from_name(collection_name),
+                    is_winners_album=is_winners_album_name(collection_name),
+                    fetched_at=time.time(),
+                    extra={
+                        "collectionName": collection_name,
+                        "releaseDate": release_date,
+                        "collectionType": album.get("collectionType"),
+                    },
+                )
+                self._register_album(metadata)
+
+    # ----------------------------- public API -----------------------------
+
+    def get_album_candidates(self, platform: str, year: int, division: str) -> List[Tuple[float, AlbumMetadata]]:
+        self._ensure_platform_loaded(platform)
+        candidates: List[Tuple[float, AlbumMetadata]] = []
+        for metadata in self._albums.get(platform, {}).values():
+            if platform == "apple" and metadata.release_year and metadata.release_year < 2017:
+                continue
+            if metadata.band_type and metadata.band_type != self.band_type:
+                continue
+            if not self._album_matches_year(metadata, year):
+                continue
+            score = score_album_relevance(metadata.to_score_dict(), year, division)
+            if division and metadata.division_hints and division in metadata.division_hints:
+                score += 150
+            if metadata.is_winners_album:
+                # Give winners albums a small base score boost so they remain as fallback
+                score += 25
+            candidates.append((score, metadata))
+
+        candidates.sort(key=lambda item: item[0], reverse=True)
+        return candidates
+
+    def get_winners_albums(self, platform: str, year: int) -> List[AlbumMetadata]:
+        self._ensure_platform_loaded(platform)
+        winners: List[Tuple[float, AlbumMetadata]] = []
+        for metadata in self._albums.get(platform, {}).values():
+            if not metadata.is_winners_album:
+                continue
+            if platform == "apple" and metadata.release_year and metadata.release_year < 2017:
+                continue
+            if metadata.band_type and metadata.band_type != self.band_type:
+                continue
+            if not self._album_matches_year(metadata, year):
+                continue
+            score = score_album_relevance(metadata.to_score_dict(), year, "") + 25
+            winners.append((score, metadata))
+        winners.sort(key=lambda item: item[0], reverse=True)
+        return [meta for _, meta in winners]
+
+    def _album_matches_year(self, metadata: AlbumMetadata, year: int) -> bool:
+        if metadata.release_year == year:
+            return True
+        year_str = str(year)
+        potential_fields = [metadata.name]
+        if metadata.release_date and year_str in metadata.release_date:
+            return True
+        for field_name in ("collectionName", "name"):
+            value = metadata.extra.get(field_name)
+            if isinstance(value, str):
+                potential_fields.append(value)
+        for value in potential_fields:
+            if isinstance(value, str) and year_str in value:
+                return True
+        return False
+
+# ---------------------------------------------------------------------------
 # Streaming discovery logic
 # ---------------------------------------------------------------------------
 
@@ -526,11 +990,6 @@ DIVISION_CODE_MAP = {
     "5": "5. divisjon",
     "6": "6. divisjon",
     "7": "7. divisjon",
-}
-
-ALBUM_PREFIXES = {
-    "wind": "NM Janitsjar",
-    "brass": "NM Brass",
 }
 
 DIVISION_ALBUM_LABELS = {
@@ -557,23 +1016,6 @@ DIVISION_SYNONYMS = {
 }
 
 
-def resolve_album_search_terms(year: int, division: str, band_type: str) -> List[str]:
-    prefix = ALBUM_PREFIXES.get(band_type, "NM Janitsjar")
-    normalized_division = DIVISION_ALBUM_LABELS.get(division, division)
-    division_variants = DIVISION_SYNONYMS.get(normalized_division, [normalized_division])
-
-    variants = {f"{prefix} {year}"}
-    for div_variant in division_variants:
-        base = f"{prefix} {year} {div_variant}".strip()
-        variants.update({
-            base,
-            f"{base} (Live)",
-            f"{prefix} {year} – {div_variant} (Live)",
-            f"{prefix} {year} - {div_variant}",
-        })
-    return [variant for variant in variants if variant]
-
-
 def load_performances(path: Path, *, min_year: int = 2017, elite_test_pieces_path: Optional[Path] = None, band_type: str = "wind") -> List[Performance]:
     """Load performances from band positions dataset.
     
@@ -598,6 +1040,7 @@ def load_performances(path: Path, *, min_year: int = 2017, elite_test_pieces_pat
             year = entry.get("year")
             division = entry.get("division")
             pieces = entry.get("pieces") or []
+            rank = entry.get("rank")
             if not isinstance(pieces, list):
                 pieces = [str(pieces)]
             if not isinstance(year, int) or year < min_year:
@@ -608,7 +1051,15 @@ def load_performances(path: Path, *, min_year: int = 2017, elite_test_pieces_pat
                 piece = (raw_piece or "").strip()
                 if not piece:
                     continue
-                performances.append(Performance(year=year, division=division, band=name, piece=piece))
+                performances.append(
+                    Performance(
+                        year=year,
+                        division=division,
+                        band=name,
+                        piece=piece,
+                        rank=rank if isinstance(rank, int) else None,
+                    )
+                )
             
             # For Elite brass bands, also add the test piece
             if band_type == "brass" and division and division.lower() == "elite":
@@ -616,7 +1067,16 @@ def load_performances(path: Path, *, min_year: int = 2017, elite_test_pieces_pat
                 if year_str in elite_test_pieces:
                     test_piece_name = elite_test_pieces[year_str].get("piece")
                     if test_piece_name and test_piece_name.strip():
-                        performances.append(Performance(year=year, division=division, band=name, piece=test_piece_name.strip()))
+                        performances.append(
+                            Performance(
+                                year=year,
+                                division=division,
+                                band=name,
+                                piece=test_piece_name.strip(),
+                                rank=rank if isinstance(rank, int) else None,
+                                is_test_piece=True,
+                            )
+                        )
     
     return performances
 
@@ -627,442 +1087,403 @@ class StreamingLinkFinder:
         *,
         spotify: Optional[SpotifyClient],
         apple_music: Optional[AppleMusicClient],
+        cache: Optional[StreamingCache],
         band_type: str = "wind",
     ) -> None:
         self.spotify = spotify
         self.apple_music = apple_music
-        self._spotify_album_cache: Dict[Tuple[int, str], List[Track]] = {}
-        self._apple_album_cache: Dict[Tuple[int, str], List[Track]] = {}
-        # Cache discovered album names per year to avoid redundant searches
-        self._discovered_album_names: Dict[Tuple[int, str], set[str]] = {}  # (year, platform) -> set of album names
         self.band_type = band_type
+        self.cache = cache
+        self.album_catalog = AlbumCatalog(
+            spotify=spotify,
+            apple_music=apple_music,
+            cache=cache,
+            band_type=band_type,
+        )
+        self._track_cache: Dict[str, Dict[str, List[Track]]] = {"spotify": {}, "apple": {}}
 
     def build_links(self, performances: Iterable[Performance]) -> List[StreamingMatch]:
-        matches: List[StreamingMatch] = []
+        grouped: Dict[Tuple[int, str], List[Performance]] = defaultdict(list)
         for performance in performances:
-            spotify_track = self.match_spotify(performance)
-            apple_track = self.match_apple(performance)
-            match = StreamingMatch(performance=performance, spotify=spotify_track, apple_music=apple_track)
-            matches.append(match)
-        return matches
+            division = performance.division or ""
+            grouped[(performance.year, division)].append(performance)
 
-    # ----------------------- Spotify -----------------------
+        results: Dict[Tuple[int, str, str, str], StreamingMatch] = {}
+        for (year, division), items in grouped.items():
+            normalized_division = DIVISION_ALBUM_LABELS.get(division, division)
+            spotify_assignments = self._match_platform_group("spotify", year, normalized_division, items)
+            apple_assignments = self._match_platform_group("apple", year, normalized_division, items)
 
-    def _get_spotify_tracks_for_division(self, year: int, division: str) -> List[Track]:
-        key = (year, division)
-        if key in self._spotify_album_cache:
-            return self._spotify_album_cache[key]
-        if not self.spotify:
-            self._spotify_album_cache[key] = []
-            return []
+            for performance in items:
+                key = performance_key(performance)
+                match = results.get(key)
+                if not match:
+                    match = StreamingMatch(performance=performance)
+                    results[key] = match
+                spotify_track = spotify_assignments.get(key)
+                if spotify_track:
+                    match.spotify = spotify_track
+                apple_track = apple_assignments.get(key)
+                if apple_track:
+                    match.apple_music = apple_track
 
-        # Check if we should use album search caching (years >= 2012)
-        use_album_cache = year >= 2012 and self.spotify.cache is not None
-        
-        # Try to get cached album search results
-        all_albums_from_searches: List[Dict] = []
-        if use_album_cache:
-            cached_albums = self.spotify.cache.get_spotify_album_search(year, division)
-            if cached_albums:
-                print(f"[spotify] Album search cache HIT for {year}|{division} ({len(cached_albums)} albums)")
-                all_albums_from_searches = cached_albums
-        
-        # If no cache hit, perform album searches
-        if not all_albums_from_searches:
-            seen_albums: set[str] = set()
-            for term in resolve_album_search_terms(year, division, self.band_type):
-                albums = self.spotify.search_albums(term)
-                for album in albums:
-                    album_id = album.get("id")
-                    if not album_id or album_id in seen_albums:
+        return list(results.values())
+
+    def _match_platform_group(
+        self,
+        platform: str,
+        year: int,
+        division: str,
+        performances: List[Performance],
+    ) -> Dict[Tuple[int, str, str, str], Track]:
+        if not performances:
+            return {}
+
+        if platform == "spotify" and not self.spotify:
+            return {}
+        if platform == "apple" and not self.apple_music:
+            return {}
+
+        candidates = self.album_catalog.get_album_candidates(platform, year, division)
+        division_albums = [metadata for _, metadata in candidates if not metadata.is_winners_album]
+        winner_albums = [metadata for _, metadata in candidates if metadata.is_winners_album]
+
+        assignments: Dict[Tuple[int, str, str, str], Track] = {}
+        remaining: List[Performance] = list(performances)
+
+        for metadata in division_albums:
+            album_assignments = self._assign_album_tracks(platform, metadata, remaining)
+            if not album_assignments:
+                continue
+            for performance, track in album_assignments.items():
+                assignments[performance_key(performance)] = track
+            remaining = [perf for perf in remaining if performance_key(perf) not in assignments]
+            if not remaining:
+                break
+
+        if remaining:
+            if not winner_albums:
+                winner_albums = self.album_catalog.get_winners_albums(platform, year)
+            for metadata in winner_albums:
+                candidate_performances = [perf for perf in remaining if perf.rank == 1]
+                if not candidate_performances:
+                    if len(remaining) == 1:
+                        candidate_performances = remaining
+                    else:
                         continue
-                    seen_albums.add(album_id)
-                    all_albums_from_searches.append(album)
-                
-                # Stop early if we have enough candidates
-                if len(all_albums_from_searches) >= 15:
+                album_assignments = self._assign_album_tracks(platform, metadata, candidate_performances)
+                if not album_assignments:
+                    continue
+                for performance, track in album_assignments.items():
+                    assignments[performance_key(performance)] = track
+                remaining = [perf for perf in remaining if performance_key(perf) not in assignments]
+                if not remaining:
                     break
-            
-            # Cache the album search results if we got any
-            if use_album_cache and all_albums_from_searches:
-                self.spotify.cache.set_spotify_album_search(year, division, all_albums_from_searches)
-                print(f"[spotify] Album search cache WRITE for {year}|{division} ({len(all_albums_from_searches)} albums)")
-        
-        # Now score and filter the albums
-        candidate_albums: List[Tuple[float, Dict]] = []  # (score, album)
-        for album in all_albums_from_searches:
-            score = score_album_relevance(album, year, division)
-            candidate_albums.append((score, album))
-        
-        # Sort by score descending (best matches first)
-        candidate_albums.sort(key=lambda x: x[0], reverse=True)
-        
-        # Filter: ONLY use albums from the target year
-        # Check both release date and album name for the year
-        filtered_albums = []
-        for score, album in candidate_albums:
-            release_date = album.get("release_date") or ""
-            album_name = album.get("name") or ""
-            album_name_lower = album_name.lower()
-            
-            # Extract release year
-            release_year = None
-            if isinstance(release_date, str) and len(release_date) >= 4:
-                try:
-                    release_year = int(release_date[:4])
-                except ValueError:
-                    pass
-            
-            # Only include albums from the target year
-            if release_year == year or str(year) in album_name_lower:
-                filtered_albums.append((score, album))
-                # Remember this album name for future searches
-                if album_name:
-                    self._discovered_album_names.setdefault((year, "spotify"), set()).add(album_name)
-        
-        # Collect tracks from filtered albums, deduplicating by track ID
-        tracks: List[Track] = []
-        seen_track_ids: set[str] = set()
-        
-        for score, album in filtered_albums:
-            album_id = album.get("id")
-            album_name = album.get("name")
-            
-            # Skip albums with very low relevance scores
-            if score < 10:
-                continue
-            
-            # Fetch tracks from this album
-            cached_tracks = self.spotify.cache.get_spotify_album_tracks(album_id) if self.spotify and self.spotify.cache else None
-            if cached_tracks is not None:
-                track_items = cached_tracks
-            else:
-                track_items = self.spotify.get_album_tracks(album_id)
-                if self.spotify and self.spotify.cache and track_items is not None:
-                    self.spotify.cache.set_spotify_album_tracks(album_id, track_items)
-            
-            for item in track_items:
-                track_id = item.get("id")
-                if track_id and track_id in seen_track_ids:
-                    continue
-                if track_id:
-                    seen_track_ids.add(track_id)
-                
-                title = item.get("name")
-                external_urls = item.get("external_urls") or {}
-                url = external_urls.get("spotify")
-                if not title or not url:
-                    continue
-                
-                # Extract artist name(s), filtering out placeholder values
-                artists = item.get("artists") or []
-                artist_names = [
-                    a.get("name") for a in artists 
-                    if a.get("name") and a.get("name").strip().lower() not in ["", "na", "n/a", "unknown"]
-                ]
-                # Store all artist names for better matching - we'll check against all of them
-                artist = ", ".join(artist_names) if artist_names else ""
-                
-                slug_primary = normalize_title(title)
-                slug_full = normalize_title(title, remove_parentheticals=False)
-                slug_variants = []
-                for candidate in (slug_primary, slug_full):
-                    if candidate and candidate not in slug_variants:
-                        slug_variants.append(candidate)
-                
-                tracks.append(
-                    Track(
-                        platform="spotify",
-                        title=title,
-                        slug=slug_variants[0] if slug_variants else slug_primary,
-                        slug_variants=slug_variants or [slug_primary],
-                        url=url,
-                        album=album_name or "",
-                        album_id=album_id,
-                        artist=artist,
-                    )
-                )
 
-        self._spotify_album_cache[key] = tracks
-        return tracks
+        return assignments
 
-    def match_spotify(self, performance: Performance) -> Optional[Track]:
-        tracks = self._get_spotify_tracks_for_division(performance.year, performance.division)
+    def _assign_album_tracks(
+        self,
+        platform: str,
+        metadata: AlbumMetadata,
+        performances: List[Performance],
+    ) -> Dict[Performance, Track]:
+        if not performances:
+            return {}
+
+        tracks = self._get_tracks_for_album(platform, metadata)
         if not tracks:
-            return None
-        piece_variants = get_title_variants(performance.piece)
-        band_slug = normalize_title(performance.band)
-        
-        best_match: Optional[Track] = None
-        best_score = 0.0
-        
-        for track in tracks:
-            # Calculate piece similarity using all variants
-            piece_match_score = 0.0
-            for piece_variant in piece_variants:
-                for slug_variant in track.slug_variants:
-                    score = similarity_score(piece_variant, slug_variant)
-                    if score > piece_match_score:
-                        piece_match_score = score
-            
-            # Calculate band/artist similarity if artist info is available
-            # Check against all individual artists in the track, not just the combined string
-            band_match_score = 0.0
-            if track.artist and band_slug:
-                # Split on comma to check each artist separately
-                # (since tracks can have composer, "Na", band, conductor)
-                artist_parts = [part.strip() for part in track.artist.split(',')]
-                for artist_part in artist_parts:
-                    if artist_part:
-                        artist_slug = normalize_title(artist_part)
-                        score = similarity_score(band_slug, artist_slug)
-                        if score > band_match_score:
-                            band_match_score = score
-            
-            # If artist matching is weak, also check if the band name appears in the track title
-            # This handles cases where track titles include band names (e.g., "Piece - Band Name")
-            if band_match_score < 0.5 and band_slug:
-                title_slug = normalize_title(track.title)
-                title_match = similarity_score(band_slug, title_slug)
-                # Check if band name is a substring or very similar to part of the title
-                if title_match > band_match_score or band_slug in title_slug:
-                    band_match_score = max(band_match_score, title_match)
-            
-            # Combined score: piece matching is primary, band matching is crucial for disambiguation
-            # For test pieces where multiple bands perform the same piece, band matching is essential
-            # However, for own-choice pieces where each piece is unique, allow strong piece matches
-            if band_match_score > 0.85:
-                # Excellent band match: very likely the correct track
-                combined_score = piece_match_score * 0.5 + band_match_score * 0.5
-            elif band_match_score > 0.7:
-                # Good band match: piece score + significant band bonus
-                combined_score = piece_match_score * 0.6 + band_match_score * 0.4
-            elif band_match_score > 0.5:
-                # Moderate band match: piece score + moderate band bonus  
-                combined_score = piece_match_score * 0.75 + band_match_score * 0.25
-            elif band_match_score > 0.3:
-                # Weak band match: heavily penalize to avoid wrong matches
-                combined_score = piece_match_score * 0.5 + band_match_score * 0.1
+            return {}
+
+        score_table = self._build_score_table(performances, tracks)
+        if not score_table:
+            return {}
+
+        primary_threshold = 0.6
+        if metadata.is_winners_album or any(perf.is_test_piece for perf in performances):
+            primary_threshold = 0.5
+
+        assignments_idx = self._resolve_assignments(
+            score_table,
+            len(performances),
+            len(tracks),
+            primary_threshold,
+        )
+
+        if len(assignments_idx) < min(len(performances), len(tracks)):
+            assignments_idx.update(
+                self._resolve_assignments(
+                    score_table,
+                    len(performances),
+                    len(tracks),
+                    0.4,
+                )
+            )
+
+        assignments: Dict[Performance, Track] = {}
+        for perf_idx, track_idx in assignments_idx.items():
+            score = score_table.get((perf_idx, track_idx), 0.0)
+            if score < 0.35:
+                continue
+            base_track = tracks[track_idx]
+            track_with_score = replace(base_track, match_score=score)
+            assignments[performances[perf_idx]] = track_with_score
+        return assignments
+
+    def _get_tracks_for_album(self, platform: str, metadata: AlbumMetadata) -> List[Track]:
+        platform_cache = self._track_cache.setdefault(platform, {})
+        cached_tracks = platform_cache.get(metadata.album_id)
+        if cached_tracks is None:
+            if platform == "spotify":
+                cached_tracks = self._load_spotify_tracks(metadata)
             else:
-                # Very weak or no band match
-                # For very strong piece matches (>0.9), allow matching without band info
-                # This handles own-choice pieces where each piece title is unique on the album
-                if piece_match_score >= 0.9:
-                    combined_score = piece_match_score * 0.7  # Reduced penalty for perfect/near-perfect matches
-                else:
-                    combined_score = piece_match_score * 0.4  # Significant penalty for weaker matches
-            
-            if combined_score > best_score:
-                best_score = combined_score
-                best_match = track
-        
-        if best_match and best_score >= 0.65:
-            best_match.match_score = best_score
-            return best_match
-        return None
+                cached_tracks = self._load_apple_tracks(metadata)
+            platform_cache[metadata.album_id] = cached_tracks
+        return [replace(track, match_score=0.0) for track in (cached_tracks or [])]
 
-    # ----------------------- Apple Music -----------------------
-
-    def _get_apple_tracks_for_division(self, year: int, division: str) -> List[Track]:
-        key = (year, division)
-        if key in self._apple_album_cache:
-            return self._apple_album_cache[key]
-        if not self.apple_music:
-            self._apple_album_cache[key] = []
+    def _load_spotify_tracks(self, metadata: AlbumMetadata) -> List[Track]:
+        if not self.spotify:
             return []
+        raw_tracks = None
+        if self.cache:
+            raw_tracks = self.cache.get_spotify_album_tracks(metadata.album_id)
+        if raw_tracks is None:
+            try:
+                raw_tracks = self.spotify.get_album_tracks(metadata.album_id)
+            except Exception as exc:
+                print(f"[spotify] Kunne ikke hente spor for {metadata.name}: {exc}")
+                return []
+            if self.cache and raw_tracks is not None:
+                self.cache.set_spotify_album_tracks(metadata.album_id, raw_tracks)
 
-        # Check if we should use album search caching (years >= 2012)
-        use_album_cache = year >= 2012 and self.apple_music.cache is not None
-        
-        # Try to get cached album search results
-        all_albums_from_searches: List[Dict] = []
-        if use_album_cache:
-            cached_albums = self.apple_music.cache.get_apple_album_search(year, division)
-            if cached_albums:
-                print(f"[apple] Album search cache HIT for {year}|{division} ({len(cached_albums)} albums)")
-                all_albums_from_searches = cached_albums
-        
-        # If no cache hit, perform album searches
-        if not all_albums_from_searches:
-            seen_collections: set[int] = set()
-            for term in resolve_album_search_terms(year, division, self.band_type):
-                try:
-                    albums = self.apple_music.search_album(term)
-                    for album in albums:
-                        collection_id = album.get("collectionId")
-                        if not collection_id or collection_id in seen_collections:
-                            continue
-                        seen_collections.add(collection_id)
-                        all_albums_from_searches.append(album)
-                    
-                    # Stop early if we have enough candidates
-                    if len(all_albums_from_searches) >= 15:
-                        break
-                except Exception as e:
-                    # Handle 403/404 gracefully
-                    if "403" in str(e) or "404" in str(e):
-                        print(f"[apple] Search failed for '{term}' (rate limited or not found), continuing...")
-                        continue
-                    raise
-            
-            # Cache the album search results if we got any
-            if use_album_cache and all_albums_from_searches:
-                self.apple_music.cache.set_apple_album_search(year, division, all_albums_from_searches)
-                print(f"[apple] Album search cache WRITE for {year}|{division} ({len(all_albums_from_searches)} albums)")
-        
-        # Now score and filter the albums
-        candidate_albums: List[Tuple[float, Dict]] = []  # (score, album)
-        for album in all_albums_from_searches:
-            score = score_album_relevance(album, year, division)
-            candidate_albums.append((score, album))
-        
-        # Sort by score descending (best matches first)
-        candidate_albums.sort(key=lambda x: x[0], reverse=True)
-        
-        # Filter: ONLY use albums from the target year
-        # Check both release date and album name for the year
-        filtered_albums = []
-        for score, album in candidate_albums:
-            release_date = album.get("releaseDate") or ""
-            collection_name = album.get("collectionName") or ""
-            album_name_lower = collection_name.lower()
-            
-            # Extract release year
-            release_year = None
-            if isinstance(release_date, str) and len(release_date) >= 4:
-                try:
-                    release_year = int(release_date[:4])
-                except ValueError:
-                    pass
-            
-            # Only include albums from the target year
-            if release_year == year or str(year) in album_name_lower:
-                filtered_albums.append((score, album))
-                # Remember this album name for future searches
-                if collection_name:
-                    self._discovered_album_names.setdefault((year, "apple"), set()).add(collection_name)
-        
-        # Collect tracks from filtered albums, deduplicating by track ID
         tracks: List[Track] = []
-        seen_track_ids: set[int] = set()
-        
-        for score, album in filtered_albums:
-            collection_id = album.get("collectionId")
-            collection_name = album.get("collectionName")
-            
-            # Skip albums with very low relevance scores
-            if score < 10:
+        seen_ids: set[str] = set()
+        for item in raw_tracks or []:
+            track_id = item.get("id")
+            if track_id and track_id in seen_ids:
                 continue
-            
-            # Fetch tracks from this album
-            cache_key = str(collection_id)
-            cached_tracks = self.apple_music.cache.get_apple_album_tracks(cache_key) if self.apple_music and self.apple_music.cache else None
-            if cached_tracks is not None:
-                songs = cached_tracks
-            else:
-                songs = self.apple_music.lookup_album_tracks(collection_id)
-                if self.apple_music and self.apple_music.cache and songs is not None:
-                    self.apple_music.cache.set_apple_album_tracks(cache_key, songs)
-            
-            for song in songs:
-                track_id = song.get("trackId")
-                if track_id and track_id in seen_track_ids:
-                    continue
-                if track_id:
-                    seen_track_ids.add(track_id)
-                
-                title = song.get("trackName")
-                url = song.get("trackViewUrl")
-                if not title or not url:
-                    continue
-                
-                # Extract artist name, filtering out placeholder values
-                artist_raw = song.get("artistName") or ""
-                artist = artist_raw if artist_raw.strip().lower() not in ["", "na", "n/a", "unknown"] else ""
-                
-                slug_primary = normalize_title(title)
-                slug_full = normalize_title(title, remove_parentheticals=False)
-                slug_variants = []
-                for candidate in (slug_primary, slug_full):
-                    if candidate and candidate not in slug_variants:
-                        slug_variants.append(candidate)
-                
-                tracks.append(
-                    Track(
-                        platform="apple_music",
-                        title=title,
-                        slug=slug_variants[0] if slug_variants else slug_primary,
-                        slug_variants=slug_variants or [slug_primary],
-                        url=url,
-                        album=collection_name or "",
-                        album_id=str(collection_id),
-                        artist=artist,
-                    )
+            if track_id:
+                seen_ids.add(track_id)
+            title = item.get("name")
+            external_urls = item.get("external_urls") or {}
+            url = external_urls.get("spotify")
+            if not title or not url:
+                continue
+            artists = item.get("artists") or []
+            artist_names = [a.get("name") for a in artists if a.get("name")]
+            artist = ", ".join(artist_names) if artist_names else ""
+            slug_primary = normalize_title(title)
+            slug_full = normalize_title(title, remove_parentheticals=False)
+            slug_variants: List[str] = []
+            for candidate in (slug_primary, slug_full):
+                if candidate and candidate not in slug_variants:
+                    slug_variants.append(candidate)
+            tracks.append(
+                Track(
+                    platform="spotify",
+                    title=title,
+                    slug=slug_variants[0] if slug_variants else slug_primary,
+                    slug_variants=slug_variants or [slug_primary],
+                    url=url,
+                    album=metadata.name,
+                    album_id=metadata.album_id,
+                    artist=artist,
                 )
-
-        self._apple_album_cache[key] = tracks
+            )
         return tracks
 
-    def match_apple(self, performance: Performance) -> Optional[Track]:
-        tracks = self._get_apple_tracks_for_division(performance.year, performance.division)
-        if not tracks:
-            return None
-        piece_variants = get_title_variants(performance.piece)
-        band_slug = normalize_title(performance.band)
-        
-        best_match: Optional[Track] = None
-        best_score = 0.0
-        
-        for track in tracks:
-            # Calculate piece similarity using all variants
-            piece_match_score = 0.0
-            for piece_variant in piece_variants:
-                for slug_variant in track.slug_variants:
-                    score = similarity_score(piece_variant, slug_variant)
-                    if score > piece_match_score:
-                        piece_match_score = score
-            
-            # Calculate band/artist similarity if artist info is available
-            # Check against all individual artists in the track, not just the combined string
-            band_match_score = 0.0
-            if track.artist and band_slug:
-                # Split on comma to check each artist separately
-                # (since tracks can have composer, "Na", band, conductor)
-                artist_parts = [part.strip() for part in track.artist.split(',')]
-                for artist_part in artist_parts:
-                    if artist_part:
-                        artist_slug = normalize_title(artist_part)
-                        score = similarity_score(band_slug, artist_slug)
-                        if score > band_match_score:
-                            band_match_score = score
-            
-            # Combined score: piece matching is primary, band matching is crucial for disambiguation
-            # For test pieces where multiple bands perform the same piece, band matching is essential
-            if band_match_score > 0.85:
-                # Excellent band match: very likely the correct track
-                combined_score = piece_match_score * 0.5 + band_match_score * 0.5
-            elif band_match_score > 0.7:
-                # Good band match: piece score + significant band bonus
-                combined_score = piece_match_score * 0.6 + band_match_score * 0.4
-            elif band_match_score > 0.5:
-                # Moderate band match: piece score + moderate band bonus  
-                combined_score = piece_match_score * 0.75 + band_match_score * 0.25
-            elif band_match_score > 0.3:
-                # Weak band match: heavily penalize to avoid wrong matches
-                combined_score = piece_match_score * 0.5 + band_match_score * 0.1
-            else:
-                # Very weak or no band match: significant penalty
-                combined_score = piece_match_score * 0.4
-            
-            if combined_score > best_score:
-                best_score = combined_score
-                best_match = track
-        
-        if best_match and best_score >= 0.65:
-            best_match.match_score = best_score
-            return best_match
-        return None
+    def _load_apple_tracks(self, metadata: AlbumMetadata) -> List[Track]:
+        if not self.apple_music:
+            return []
+        raw_tracks = None
+        if self.cache:
+            raw_tracks = self.cache.get_apple_album_tracks(metadata.album_id)
+        if raw_tracks is None:
+            try:
+                lookup_id = int(metadata.album_id)
+            except (TypeError, ValueError):
+                lookup_id = metadata.album_id
+            try:
+                raw_tracks = self.apple_music.lookup_album_tracks(lookup_id)
+            except Exception as exc:
+                print(f"[apple] Kunne ikke hente spor for {metadata.name}: {exc}")
+                return []
+            if self.cache and raw_tracks is not None:
+                self.cache.set_apple_album_tracks(metadata.album_id, raw_tracks)
 
+        tracks: List[Track] = []
+        seen_ids: set[int] = set()
+        for song in raw_tracks or []:
+            track_id = song.get("trackId")
+            if isinstance(track_id, int) and track_id in seen_ids:
+                continue
+            if isinstance(track_id, int):
+                seen_ids.add(track_id)
+            title = song.get("trackName")
+            url = song.get("trackViewUrl")
+            if not title or not url:
+                continue
+            if song.get("isStreamable") is False:
+                print(f"[apple] Track '{title}' is not streamable – skipping")
+                continue
+            artist_raw = song.get("artistName") or ""
+            artist = artist_raw if artist_raw.strip().lower() not in {"", "na", "n/a", "unknown"} else ""
+            slug_primary = normalize_title(title)
+            slug_full = normalize_title(title, remove_parentheticals=False)
+            slug_variants: List[str] = []
+            for candidate in (slug_primary, slug_full):
+                if candidate and candidate not in slug_variants:
+                    slug_variants.append(candidate)
+            tracks.append(
+                Track(
+                    platform="apple_music",
+                    title=title,
+                    slug=slug_variants[0] if slug_variants else slug_primary,
+                    slug_variants=slug_variants or [slug_primary],
+                    url=url,
+                    album=metadata.name,
+                    album_id=metadata.album_id,
+                    artist=artist,
+                )
+            )
+        return tracks
+
+    def _build_score_table(
+        self,
+        performances: List[Performance],
+        tracks: List[Track],
+    ) -> Dict[Tuple[int, int], float]:
+        table: Dict[Tuple[int, int], float] = {}
+        piece_variants_cache = [get_title_variants(perf.piece) for perf in performances]
+        band_slug_cache = [normalize_title(perf.band) if perf.band else "" for perf in performances]
+
+        for perf_idx, performance in enumerate(performances):
+            piece_variants = piece_variants_cache[perf_idx] or []
+            band_slug = band_slug_cache[perf_idx]
+            for track_idx, track in enumerate(tracks):
+                piece_score = 0.0
+                for piece_variant in piece_variants or []:
+                    for slug_variant in track.slug_variants:
+                        piece_score = max(piece_score, similarity_score(piece_variant, slug_variant))
+                if not piece_variants:
+                    piece_score = similarity_score(normalize_title(performance.piece), track.slug)
+
+                band_score = self._band_similarity(band_slug, track)
+                combined = self._combine_scores(performance, piece_score, band_score)
+                if combined <= 0:
+                    continue
+                table[(perf_idx, track_idx)] = combined
+
+        return table
+
+    def _band_similarity(self, band_slug: str, track: Track) -> float:
+        if not band_slug:
+            return 0.0
+        best = 0.0
+        if track.artist:
+            artist_parts = [part.strip() for part in track.artist.split(',')]
+            for artist_part in artist_parts:
+                if not artist_part:
+                    continue
+                artist_slug = normalize_title(artist_part)
+                if not artist_slug:
+                    continue
+                best = max(best, similarity_score(band_slug, artist_slug))
+        title_slug = normalize_title(track.title)
+        if band_slug in title_slug:
+            best = max(best, 0.95)
+        else:
+            best = max(best, similarity_score(band_slug, title_slug))
+        return best
+
+    def _combine_scores(self, performance: Performance, piece_score: float, band_score: float) -> float:
+        if performance.is_test_piece:
+            if band_score > 0.85:
+                return band_score * 0.9 + piece_score * 0.1
+            if band_score > 0.6:
+                return band_score * 0.8 + piece_score * 0.2
+            if band_score > 0.4:
+                return band_score * 0.7 + piece_score * 0.2
+            return band_score * 0.5
+
+        if band_score > 0.85:
+            return piece_score * 0.5 + band_score * 0.5
+        if band_score > 0.7:
+            return piece_score * 0.6 + band_score * 0.4
+        if band_score > 0.5:
+            return piece_score * 0.75 + band_score * 0.25
+        if band_score > 0.3:
+            return piece_score * 0.6 + band_score * 0.1
+        if piece_score >= 0.9:
+            return piece_score * 0.55
+        return piece_score * 0.35
+
+    def _resolve_assignments(
+        self,
+        score_table: Dict[Tuple[int, int], float],
+        num_performances: int,
+        num_tracks: int,
+        threshold: float,
+    ) -> Dict[int, int]:
+        unmatched_performances = set(range(num_performances))
+        unmatched_tracks = set(range(num_tracks))
+        assignments: Dict[int, int] = {}
+
+        while unmatched_performances and unmatched_tracks:
+            perf_best: Dict[int, Tuple[int, float]] = {}
+            for perf_idx in unmatched_performances:
+                best_track = None
+                best_score = 0.0
+                for track_idx in unmatched_tracks:
+                    score = score_table.get((perf_idx, track_idx), 0.0)
+                    if score > best_score:
+                        best_track = track_idx
+                        best_score = score
+                if best_track is not None and best_score >= threshold:
+                    perf_best[perf_idx] = (best_track, best_score)
+
+            track_best: Dict[int, Tuple[int, float]] = {}
+            for track_idx in unmatched_tracks:
+                best_perf = None
+                best_score = 0.0
+                for perf_idx in unmatched_performances:
+                    score = score_table.get((perf_idx, track_idx), 0.0)
+                    if score > best_score:
+                        best_perf = perf_idx
+                        best_score = score
+                if best_perf is not None and best_score >= threshold:
+                    track_best[track_idx] = (best_perf, best_score)
+
+            mutual_matches: List[Tuple[float, int, int]] = []
+            for perf_idx, (track_idx, perf_score) in perf_best.items():
+                track_choice = track_best.get(track_idx)
+                if track_choice and track_choice[0] == perf_idx:
+                    mutual_matches.append((max(perf_score, track_choice[1]), perf_idx, track_idx))
+
+            if mutual_matches:
+                mutual_matches.sort(reverse=True)
+                for _, perf_idx, track_idx in mutual_matches:
+                    assignments[perf_idx] = track_idx
+                    unmatched_performances.discard(perf_idx)
+                    unmatched_tracks.discard(track_idx)
+                continue
+
+            best_pair = None
+            best_score = threshold
+            for perf_idx in unmatched_performances:
+                for track_idx in unmatched_tracks:
+                    score = score_table.get((perf_idx, track_idx), 0.0)
+                    if score > best_score:
+                        best_score = score
+                        best_pair = (perf_idx, track_idx)
+            if not best_pair:
+                break
+            perf_idx, track_idx = best_pair
+            assignments[perf_idx] = track_idx
+            unmatched_performances.discard(perf_idx)
+            unmatched_tracks.discard(track_idx)
+
+        return assignments
 
 # ---------------------------------------------------------------------------
 # Overrides
@@ -1216,20 +1637,15 @@ def build_year_streaming_entries(
     finder: StreamingLinkFinder,
     override_resolver: StreamingOverrideResolver,
 ) -> List[Dict[str, object]]:
-    matches: List[StreamingMatch] = []
-    for performance in performances:
-        matches.append(
-            StreamingMatch(
-                performance=performance,
-                spotify=finder.match_spotify(performance) if finder.spotify else None,
-                apple_music=finder.match_apple(performance) if finder.apple_music else None,
-            )
-        )
+    matches = finder.build_links(performances)
+    match_lookup: Dict[Tuple[int, str, str, str], StreamingMatch] = {
+        performance_key(match.performance): match for match in matches
+    }
 
     serialised: List[Dict[str, object]] = []
-    for match in matches:
-        if not (match.spotify or match.apple_music):
-            continue
+    for performance in performances:
+        key = performance_key(performance)
+        match = match_lookup.get(key, StreamingMatch(performance=performance))
         entry_dict: Dict[str, object] = match.to_dict()
         override = override_resolver.lookup(match.performance)
         allow_mismatch = False
@@ -1239,6 +1655,9 @@ def build_year_streaming_entries(
                 if key == "allow_album_mismatch":
                     continue
                 entry_dict[key] = value
+
+        if not (entry_dict.get("spotify") or entry_dict.get("apple_music")) and not override:
+            continue
 
         album_value = entry_dict.get("album")
         if not allow_mismatch:
@@ -1520,7 +1939,12 @@ def generate_streaming_links(
             cache.save()
         return 0
 
-    finder = StreamingLinkFinder(spotify=spotify_client, apple_music=apple_client, band_type=band_type)
+    finder = StreamingLinkFinder(
+        spotify=spotify_client,
+        apple_music=apple_client,
+        cache=cache,
+        band_type=band_type,
+    )
 
     available_years = sorted({performance.year for performance in performances})
     target_years = {year for year in available_years if year >= min_year}
@@ -1561,6 +1985,12 @@ def generate_streaming_links(
             divisions_being_processed.update(p.division for p in perfs)
         console.print(f"[cyan]Processing divisions: {', '.join(sorted(divisions_being_processed))}[/cyan]")
     
+    required_fields: List[str] = []
+    if finder.spotify:
+        required_fields.append("spotify")
+    if finder.apple_music:
+        required_fields.append("apple_music")
+
     total_entries = 0
     for year in track(sorted(year_map.keys()), description="Matching streaming links"):
         year_performances = year_map[year]
@@ -1569,13 +1999,15 @@ def generate_streaming_links(
         if preserve_existing:
             existing_entries = load_existing_entries(output_dir, band_type, year)
             
-            # Build a set of performance keys that already have links
-            existing_with_links = set()
+            # Build a set of performance keys that already have all required links
+            existing_with_links: set[str] = set()
             for entry in existing_entries:
-                if entry.get("spotify") or entry.get("apple_music"):
-                    # Create unique key: year|division|band|piece
-                    key = f"{entry.get('year')}|{entry.get('division')}|{entry.get('band')}|{entry.get('result_piece')}"
-                    existing_with_links.add(key)
+                if required_fields and not all(entry.get(field) for field in required_fields):
+                    continue
+                if not required_fields and not (entry.get("spotify") or entry.get("apple_music")):
+                    continue
+                key = f"{entry.get('year')}|{entry.get('division')}|{entry.get('band')}|{entry.get('result_piece')}"
+                existing_with_links.add(key)
             
             # Filter performances to only those that need linking
             performances_to_process = []
