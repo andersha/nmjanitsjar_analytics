@@ -1360,7 +1360,9 @@ import type {
         ? 'Søk etter et musikkstykke for å se alle fremføringer vi har registrert.'
         : activeView === 'composers'
           ? 'Søk etter en komponist for å se hvilke NM-stykker de står bak.'
-          : 'Velg et år og en divisjon for å vise resultatlisten i den valgte finalen.');
+          : activeView === 'repertoire'
+            ? 'Søk gjennom repertoaret av janitsjarstykker som er brukt i NM, med informasjon om komponist, varighet, vanskelighetsgrad og år.'
+            : 'Velg et år og en divisjon for å vise resultatlisten i den valgte finalen.');
   let themeToggleLabel = $derived(theme === 'dark' ? 'Bytt til lyst tema' : 'Bytt til mørkt tema');
   let themeToggleText = $derived(theme === 'dark' ? 'Mørk' : 'Lys');
   let themeToggleIcon = $derived(theme === 'dark' ? '🌙' : '☀️');
