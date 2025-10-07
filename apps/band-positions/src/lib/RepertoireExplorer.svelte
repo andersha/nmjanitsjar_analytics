@@ -162,7 +162,7 @@
     }
 
     try {
-      const response = await fetch('/data/repertoire.json');
+      const response = await fetch('data/repertoire.json');
       if (!response.ok) {
         throw new Error(`Failed to load repertoire data: ${response.statusText}`);
       }
