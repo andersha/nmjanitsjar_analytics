@@ -8,6 +8,7 @@
   import DataExplorer from './lib/DataExplorer.svelte';
   import PiecePerformances from './lib/PiecePerformances.svelte';
   import ComposerPieces from './lib/ComposerPieces.svelte';
+  import RepertoireExplorer from './lib/RepertoireExplorer.svelte';
   import { slugify } from './lib/slugify';
   import { extractComposerNames, normalizeComposerName } from './lib/composerUtils';
 import type {
@@ -21,7 +22,7 @@ import type {
   EliteTestPiecesData
 } from './lib/types';
 
-  type ViewType = 'bands' | 'conductors' | 'pieces' | 'composers' | 'data';
+  type ViewType = 'bands' | 'conductors' | 'pieces' | 'composers' | 'data' | 'repertoire';
   type Theme = 'light' | 'dark';
 
   const URL_PARAM_KEYS = { bands: 'band', conductors: 'conductor', pieces: 'piece', composers: 'composer' } as const;
@@ -44,9 +45,10 @@ import type {
     conductors: 'Dirigent',
     pieces: 'Stykke',
     composers: 'Komponist',
-    data: 'Resultat'
+    data: 'Resultat',
+    repertoire: 'Repertoar'
   };
-  const viewOrder: ViewType[] = ['bands', 'conductors', 'pieces', 'composers', 'data'];
+  const viewOrder: ViewType[] = ['bands', 'conductors', 'pieces', 'composers', 'data', 'repertoire'];
 
   let dataset = $state<BandDataset | null>(null);
   let conductorRecords = $state<BandRecord[]>([]);
@@ -1409,14 +1411,16 @@ import type {
     >
       <div class="view-toggle" role="group" aria-label="Bytt visning">
         {#each viewOrder as view}
-          <button
-            type="button"
-            class:selected={activeView === view}
-            aria-pressed={activeView === view}
-            onclick={() => setView(view)}
-          >
-            {viewLabels[view]}
-          </button>
+          {#if view !== 'repertoire' || bandType === 'wind'}
+            <button
+              type="button"
+              class:selected={activeView === view}
+              aria-pressed={activeView === view}
+              onclick={() => setView(view)}
+            >
+              {viewLabels[view]}
+            </button>
+          {/if}
         {/each}
       </div>
       <button
@@ -1608,6 +1612,8 @@ import type {
         <p>{emptyStateBody}</p>
       </section>
     {/if}
+  {:else if activeView === 'repertoire'}
+    <RepertoireExplorer />
   {:else}
     <DataExplorer {dataset} {bandType} streamingResolver={findStreamingLinkForPiece} {eliteTestPieces} />
   {/if}

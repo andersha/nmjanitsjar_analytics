@@ -94,6 +94,7 @@ class WindRepDifficultyFetcher:
     def fetch_category_pieces(self) -> List[str]:
         """
         Fetch all piece URLs from the year's category page.
+        Handles pagination to retrieve all pieces across multiple pages.
         
         Returns:
             List of piece URLs (relative paths)
@@ -107,38 +108,67 @@ class WindRepDifficultyFetcher:
         
         console.print(f"[blue]🌐 Fetching category page for year {self.year}...[/blue]")
         
-        category_url = f"{self.BASE_URL}/Category:{self.year}"
+        all_piece_urls = []
+        current_url = f"{self.BASE_URL}/Category:{self.year}"
+        page_num = 1
         
         try:
-            response = self.session.get(category_url, timeout=15)
-            response.raise_for_status()
+            while current_url:
+                console.print(f"[dim]  Fetching page {page_num}...[/dim]")
+                
+                response = self.session.get(current_url, timeout=15)
+                response.raise_for_status()
+                
+                soup = BeautifulSoup(response.content, 'html.parser')
+                
+                # Find all piece links in the category
+                category_groups = soup.find_all('div', class_='mw-category-group')
+                page_pieces = 0
+                
+                for group in category_groups:
+                    links = group.find_all('a')
+                    for link in links:
+                        href = link.get('href')
+                        if href and href.startswith('/') and not href.startswith('/index.php'):
+                            # Filter out special pages
+                            if not any(x in href for x in ['/Category:', '/Special:', '/File:']):
+                                all_piece_urls.append(href)
+                                page_pieces += 1
+                
+                console.print(f"[dim]    Found {page_pieces} pieces on page {page_num}[/dim]")
+                
+                # Look for "next page" link
+                next_link = None
+                for link in soup.find_all('a'):
+                    if link.get_text().strip() == 'next page':
+                        href = link.get('href')
+                        if href:
+                            # Convert relative URL to absolute
+                            if href.startswith('/'):
+                                next_link = f"{self.BASE_URL}{href}"
+                            else:
+                                next_link = f"{self.BASE_URL}/{href}"
+                        break
+                
+                # Move to next page or stop
+                if next_link:
+                    current_url = next_link
+                    page_num += 1
+                    time.sleep(0.7)  # Rate limiting between pages
+                else:
+                    current_url = None
             
-            soup = BeautifulSoup(response.content, 'html.parser')
-            
-            # Find all piece links in the category
-            piece_urls = []
-            category_groups = soup.find_all('div', class_='mw-category-group')
-            
-            for group in category_groups:
-                links = group.find_all('a')
-                for link in links:
-                    href = link.get('href')
-                    if href and href.startswith('/') and not href.startswith('/index.php'):
-                        # Filter out special pages
-                        if not any(x in href for x in ['/Category:', '/Special:', '/File:']):
-                            piece_urls.append(href)
-            
-            console.print(f"[green]✓ Found {len(piece_urls)} pieces in category {self.year}[/green]")
+            console.print(f"[green]✓ Found {len(all_piece_urls)} pieces in category {self.year} ({page_num} page(s))[/green]")
             
             # Cache the results
-            self.cache[cache_key] = piece_urls
+            self.cache[cache_key] = all_piece_urls
             self._save_cache()
             
-            return piece_urls
+            return all_piece_urls
             
         except requests.RequestException as e:
             console.print(f"[red]✗ Failed to fetch category page: {e}[/red]")
-            return []
+            return all_piece_urls if all_piece_urls else []
     
     def get_piece_metadata(self, piece_url: str) -> Optional[Dict]:
         """
