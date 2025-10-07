@@ -155,6 +155,12 @@
   }
 
   onMount(async () => {
+    // Only run in browser (not during SSR build)
+    if (typeof window === 'undefined') {
+      loading = false;
+      return;
+    }
+
     try {
       const response = await fetch('/data/repertoire.json');
       if (!response.ok) {
