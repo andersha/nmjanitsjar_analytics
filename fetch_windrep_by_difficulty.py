@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """
-Fetch wind repertoire pieces from WindRep.org filtered by year and difficulty rating.
+Fetch wind repertoire pieces from WindRep.org filtered by year and optionally by difficulty rating.
 
 Usage:
     python fetch_windrep_by_difficulty.py --year 2024 --difficulty 3
     python fetch_windrep_by_difficulty.py --year 2023 --difficulty 5 --export grade5_2023.csv
+    python fetch_windrep_by_difficulty.py --year 2024  # All difficulties
     python fetch_windrep_by_difficulty.py --year 2024 --difficulty 1 --clear-cache
 """
 
 import sys
 from pathlib import Path
+from typing import Optional
 
 import click
 from rich.console import Console
@@ -32,8 +34,9 @@ console = Console()
 @click.option(
     '--difficulty',
     type=click.IntRange(1, 6),
-    required=True,
-    help='Difficulty level to filter by (1-6, corresponding to Roman numerals I-VI)'
+    required=False,
+    default=None,
+    help='Difficulty level to filter by (1-6, corresponding to Roman numerals I-VI). Omit to return all difficulties.'
 )
 @click.option(
     '--export',
@@ -46,14 +49,14 @@ console = Console()
     is_flag=True,
     help='Clear cached data before fetching'
 )
-def main(year: int, difficulty: int, export: str, clear_cache: bool):
+def main(year: int, difficulty: Optional[int], export: str, clear_cache: bool):
     """
-    Fetch wind repertoire pieces from WindRep.org filtered by year and difficulty.
+    Fetch wind repertoire pieces from WindRep.org filtered by year and optionally by difficulty.
     
     This script will:
     1. Fetch all pieces from the specified year's category page
     2. Extract metadata (title, composer, duration, difficulty) from each piece
-    3. Filter pieces by the specified difficulty level
+    3. Filter pieces by the specified difficulty level (if provided)
     4. Display results in a formatted table
     5. Optionally export to CSV
     """
@@ -71,10 +74,16 @@ def main(year: int, difficulty: int, export: str, clear_cache: bool):
         
         # Exit with appropriate status
         if pieces:
-            console.print(f"\n[bold green]✓ Found {len(pieces)} piece(s) with difficulty level {difficulty}[/bold green]")
+            if difficulty:
+                console.print(f"\n[bold green]✓ Found {len(pieces)} piece(s) with difficulty level {difficulty}[/bold green]")
+            else:
+                console.print(f"\n[bold green]✓ Found {len(pieces)} piece(s) for year {year}[/bold green]")
             sys.exit(0)
         else:
-            console.print(f"\n[yellow]⚠ No pieces found with difficulty level {difficulty} for year {year}[/yellow]")
+            if difficulty:
+                console.print(f"\n[yellow]⚠ No pieces found with difficulty level {difficulty} for year {year}[/yellow]")
+            else:
+                console.print(f"\n[yellow]⚠ No pieces found for year {year}[/yellow]")
             sys.exit(1)
             
     except Exception as e:

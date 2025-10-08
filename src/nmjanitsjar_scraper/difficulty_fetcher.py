@@ -40,7 +40,7 @@ class WindRepDifficultyFetcher:
     def __init__(
         self,
         year: int,
-        difficulty: int,
+        difficulty: Optional[int] = None,
         export_path: Optional[Path] = None,
         clear_cache: bool = False
     ):
@@ -49,13 +49,13 @@ class WindRepDifficultyFetcher:
         
         Args:
             year: Year to fetch pieces from
-            difficulty: Difficulty level (1-6)
+            difficulty: Optional difficulty level (1-6). If None, returns all pieces.
             export_path: Optional path to export CSV
             clear_cache: Whether to clear cache before fetching
         """
         self.year = year
         self.difficulty = difficulty
-        self.difficulty_roman = self.DIFFICULTY_MAP[difficulty]
+        self.difficulty_roman = self.DIFFICULTY_MAP[difficulty] if difficulty else None
         self.export_path = export_path
         
         # Setup session with proper headers
@@ -273,8 +273,13 @@ class WindRepDifficultyFetcher:
             pieces: List of piece metadata dictionaries
         
         Returns:
-            Filtered list containing only pieces with matching difficulty
+            Filtered list containing only pieces with matching difficulty.
+            If difficulty is None, returns all pieces.
         """
+        # If no difficulty specified, return all pieces
+        if self.difficulty is None:
+            return [piece for piece in pieces if piece]
+        
         filtered = []
         
         for piece in pieces:
@@ -291,11 +296,17 @@ class WindRepDifficultyFetcher:
             pieces: List of piece metadata to display
         """
         if not pieces:
-            console.print(f"\n[yellow]No pieces found with difficulty {self.difficulty_roman}[/yellow]")
+            if self.difficulty:
+                console.print(f"\n[yellow]No pieces found with difficulty {self.difficulty_roman}[/yellow]")
+            else:
+                console.print(f"\n[yellow]No pieces found for year {self.year}[/yellow]")
             return
         
         # Create table
-        table = Table(title=f"WindRep.org Pieces - Year {self.year}, Difficulty {self.difficulty_roman}")
+        if self.difficulty:
+            table = Table(title=f"WindRep.org Pieces - Year {self.year}, Difficulty {self.difficulty_roman}")
+        else:
+            table = Table(title=f"WindRep.org Pieces - Year {self.year}, All Difficulties")
         
         table.add_column("Title", style="cyan", no_wrap=False)
         table.add_column("Composer", style="magenta")
@@ -350,10 +361,13 @@ class WindRepDifficultyFetcher:
         Run the complete fetch, filter, and display workflow.
         
         Returns:
-            List of filtered pieces
+            List of filtered pieces (all pieces if difficulty is None)
         """
         console.print(f"\n[bold blue]🎵 WindRep Difficulty Fetcher[/bold blue]")
-        console.print(f"[dim]Year: {self.year}, Difficulty: {self.difficulty} ({self.difficulty_roman})[/dim]\n")
+        if self.difficulty:
+            console.print(f"[dim]Year: {self.year}, Difficulty: {self.difficulty} ({self.difficulty_roman})[/dim]\n")
+        else:
+            console.print(f"[dim]Year: {self.year}, All Difficulties[/dim]\n")
         
         # Step 1: Fetch all piece URLs from category page
         piece_urls = self.fetch_category_pieces()
@@ -374,7 +388,10 @@ class WindRepDifficultyFetcher:
         console.print(f"[green]✓ Successfully fetched metadata for {len(all_pieces)} pieces[/green]")
         
         # Step 3: Filter by difficulty
-        console.print(f"\n[blue]🔍 Filtering by difficulty {self.difficulty_roman}...[/blue]")
+        if self.difficulty:
+            console.print(f"\n[blue]🔍 Filtering by difficulty {self.difficulty_roman}...[/blue]")
+        else:
+            console.print(f"\n[blue]🔍 Processing all pieces...[/blue]")
         filtered_pieces = self.filter_by_difficulty(all_pieces)
         
         # Step 4: Display results

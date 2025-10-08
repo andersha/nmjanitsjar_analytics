@@ -111785,5 +111785,2832 @@
     "duration": "25:00",
     "difficulty": null,
     "url": "https://www.windrep.org/Octet,_Opus_156"
+  },
+  "category:1849": [
+    "/Konzertst%C3%BCck_(tr_Campbell)",
+    "/Konzertst%C3%BCck_for_Four_Horns",
+    "/Konzertst%C3%BCck_for_Four_Horns_(tr_Schaefer)",
+    "/La_Battaglia_di_Legnano",
+    "/Merry_Wives_of_Windsor,_The"
+  ],
+  "piece:/Konzertst%C3%BCck_(tr_Campbell)": {
+    "title": "Konzertstück (tr Campbell)",
+    "composer": "Robert Schumann (trans. Douglas Campbell)",
+    "duration": "19:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Konzertst%C3%BCck_(tr_Campbell)"
+  },
+  "piece:/Konzertst%C3%BCck_for_Four_Horns": {
+    "title": "Konzertstück for Four Horns",
+    "composer": "Robert Schumann (trans. Arthur Cohen)",
+    "duration": "19:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Konzertst%C3%BCck_for_Four_Horns"
+  },
+  "piece:/Konzertst%C3%BCck_for_Four_Horns_(tr_Schaefer)": {
+    "title": "Konzertstück for Four Horns (tr Schaefer)",
+    "composer": "Robert Schumann (trans. William A. Schaefer)",
+    "duration": "20:10",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Konzertst%C3%BCck_for_Four_Horns_(tr_Schaefer)"
+  },
+  "piece:/La_Battaglia_di_Legnano": {
+    "title": "La Battaglia di Legnano",
+    "composer": "Giuseppe Verdi (arr. Walter Kalischnig)",
+    "duration": "8:30",
+    "difficulty": null,
+    "url": "https://www.windrep.org/La_Battaglia_di_Legnano"
+  },
+  "piece:/Merry_Wives_of_Windsor,_The": {
+    "title": "Merry Wives of Windsor, The",
+    "composer": "Otto Nicolai (trans. Kenneth Singleton)",
+    "duration": "9:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Merry_Wives_of_Windsor,_The"
+  },
+  "category:1848": [
+    "/Chorale_Prelude:_All_Things_Bright_and_Beautiful",
+    "/Elsa%27s_feierlicher_Zug_zum_M%C3%BCnster_(tr_Nefs)",
+    "/Elsa%27s_Procession_to_the_Cathedral_(arr_Cherry)",
+    "/Elsa%27s_Procession_to_the_Cathedral_(tr_Bocook)",
+    "/Elsa%27s_Procession_to_the_Cathedral_(tr_Bourgeois)",
+    "/Elsa%27s_Procession_to_the_Cathedral_(tr_Cailliet)",
+    "/Elsa%27s_Procession_to_the_Cathedral_(tr_Votta)",
+    "/Les_Preludes_(arr_Hindsley)",
+    "/Lohengrin_(arr_Patterson)",
+    "/Lohengrin_(arr_Tamanini)",
+    "/Lohengrin:_Introduction_to_Act_III",
+    "/Once_in_Royal_David%E2%80%99s_City",
+    "/Prelude_to_Act_III_from_%22Lohengrin%22",
+    "/Prelude_to_Act_III_from_%22Lohengrin%22_(arr_Brand)",
+    "/Prelude_to_Act_III_from_%22Lohengrin%22_(arr._McAlister)",
+    "/Procession_to_the_Cathedral",
+    "/Radetzky_March",
+    "/Radetzky_March_(arr_Dunnigan)",
+    "/Radetzky_March_(arr_Foeller)",
+    "/Radetzky_March_(arr_Nefs)",
+    "/Radetzky_March_(arr_Oliver)",
+    "/Radetzky_March_(arr._Laurendeau)",
+    "/Radetzky_March_(arr._Williams)",
+    "/Radetzky_Marsch_(arr_Kliment)",
+    "/Radetzky_Marsch_(arr._Andraschek)",
+    "/Radetzky-Marsch_(arr._Rundel)",
+    "/Radetzky-Marsch_(arr._Villinger)",
+    "/Santa_Ana%27s_Retreat_from_Buena_Vista",
+    "/Simple_Gifts_(arr._Stanton)",
+    "/Simple_Gifts_(arr._Thurston)",
+    "/Simple_Gifts_(one_movement)",
+    "/Three_Revolutionary_Marches",
+    "/Variations_on_a_Merry_Tune",
+    "/Variations_on_a_Theme_by_Robert_Schumann_(Davis)"
+  ],
+  "piece:/Chorale_Prelude:_All_Things_Bright_and_Beautiful": {
+    "title": "Chorale Prelude: All Things Bright and Beautiful",
+    "composer": "Traditional (arr. Claude T. Smith)",
+    "duration": "2:00",
+    "difficulty": "II",
+    "url": "https://www.windrep.org/Chorale_Prelude:_All_Things_Bright_and_Beautiful"
+  },
+  "piece:/Elsa%27s_feierlicher_Zug_zum_M%C3%BCnster_(tr_Nefs)": {
+    "title": "Elsa's feierlicher Zug zum Münster (tr Nefs)",
+    "composer": "Richard Wagner (trans. Jacco Nefs)",
+    "duration": "7:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Elsa%27s_feierlicher_Zug_zum_M%C3%BCnster_(tr_Nefs)"
+  },
+  "piece:/Elsa%27s_Procession_to_the_Cathedral_(arr_Cherry)": {
+    "title": "Elsa's Procession to the Cathedral (arr Cherry)",
+    "composer": "Richard Wagner (trans. Gordon Cherry)",
+    "duration": "6:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Elsa%27s_Procession_to_the_Cathedral_(arr_Cherry)"
+  },
+  "piece:/Elsa%27s_Procession_to_the_Cathedral_(tr_Bocook)": {
+    "title": "Elsa's Procession to the Cathedral (tr Bocook)",
+    "composer": "Richard Wagner (trans. Jay Bocook)",
+    "duration": "2:40",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Elsa%27s_Procession_to_the_Cathedral_(tr_Bocook)"
+  },
+  "piece:/Elsa%27s_Procession_to_the_Cathedral_(tr_Bourgeois)": {
+    "title": "Elsa's Procession to the Cathedral (tr Bourgeois)",
+    "composer": "Richard Wagner (trans. John R. Bourgeois)",
+    "duration": "6:40",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Elsa%27s_Procession_to_the_Cathedral_(tr_Bourgeois)"
+  },
+  "piece:/Elsa%27s_Procession_to_the_Cathedral_(tr_Cailliet)": {
+    "title": "Elsa's Procession to the Cathedral (tr Cailliet)",
+    "composer": "Richard Wagner (trans. Lucien Cailliet)",
+    "duration": "6:35",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Elsa%27s_Procession_to_the_Cathedral_(tr_Cailliet)"
+  },
+  "piece:/Elsa%27s_Procession_to_the_Cathedral_(tr_Votta)": {
+    "title": "Elsa's Procession to the Cathedral (tr Votta)",
+    "composer": "Richard Wagner (trans. Michael Votta, Jr.)",
+    "duration": "6:55",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Elsa%27s_Procession_to_the_Cathedral_(tr_Votta)"
+  },
+  "piece:/Les_Preludes_(arr_Hindsley)": {
+    "title": "Les Preludes (arr Hindsley)",
+    "composer": "Jules Massenet (trans.Mark Hindsley)",
+    "duration": "14:20",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Les_Preludes_(arr_Hindsley)"
+  },
+  "piece:/Lohengrin_(arr_Patterson)": {
+    "title": "Lohengrin (arr Patterson)",
+    "composer": "Richard Wagner (trans. Donald Patterson)",
+    "duration": "3:55",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Lohengrin_(arr_Patterson)"
+  },
+  "piece:/Lohengrin_(arr_Tamanini)": {
+    "title": "Lohengrin (arr Tamanini)",
+    "composer": "Richard Wagner (trans. Marco Tamanini)",
+    "duration": "8:35",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Lohengrin_(arr_Tamanini)"
+  },
+  "piece:/Lohengrin:_Introduction_to_Act_III": {
+    "title": "Lohengrin: Introduction to Act III",
+    "composer": "Richard Wagner (arr. Drumm)",
+    "duration": "4:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Lohengrin:_Introduction_to_Act_III"
+  },
+  "piece:/Once_in_Royal_David%E2%80%99s_City": {
+    "title": "Once in Royal David’s City",
+    "composer": "Henry John Gauntlett (arr. Philip Sparke)",
+    "duration": "4:45",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Once_in_Royal_David%E2%80%99s_City"
+  },
+  "piece:/Prelude_to_Act_III_from_%22Lohengrin%22": {
+    "title": "Prelude to Act III from \"Lohengrin\"",
+    "composer": "Richard Wagner (trans. Hindsley)",
+    "duration": "3:10",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Prelude_to_Act_III_from_%22Lohengrin%22"
+  },
+  "piece:/Prelude_to_Act_III_from_%22Lohengrin%22_(arr_Brand)": {
+    "title": "Prelude to Act III from \"Lohengrin\" (arr Brand)",
+    "composer": "Richard Wagner (trans. Geoffrey Brand)",
+    "duration": "3:05",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Prelude_to_Act_III_from_%22Lohengrin%22_(arr_Brand)"
+  },
+  "piece:/Prelude_to_Act_III_from_%22Lohengrin%22_(arr._McAlister)": {
+    "title": "Prelude to Act III from \"Lohengrin\" (arr. McAlister)",
+    "composer": "Richard Wagner (arr. Clark McAlister and Alfred Reed)",
+    "duration": "3:00",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Prelude_to_Act_III_from_%22Lohengrin%22_(arr._McAlister)"
+  },
+  "piece:/Procession_to_the_Cathedral": {
+    "title": "Procession to the Cathedral",
+    "composer": "Richard Wagner (trans. Merlin Patterson)",
+    "duration": "6:55",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Procession_to_the_Cathedral"
+  },
+  "piece:/Radetzky_March": {
+    "title": "Radetzky March",
+    "composer": "Johann Strauss Sr. (arr. Alfred Reed)",
+    "duration": "3:10",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Radetzky_March"
+  },
+  "piece:/Radetzky_March_(arr_Dunnigan)": {
+    "title": "Radetzky March (arr Dunnigan)",
+    "composer": "Johann Strauss Sr.",
+    "duration": "2:55",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Radetzky_March_(arr_Dunnigan)"
+  },
+  "piece:/Radetzky_March_(arr_Foeller)": {
+    "title": "Radetzky March (arr Foeller)",
+    "composer": "Johann Strauss Sr. (arr. Foeller)",
+    "duration": "3:15",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Radetzky_March_(arr_Foeller)"
+  },
+  "piece:/Radetzky_March_(arr_Nefs)": {
+    "title": "Radetzky March (arr Nefs)",
+    "composer": "Johann Strauss Sr (trans. Jacco Nefs)",
+    "duration": "3:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Radetzky_March_(arr_Nefs)"
+  },
+  "piece:/Radetzky_March_(arr_Oliver)": {
+    "title": "Radetzky March (arr Oliver)",
+    "composer": "Johann Strauss Sr. (trans. and ed. Marc Oliver)",
+    "duration": "3:00",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Radetzky_March_(arr_Oliver)"
+  },
+  "piece:/Radetzky_March_(arr._Laurendeau)": {
+    "title": "Radetzky March (arr. Laurendeau)",
+    "composer": "Johann Strauss Sr. (arr. Louis-Philippe Laurendeau)",
+    "duration": "2:00",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Radetzky_March_(arr._Laurendeau)"
+  },
+  "piece:/Radetzky_March_(arr._Williams)": {
+    "title": "Radetzky March (arr. Williams)",
+    "composer": "Johann Strauss Sr. (arr. Peter Williams)",
+    "duration": "3:10",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Radetzky_March_(arr._Williams)"
+  },
+  "piece:/Radetzky_Marsch_(arr_Kliment)": {
+    "title": "Radetzky Marsch (arr Kliment)",
+    "composer": "Johann Strauss Sr  (arr. Kliment)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Radetzky_Marsch_(arr_Kliment)"
+  },
+  "piece:/Radetzky_Marsch_(arr._Andraschek)": {
+    "title": "Radetzky Marsch (arr. Andraschek)",
+    "composer": "Johann Strauss Sr. (arr. Siegmund Andraschek)",
+    "duration": "2:30",
+    "difficulty": "II",
+    "url": "https://www.windrep.org/Radetzky_Marsch_(arr._Andraschek)"
+  },
+  "piece:/Radetzky-Marsch_(arr._Rundel)": {
+    "title": "Radetzky-Marsch (arr. Rundel)",
+    "composer": "Johann Strauss Sr. (arr. Siegfried Rundel)",
+    "duration": "2:15",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Radetzky-Marsch_(arr._Rundel)"
+  },
+  "piece:/Radetzky-Marsch_(arr._Villinger)": {
+    "title": "Radetzky-Marsch (arr. Villinger)",
+    "composer": "Johann Strauss Sr. (trans. Max Villinger)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Radetzky-Marsch_(arr._Villinger)"
+  },
+  "piece:/Santa_Ana%27s_Retreat_from_Buena_Vista": {
+    "title": "Santa Ana's Retreat from Buena Vista",
+    "composer": "Stephen Foster  (arr. Robert Leist)",
+    "duration": "2:10",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Santa_Ana%27s_Retreat_from_Buena_Vista"
+  },
+  "piece:/Simple_Gifts_(arr._Stanton)": {
+    "title": "Simple Gifts (arr. Stanton)",
+    "composer": "Traditional Shaker hymn arranged by Scott Stanton",
+    "duration": "3:25",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Simple_Gifts_(arr._Stanton)"
+  },
+  "piece:/Simple_Gifts_(arr._Thurston)": {
+    "title": "Simple Gifts (arr. Thurston)",
+    "composer": "Folk song, arranged by Robert Thurston",
+    "duration": "2:30",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Simple_Gifts_(arr._Thurston)"
+  },
+  "piece:/Simple_Gifts_(one_movement)": {
+    "title": "Simple Gifts (one movement)",
+    "composer": "Frank Ticheli",
+    "duration": "3:30",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Simple_Gifts_(one_movement)"
+  },
+  "piece:/Three_Revolutionary_Marches": {
+    "title": "Three Revolutionary Marches",
+    "composer": "Bedřich Smetana  (arr. Vaclav Nelhybel)",
+    "duration": "8:05",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Three_Revolutionary_Marches"
+  },
+  "piece:/Variations_on_a_Merry_Tune": {
+    "title": "Variations on a Merry Tune",
+    "composer": "Pierre LaPlante",
+    "duration": "5:27",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Variations_on_a_Merry_Tune"
+  },
+  "piece:/Variations_on_a_Theme_by_Robert_Schumann_(Davis)": {
+    "title": "Variations on a Theme by Robert Schumann (Davis)",
+    "composer": "William Mac Davis",
+    "duration": "4:30",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Variations_on_a_Theme_by_Robert_Schumann_(Davis)"
+  },
+  "category:1847": [
+    "/Ballabili",
+    "/Cantique_de_No%C3%ABl",
+    "/Friska",
+    "/Holy_Night,_Silent_Night",
+    "/O_Holy_Night",
+    "/O_Holy_Night_(arr_Miller)",
+    "/O_Holy_Night_(arr_Morris)",
+    "/O_Holy_Night_(arr._Giroux)"
+  ],
+  "piece:/Ballabili": {
+    "title": "Ballabili",
+    "composer": "Giuseppe Verdi (trans. Wil van der Beek)",
+    "duration": "2:15",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Ballabili"
+  },
+  "piece:/Cantique_de_No%C3%ABl": {
+    "title": "Cantique de Noël",
+    "composer": "Adolphe Adam (arr. Chip Davis and Robert Longfield)",
+    "duration": "5:10",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Cantique_de_No%C3%ABl"
+  },
+  "piece:/Friska": {
+    "title": "Friska",
+    "composer": "Franz Liszt (arr. Andrew Glover)",
+    "duration": "5:50",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Friska"
+  },
+  "piece:/Holy_Night,_Silent_Night": {
+    "title": "Holy Night, Silent Night",
+    "composer": "Adolphe Adam and Franz Gruber (arr. Clifton Jameson Jones)",
+    "duration": "3:30",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Holy_Night,_Silent_Night"
+  },
+  "piece:/O_Holy_Night": {
+    "title": "O Holy Night",
+    "composer": "Adolphe Adam (arr. Calvin Custer)",
+    "duration": "5:50",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/O_Holy_Night"
+  },
+  "piece:/O_Holy_Night_(arr_Miller)": {
+    "title": "O Holy Night (arr Miller)",
+    "composer": "Adolphe Adam (arr. David P Miller)",
+    "duration": "5:20",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/O_Holy_Night_(arr_Miller)"
+  },
+  "piece:/O_Holy_Night_(arr_Morris)": {
+    "title": "O Holy Night (arr Morris)",
+    "composer": "Adolphe Adam (arr. Albert Morris)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/O_Holy_Night_(arr_Morris)"
+  },
+  "piece:/O_Holy_Night_(arr._Giroux)": {
+    "title": "O Holy Night (arr. Giroux)",
+    "composer": "Adolphe Adam (arr. Julie Giroux)",
+    "duration": "4:35",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/O_Holy_Night_(arr._Giroux)"
+  },
+  "category:1846": [
+    "/Le_Bananier",
+    "/Russlan_and_Ludmilla_(tr_Rhea)"
+  ],
+  "piece:/Le_Bananier": {
+    "title": "Le Bananier",
+    "composer": "Louis Moreau Gottschalk (arr. Steven Paxton)",
+    "duration": null,
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Le_Bananier"
+  },
+  "piece:/Russlan_and_Ludmilla_(tr_Rhea)": {
+    "title": "Russlan and Ludmilla (tr Rhea)",
+    "composer": "Mikhail Glinka (trans. Timothy Rhea)",
+    "duration": "5:45",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Russlan_and_Ludmilla_(tr_Rhea)"
+  },
+  "category:1845": [
+    "/Bamboula",
+    "/Dichter_und_Bauer",
+    "/Dichter_und_Bauer_(arr._Niese)",
+    "/Fest_Marsch_from_%22Tannh%C3%A4user%22",
+    "/Pilgrim_Chorus",
+    "/Pilgrim%27s_Chorus",
+    "/Pilgrim%27s_Chorus_(arr_Musser)_(ed_Rapp)",
+    "/Pilgrim%27s_Chorus_(arr_Reed)",
+    "/Poet_and_Peasant",
+    "/Poet_and_Peasant_Overture",
+    "/Poet_and_Peasant_Overture_(arr_Meyrelles)",
+    "/Tannhauser",
+    "/Tannh%C3%A4user_Grand_March_(tr_McAlister)",
+    "/Tannh%C3%A4user_Overture_(arr_Winterbottom)",
+    "/Tannh%C3%A4user_Overture_(tr_Safranek)",
+    "/Themes_from_%22Poet_and_Peasant_Overture%22",
+    "/Yankee_Doodle_(Vieuxtemps)"
+  ],
+  "piece:/Bamboula": {
+    "title": "Bamboula",
+    "composer": "Louis Moreau Gottschalk (arr. Di Scala)",
+    "duration": null,
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Bamboula"
+  },
+  "piece:/Dichter_und_Bauer": {
+    "title": "Dichter und Bauer",
+    "composer": "Franz von Suppé (trans. Jacco Nefs)",
+    "duration": "9:00",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Dichter_und_Bauer"
+  },
+  "piece:/Dichter_und_Bauer_(arr._Niese)": {
+    "title": "Dichter und Bauer (arr. Niese)",
+    "composer": "Franz von Suppé (trans. Roger Niese)",
+    "duration": "10:30",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Dichter_und_Bauer_(arr._Niese)"
+  },
+  "piece:/Fest_Marsch_from_%22Tannh%C3%A4user%22": {
+    "title": "Fest Marsch from \"Tannhäuser\"",
+    "composer": "Richard Wagner (trans. Robert Rumbelow)",
+    "duration": "6:15",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Fest_Marsch_from_%22Tannh%C3%A4user%22"
+  },
+  "piece:/Pilgrim_Chorus": {
+    "title": "Pilgrim Chorus",
+    "composer": "Richard Wagner (arr. Mayhew Lake)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Pilgrim_Chorus"
+  },
+  "piece:/Pilgrim%27s_Chorus": {
+    "title": "Pilgrim's Chorus",
+    "composer": "Richard Wagner (arr. Ron Geese)",
+    "duration": "2:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Pilgrim%27s_Chorus"
+  },
+  "piece:/Pilgrim%27s_Chorus_(arr_Musser)_(ed_Rapp)": {
+    "title": "Pilgrim's Chorus (arr Musser) (ed Rapp)",
+    "composer": "Richard Wagner (arr. Clair Omar Musser; ed. Willis M. Rapp)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Pilgrim%27s_Chorus_(arr_Musser)_(ed_Rapp)"
+  },
+  "piece:/Pilgrim%27s_Chorus_(arr_Reed)": {
+    "title": "Pilgrim's Chorus (arr Reed)",
+    "composer": "Richard Wagner (arr. Alfred Reed)",
+    "duration": "3:50",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Pilgrim%27s_Chorus_(arr_Reed)"
+  },
+  "piece:/Poet_and_Peasant": {
+    "title": "Poet and Peasant",
+    "composer": "Franz von Suppé   (arr. H.R. Kent)",
+    "duration": null,
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Poet_and_Peasant"
+  },
+  "piece:/Poet_and_Peasant_Overture": {
+    "title": "Poet and Peasant Overture",
+    "composer": "Franz von Suppé   (trans. Henry Fillmore)",
+    "duration": "10:30",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Poet_and_Peasant_Overture"
+  },
+  "piece:/Poet_and_Peasant_Overture_(arr_Meyrelles)": {
+    "title": "Poet and Peasant Overture (arr Meyrelles)",
+    "composer": "Franz von Suppé   (arr. MC Meyrelles; rev. Safranek)",
+    "duration": "10:30",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Poet_and_Peasant_Overture_(arr_Meyrelles)"
+  },
+  "piece:/Tannhauser": {
+    "title": "Tannhauser",
+    "composer": "Richard Wagner (arr. Mayhew Lake)",
+    "duration": "7:05",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Tannhauser"
+  },
+  "piece:/Tannh%C3%A4user_Grand_March_(tr_McAlister)": {
+    "title": "Tannhäuser Grand March (tr McAlister)",
+    "composer": "Richard Wagner (trans. Clark McAlister; ed. Alfred Reed)",
+    "duration": "6:30",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Tannh%C3%A4user_Grand_March_(tr_McAlister)"
+  },
+  "piece:/Tannh%C3%A4user_Overture_(arr_Winterbottom)": {
+    "title": "Tannhäuser Overture (arr Winterbottom)",
+    "composer": "Richard Wagner (arr. Frank Winterbottom)",
+    "duration": "14:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Tannh%C3%A4user_Overture_(arr_Winterbottom)"
+  },
+  "piece:/Tannh%C3%A4user_Overture_(tr_Safranek)": {
+    "title": "Tannhäuser Overture (tr Safranek)",
+    "composer": "Richard Wagner (arr. V F Safranek)",
+    "duration": "15:00",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Tannh%C3%A4user_Overture_(tr_Safranek)"
+  },
+  "piece:/Themes_from_%22Poet_and_Peasant_Overture%22": {
+    "title": "Themes from \"Poet and Peasant Overture\"",
+    "composer": "Franz von Suppé   (ed. and arr. James Mahaffey)",
+    "duration": "5:25",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Themes_from_%22Poet_and_Peasant_Overture%22"
+  },
+  "piece:/Yankee_Doodle_(Vieuxtemps)": {
+    "title": "Yankee Doodle (Vieuxtemps)",
+    "composer": "Henri Vieuxtemps (arr. Stephen Bulla)",
+    "duration": "5:20",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Yankee_Doodle_(Vieuxtemps)"
+  },
+  "category:1844": [
+    "/Hunyadi_Indulo",
+    "/Le_Corsaire_(tr_Schuller)",
+    "/Morning,_Noon_and_Night_in_Vienna",
+    "/Morning,_Noon_and_Night_in_Vienna_(arr_Foster)",
+    "/Morning,_Noon_and_Night_in_Vienna_(arr_Tobani)",
+    "/Precious_Lord,_Take_My_Hand",
+    "/Precious_Lord,_Take_My_Hand_(arr._Smith)",
+    "/Trauersinfonie_(ed_Votta-Boyd)",
+    "/Trauersinfonie_(tr_Leidzen)"
+  ],
+  "piece:/Hunyadi_Indulo": {
+    "title": "Hunyadi Indulo",
+    "composer": "Ferenc Erkel (edited by Brian Hughes)",
+    "duration": "2:30",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Hunyadi_Indulo"
+  },
+  "piece:/Le_Corsaire_(tr_Schuller)": {
+    "title": "Le Corsaire (tr Schuller)",
+    "composer": "Hector Berlioz  (trans. Gunther Schuller)",
+    "duration": "8:40",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Le_Corsaire_(tr_Schuller)"
+  },
+  "piece:/Morning,_Noon_and_Night_in_Vienna": {
+    "title": "Morning, Noon and Night in Vienna",
+    "composer": "Franz von Suppé (arr. Singleton)",
+    "duration": "8:10",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Morning,_Noon_and_Night_in_Vienna"
+  },
+  "piece:/Morning,_Noon_and_Night_in_Vienna_(arr_Foster)": {
+    "title": "Morning, Noon and Night in Vienna (arr Foster)",
+    "composer": "Franz von Suppé (arr. Henry Fillmore; ed. Robert E Foster)",
+    "duration": "8:05",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Morning,_Noon_and_Night_in_Vienna_(arr_Foster)"
+  },
+  "piece:/Morning,_Noon_and_Night_in_Vienna_(arr_Tobani)": {
+    "title": "Morning, Noon and Night in Vienna (arr Tobani)",
+    "composer": "Franz von Suppé  (trans. Theodore Moses Tobani)",
+    "duration": "8:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Morning,_Noon_and_Night_in_Vienna_(arr_Tobani)"
+  },
+  "piece:/Precious_Lord,_Take_My_Hand": {
+    "title": "Precious Lord, Take My Hand",
+    "composer": "Thomas A. Dorsey (setting Randall Standridge)",
+    "duration": "3:20",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Precious_Lord,_Take_My_Hand"
+  },
+  "piece:/Precious_Lord,_Take_My_Hand_(arr._Smith)": {
+    "title": "Precious Lord, Take My Hand (arr. Smith)",
+    "composer": "Thomas A. Dorsey (setting Robert W Smith)",
+    "duration": "2:35",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Precious_Lord,_Take_My_Hand_(arr._Smith)"
+  },
+  "piece:/Trauersinfonie_(ed_Votta-Boyd)": {
+    "title": "Trauersinfonie (ed Votta-Boyd)",
+    "composer": "Richard Wagner (ed. Michael Votta and Boyd)",
+    "duration": "6:20",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Trauersinfonie_(ed_Votta-Boyd)"
+  },
+  "piece:/Trauersinfonie_(tr_Leidzen)": {
+    "title": "Trauersinfonie (tr Leidzen)",
+    "composer": "Richard Wagner (trans. Erik Leidzén)",
+    "duration": "6:15",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Trauersinfonie_(tr_Leidzen)"
+  },
+  "category:1843": [
+    "/Columbia,_the_Gem_of_the_Ocean"
+  ],
+  "piece:/Columbia,_the_Gem_of_the_Ocean": {
+    "title": "Columbia, the Gem of the Ocean",
+    "composer": "David T. Shaw",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Columbia,_the_Gem_of_the_Ocean"
+  },
+  "category:1842": [
+    "/Nabucco_Overture",
+    "/Nabucco_Overture_(arr._Singleton)",
+    "/Notturno_(arr._Hautvast)",
+    "/Overture_to_Rienzi",
+    "/Russlan_and_Ludmilla",
+    "/Selections_from_%22A_Midsummer_Night%27s_Dream%22"
+  ],
+  "piece:/Nabucco_Overture": {
+    "title": "Nabucco Overture",
+    "composer": "Giuseppe Verdi (trans. Lucien Cailliet)",
+    "duration": "8:05",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Nabucco_Overture"
+  },
+  "piece:/Nabucco_Overture_(arr._Singleton)": {
+    "title": "Nabucco Overture (arr. Singleton)",
+    "composer": "Giuseppe Verdi (trans. Kenneth Singleton)",
+    "duration": "8:00",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Nabucco_Overture_(arr._Singleton)"
+  },
+  "piece:/Notturno_(arr._Hautvast)": {
+    "title": "Notturno (arr. Hautvast)",
+    "composer": "Felix Mendelssohn-Bartholdy (arr. Willy Hautvast)",
+    "duration": "4:40",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Notturno_(arr._Hautvast)"
+  },
+  "piece:/Overture_to_Rienzi": {
+    "title": "Overture to Rienzi",
+    "composer": "Richard Wagner (arr. Victor J. Grabel)",
+    "duration": "11:15",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Overture_to_Rienzi"
+  },
+  "piece:/Russlan_and_Ludmilla": {
+    "title": "Russlan and Ludmilla",
+    "composer": "Mikhail Glinka (arr. Mark Hindsley)",
+    "duration": "5:45",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Russlan_and_Ludmilla"
+  },
+  "piece:/Selections_from_%22A_Midsummer_Night%27s_Dream%22": {
+    "title": "Selections from \"A Midsummer Night's Dream\"",
+    "composer": "Felix Mendelssohn-Bartholdy (arr. Andreas Tarkmann)",
+    "duration": "22:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Selections_from_%22A_Midsummer_Night%27s_Dream%22"
+  },
+  "category:1840": [
+    "/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale",
+    "/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale_(arr_Whitwell)",
+    "/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale_(ed._Dondeyne)",
+    "/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale_(ed._Elkus)",
+    "/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale_(tr_Inkster)",
+    "/Louisina_Polka",
+    "/Tippecanoe_Quickstep"
+  ],
+  "piece:/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale": {
+    "title": "Grande Symphonie Funèbre et Triomphale",
+    "composer": "Hector Berlioz",
+    "duration": "30:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale"
+  },
+  "piece:/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale_(arr_Whitwell)": {
+    "title": "Grande Symphonie Funèbre et Triomphale (arr Whitwell)",
+    "composer": "Hector Berlioz (arr. David Whitwell)",
+    "duration": "25:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale_(arr_Whitwell)"
+  },
+  "piece:/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale_(ed._Dondeyne)": {
+    "title": "Grande Symphonie Funèbre et Triomphale (ed. Dondeyne)",
+    "composer": "Hector Berlioz (arr. Désiré Dondeyne)",
+    "duration": "30:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale_(ed._Dondeyne)"
+  },
+  "piece:/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale_(ed._Elkus)": {
+    "title": "Grande Symphonie Funèbre et Triomphale (ed. Elkus)",
+    "composer": "Hector Berlioz (ed. Jonathan Elkus)",
+    "duration": "30:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale_(ed._Elkus)"
+  },
+  "piece:/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale_(tr_Inkster)": {
+    "title": "Grande Symphonie Funèbre et Triomphale (tr Inkster)",
+    "composer": "Hector Berlioz (arr. Matthew Inkster)",
+    "duration": "20:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Grande_Symphonie_Fun%C3%A8bre_et_Triomphale_(tr_Inkster)"
+  },
+  "piece:/Louisina_Polka": {
+    "title": "Louisina Polka",
+    "composer": "Bedřich Smetana (arr. Yo Kitano)",
+    "duration": "3:15",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Louisina_Polka"
+  },
+  "piece:/Tippecanoe_Quickstep": {
+    "title": "Tippecanoe Quickstep",
+    "composer": "Henry Schmidt (arr. Jonathan Elkus)",
+    "duration": "3:30",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Tippecanoe_Quickstep"
+  },
+  "category:1839": [
+    "/Overture_for_Band_(Mendelssohn)"
+  ],
+  "piece:/Overture_for_Band_(Mendelssohn)": {
+    "title": "Overture for Band (Mendelssohn)",
+    "composer": "Felix Mendelssohn-Bartholdy   (adapt. Felix Greissle)",
+    "duration": "9:30",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Overture_for_Band_(Mendelssohn)"
+  },
+  "category:1838": [
+    "/Grand_Galop_Chromatique_(arr._Knox)",
+    "/Military_Polonaise",
+    "/Roman_Carnival_Overture",
+    "/Roman_Carnival_Overture_(arr_Safranek)",
+    "/Roman_Carnival_Overture_(tr_Patterson)"
+  ],
+  "piece:/Grand_Galop_Chromatique_(arr._Knox)": {
+    "title": "Grand Galop Chromatique (arr. Knox)",
+    "composer": "Franz Liszt (trans. Thomas Knox)",
+    "duration": "3:20",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Grand_Galop_Chromatique_(arr._Knox)"
+  },
+  "piece:/Military_Polonaise": {
+    "title": "Military Polonaise",
+    "composer": "Frédéric Chopin (adapt. &amp; arr. L. C. Harnsberger)",
+    "duration": "3:45",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Military_Polonaise"
+  },
+  "piece:/Roman_Carnival_Overture": {
+    "title": "Roman Carnival Overture",
+    "composer": "Hector Berlioz  (arr. Kenneth Singleton)",
+    "duration": "8:25",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Roman_Carnival_Overture"
+  },
+  "piece:/Roman_Carnival_Overture_(arr_Safranek)": {
+    "title": "Roman Carnival Overture (arr Safranek)",
+    "composer": "Hector Berlioz (arr. V.F. Safranek)",
+    "duration": "9:05",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Roman_Carnival_Overture_(arr_Safranek)"
+  },
+  "piece:/Roman_Carnival_Overture_(tr_Patterson)": {
+    "title": "Roman Carnival Overture (tr Patterson)",
+    "composer": "Hector Berlioz (trans. Merlin Patterson)",
+    "duration": "8:40",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Roman_Carnival_Overture_(tr_Patterson)"
+  },
+  "category:1837": [
+    "/Cachucha-Galopp",
+    "/Concertino_for_Trombone_and_Band",
+    "/Concertino_for_Trombone_and_Band_(arr._Ring)",
+    "/Holzschuhtanz",
+    "/Holzschuhtanz_(arr._Hautvast)",
+    "/Le_Domino_Noir"
+  ],
+  "piece:/Cachucha-Galopp": {
+    "title": "Cachucha-Galopp",
+    "composer": "Johann Strauss Sr. (arr. Wil van der Beek)",
+    "duration": "1:55",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Cachucha-Galopp"
+  },
+  "piece:/Concertino_for_Trombone_and_Band": {
+    "title": "Concertino for Trombone and Band",
+    "composer": "Ferdinand David (arr. Charles T. Yeago)",
+    "duration": "13:53",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Concertino_for_Trombone_and_Band"
+  },
+  "piece:/Concertino_for_Trombone_and_Band_(arr._Ring)": {
+    "title": "Concertino for Trombone and Band (arr. Ring)",
+    "composer": "Ferdinand David (trans. Gordon Ring)",
+    "duration": "13:50",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Concertino_for_Trombone_and_Band_(arr._Ring)"
+  },
+  "piece:/Holzschuhtanz": {
+    "title": "Holzschuhtanz",
+    "composer": "Albert Lortzing (arr. Otto Wagner)",
+    "duration": "5:25",
+    "difficulty": "II",
+    "url": "https://www.windrep.org/Holzschuhtanz"
+  },
+  "piece:/Holzschuhtanz_(arr._Hautvast)": {
+    "title": "Holzschuhtanz (arr. Hautvast)",
+    "composer": "Albert Lortzing (arr. Willy Hautvast)",
+    "duration": "6:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Holzschuhtanz_(arr._Hautvast)"
+  },
+  "piece:/Le_Domino_Noir": {
+    "title": "Le Domino Noir",
+    "composer": "Daniel Auber (arr. Winterbottom)",
+    "duration": null,
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Le_Domino_Noir"
+  },
+  "category:1836": [
+    "/Three_Preludes"
+  ],
+  "piece:/Three_Preludes": {
+    "title": "Three Preludes",
+    "composer": "Anton Bruckner (arr. Timothy Broege)",
+    "duration": "6:15",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Three_Preludes"
+  },
+  "category:1835": [
+    "/Amazing_Grace_(arr_Edmondson)",
+    "/Amazing_Grace_(arr_Miller)",
+    "/Amazing_Grace_(Dawson)",
+    "/Amazing_Grace_(Henderson/Coletti)",
+    "/Amazing_Grace_(Henderson/Murtha)",
+    "/Amazing_Grace_(Himes)",
+    "/Amazing_Grace_(O%27Loughlin)",
+    "/Amazing_Grace_(set_Bulla)",
+    "/Amazing_Grace_(Ticheli)",
+    "/Amazing_Grace_(Ticheli)_(flex)",
+    "/Bright_Shing_as_the_Sun",
+    "/La_Danza",
+    "/Lead_On,_O_King_Eternal",
+    "/Lone,_Wild_Bird",
+    "/Soir%C3%A9es_musicales",
+    "/Symphonic_Variations_on_%22Amazing_Grace%22"
+  ],
+  "piece:/Amazing_Grace_(arr_Edmondson)": {
+    "title": "Amazing Grace (arr Edmondson)",
+    "composer": "Traditional, set by  John Edmondson",
+    "duration": "3:00",
+    "difficulty": "II",
+    "url": "https://www.windrep.org/Amazing_Grace_(arr_Edmondson)"
+  },
+  "piece:/Amazing_Grace_(arr_Miller)": {
+    "title": "Amazing Grace (arr Miller)",
+    "composer": "Traditional, set by  David P Miller",
+    "duration": "2:36",
+    "difficulty": "II",
+    "url": "https://www.windrep.org/Amazing_Grace_(arr_Miller)"
+  },
+  "piece:/Amazing_Grace_(Dawson)": {
+    "title": "Amazing Grace (Dawson)",
+    "composer": "Traditional, set by Jay Dawson",
+    "duration": "4:20",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Amazing_Grace_(Dawson)"
+  },
+  "piece:/Amazing_Grace_(Henderson/Coletti)": {
+    "title": "Amazing Grace (Henderson/Coletti)",
+    "composer": "Traditional, set by Luther Henderson; adapt. Chris Coletti",
+    "duration": "4:05",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Amazing_Grace_(Henderson/Coletti)"
+  },
+  "piece:/Amazing_Grace_(Henderson/Murtha)": {
+    "title": "Amazing Grace (Henderson/Murtha)",
+    "composer": "Traditional, set by Luther Henderson; adapt. Paul Murtha",
+    "duration": "4:05",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Amazing_Grace_(Henderson/Murtha)"
+  },
+  "piece:/Amazing_Grace_(Himes)": {
+    "title": "Amazing Grace (Himes)",
+    "composer": "Traditional, set by William Himes",
+    "duration": "3:10",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Amazing_Grace_(Himes)"
+  },
+  "piece:/Amazing_Grace_(O%27Loughlin)": {
+    "title": "Amazing Grace (O'Loughlin)",
+    "composer": "Traditional, set by Sean O'Loughlin",
+    "duration": "4:10",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Amazing_Grace_(O%27Loughlin)"
+  },
+  "piece:/Amazing_Grace_(set_Bulla)": {
+    "title": "Amazing Grace (set Bulla)",
+    "composer": "Traditional, setting by Stephen Bulla",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Amazing_Grace_(set_Bulla)"
+  },
+  "piece:/Amazing_Grace_(Ticheli)": {
+    "title": "Amazing Grace (Ticheli)",
+    "composer": "Traditional, set by Frank Ticheli",
+    "duration": "4:55",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Amazing_Grace_(Ticheli)"
+  },
+  "piece:/Amazing_Grace_(Ticheli)_(flex)": {
+    "title": "Amazing Grace (Ticheli) (flex)",
+    "composer": "Traditional, set by Frank Ticheli",
+    "duration": "4:55",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Amazing_Grace_(Ticheli)_(flex)"
+  },
+  "piece:/Bright_Shing_as_the_Sun": {
+    "title": "Bright Shing as the Sun",
+    "composer": "John Newton (arr. John Prescott)",
+    "duration": "5:45",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Bright_Shing_as_the_Sun"
+  },
+  "piece:/La_Danza": {
+    "title": "La Danza",
+    "composer": "Gioacchino Rossini  (trans. Frank Erickson)",
+    "duration": null,
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/La_Danza"
+  },
+  "piece:/Lead_On,_O_King_Eternal": {
+    "title": "Lead On, O King Eternal",
+    "composer": "Hymn arranged by James Swearingen",
+    "duration": "3:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Lead_On,_O_King_Eternal"
+  },
+  "piece:/Lone,_Wild_Bird": {
+    "title": "Lone, Wild Bird",
+    "composer": "William Walker (arr. Brian Balmages)",
+    "duration": "2:45",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Lone,_Wild_Bird"
+  },
+  "piece:/Soir%C3%A9es_musicales": {
+    "title": "Soirées musicales",
+    "composer": "Gioacchino Rossini (arr. Benjamin Britten and T.C. Brown)",
+    "duration": "11:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Soir%C3%A9es_musicales"
+  },
+  "piece:/Symphonic_Variations_on_%22Amazing_Grace%22": {
+    "title": "Symphonic Variations on \"Amazing Grace\"",
+    "composer": "Claude T. Smith",
+    "duration": "5:45",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Symphonic_Variations_on_%22Amazing_Grace%22"
+  },
+  "category:1833": [
+    "/Aria_di_Chiesa",
+    "/I_Saw_Three_Ships",
+    "/Konzertstuck_No._1_in_F_minor",
+    "/Konzertstuck_No._1_in_F_minor_(tr._Mooren)"
+  ],
+  "piece:/Aria_di_Chiesa": {
+    "title": "Aria di Chiesa",
+    "composer": "Alessandro Stradella (trans. Thomas Fraschillo)",
+    "duration": "4:20",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Aria_di_Chiesa"
+  },
+  "piece:/I_Saw_Three_Ships": {
+    "title": "I Saw Three Ships",
+    "composer": "Carol arranged by Larry Kerchner",
+    "duration": "1:50",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/I_Saw_Three_Ships"
+  },
+  "piece:/Konzertstuck_No._1_in_F_minor": {
+    "title": "Konzertstuck No. 1 in F minor",
+    "composer": "Felix Mendelssohn-Bartholdy (trans. Thomas Knox)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Konzertstuck_No._1_in_F_minor"
+  },
+  "piece:/Konzertstuck_No._1_in_F_minor_(tr._Mooren)": {
+    "title": "Konzertstuck No. 1 in F minor (tr. Mooren)",
+    "composer": "Felix Mendelssohn-Bartholdy  (trans. Geert Mooren)",
+    "duration": "8:45",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Konzertstuck_No._1_in_F_minor_(tr._Mooren)"
+  },
+  "category:1832": [
+    "/Chopin_Melody",
+    "/Dirge",
+    "/Fingal%27s_Cave",
+    "/Fingal%27s_Cave_Overture_(tr_Seredy)",
+    "/Fingal%27s_Cave_Overture_(tr_Winterbottom)"
+  ],
+  "piece:/Chopin_Melody": {
+    "title": "Chopin Melody",
+    "composer": "Frédéric Chopin (arr. Merle J. Isaac)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Chopin_Melody"
+  },
+  "piece:/Dirge": {
+    "title": "Dirge",
+    "composer": "Francis Johnson (arr. Jay Krush)",
+    "duration": "2:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Dirge"
+  },
+  "piece:/Fingal%27s_Cave": {
+    "title": "Fingal's Cave",
+    "composer": "Felix Mendelssohn-Bartholdy (trans. James Mahaffey)",
+    "duration": "3:30",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Fingal%27s_Cave"
+  },
+  "piece:/Fingal%27s_Cave_Overture_(tr_Seredy)": {
+    "title": "Fingal's Cave Overture (tr Seredy)",
+    "composer": "Felix Mendelssohn-Bartholdy (trans. Julius S. Seredy)",
+    "duration": "8:55",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Fingal%27s_Cave_Overture_(tr_Seredy)"
+  },
+  "piece:/Fingal%27s_Cave_Overture_(tr_Winterbottom)": {
+    "title": "Fingal's Cave Overture (tr Winterbottom)",
+    "composer": "Felix Mendelssohn-Bartholdy (trans. Frank Winterbottom)",
+    "duration": "10:00",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Fingal%27s_Cave_Overture_(tr_Winterbottom)"
+  },
+  "category:1831": [
+    "/America_(arr._Smith)",
+    "/Concertpiece_No_2",
+    "/Norma",
+    "/Norma_Overture_(arr_Falcone)",
+    "/Zampa_Overture_(arr_Beek)",
+    "/Zampa_Overture_(arr_Safranek)"
+  ],
+  "piece:/America_(arr._Smith)": {
+    "title": "America (arr. Smith)",
+    "composer": "Traditional (arr. Robert W. Smith and Susan L. Smith)",
+    "duration": "3:05",
+    "difficulty": "I",
+    "url": "https://www.windrep.org/America_(arr._Smith)"
+  },
+  "piece:/Concertpiece_No_2": {
+    "title": "Concertpiece No 2",
+    "composer": "Felix Mendelssohn-Bartholdy  (arr. Harry Gee)",
+    "duration": "10:00",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Concertpiece_No_2"
+  },
+  "piece:/Norma": {
+    "title": "Norma",
+    "composer": "Vincenzo Bellini (arr. Jean-Baptiste Arban and  John Laverty)",
+    "duration": "7:05",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Norma"
+  },
+  "piece:/Norma_Overture_(arr_Falcone)": {
+    "title": "Norma Overture (arr Falcone)",
+    "composer": "Vincenzo Bellini (arr. Leonard Falcone)",
+    "duration": "7:00",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Norma_Overture_(arr_Falcone)"
+  },
+  "piece:/Zampa_Overture_(arr_Beek)": {
+    "title": "Zampa Overture (arr Beek)",
+    "composer": "Ferdinand Hérold (arr. Wil van der Beek)",
+    "duration": "8:10",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Zampa_Overture_(arr_Beek)"
+  },
+  "piece:/Zampa_Overture_(arr_Safranek)": {
+    "title": "Zampa Overture (arr Safranek)",
+    "composer": "Ferdinand Hérold (arr. V.F. Safranek)",
+    "duration": "8:00",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Zampa_Overture_(arr_Safranek)"
+  },
+  "category:1830": [
+    "/Dream_of_a_Witches%27_Sabbath_(tr_Patterson)",
+    "/Dream_of_a_Witches%27_Sabbath_from_%22Symphonie_Fantastique%22",
+    "/Fra_Diavolo",
+    "/March_to_the_Scaffold_(tr_Leidz%C3%A9n)",
+    "/March_to_the_Scaffold_from_%22Symphonie_Fantastique%22_(tr_Rogers)",
+    "/Suite_from_%22Symphonie_Fantastique%22",
+    "/Symphonie_Fantastique_(arr._Par%C3%A8s)",
+    "/Un_Bal"
+  ],
+  "piece:/Dream_of_a_Witches%27_Sabbath_(tr_Patterson)": {
+    "title": "Dream of a Witches' Sabbath (tr Patterson)",
+    "composer": "Hector Berlioz  (trans. Merlin Patterson)",
+    "duration": "10:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Dream_of_a_Witches%27_Sabbath_(tr_Patterson)"
+  },
+  "piece:/Dream_of_a_Witches%27_Sabbath_from_%22Symphonie_Fantastique%22": {
+    "title": "Dream of a Witches' Sabbath from \"Symphonie Fantastique\"",
+    "composer": "Hector Berlioz  (trans. R Mark Rogers)",
+    "duration": "11:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Dream_of_a_Witches%27_Sabbath_from_%22Symphonie_Fantastique%22"
+  },
+  "piece:/Fra_Diavolo": {
+    "title": "Fra Diavolo",
+    "composer": "Daniel Auber (arr. Louis-Philippe Laurendeau)",
+    "duration": "8:55",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Fra_Diavolo"
+  },
+  "piece:/March_to_the_Scaffold_(tr_Leidz%C3%A9n)": {
+    "title": "March to the Scaffold (tr Leidzén)",
+    "composer": "Hector Berlioz (trans. Erik Leidzén)",
+    "duration": "5:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/March_to_the_Scaffold_(tr_Leidz%C3%A9n)"
+  },
+  "piece:/March_to_the_Scaffold_from_%22Symphonie_Fantastique%22_(tr_Rogers)": {
+    "title": "March to the Scaffold from \"Symphonie Fantastique\" (tr Rogers)",
+    "composer": "Hector Berlioz (trans. R Mark Rogers)",
+    "duration": "7:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/March_to_the_Scaffold_from_%22Symphonie_Fantastique%22_(tr_Rogers)"
+  },
+  "piece:/Suite_from_%22Symphonie_Fantastique%22": {
+    "title": "Suite from \"Symphonie Fantastique\"",
+    "composer": "Hector Berlioz (arr. Michael Story)",
+    "duration": "6:45",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Suite_from_%22Symphonie_Fantastique%22"
+  },
+  "piece:/Symphonie_Fantastique_(arr._Par%C3%A8s)": {
+    "title": "Symphonie Fantastique (arr. Parès)",
+    "composer": "Hector Berlioz (trans. Gabriel Parès; ed. R. Mark Rogers)",
+    "duration": "54:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Symphonie_Fantastique_(arr._Par%C3%A8s)"
+  },
+  "piece:/Un_Bal": {
+    "title": "Un Bal",
+    "composer": "Hector Berlioz (arr. R. Mark Rogers)",
+    "duration": "7:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Un_Bal"
+  },
+  "category:1829": [
+    "/William_Tell_(arr._Meyrelles)",
+    "/William_Tell_Overture",
+    "/William_Tell_Overture_(arr_anon)",
+    "/William_Tell_Overture_(arr_Elkus)",
+    "/William_Tell_Overture_(arr_Leidzen)",
+    "/William_Tell_Overture_(arr_Stanton)",
+    "/William_Tell_Overture_(arr_Thorp)",
+    "/William_Tell_Overture_Finale"
+  ],
+  "piece:/William_Tell_(arr._Meyrelles)": {
+    "title": "William Tell (arr. Meyrelles)",
+    "composer": "Gioacchino Rossini (arr. MC Meyrelles; rearranged V. F. Safranek)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/William_Tell_(arr._Meyrelles)"
+  },
+  "piece:/William_Tell_Overture": {
+    "title": "William Tell Overture",
+    "composer": "Gioacchino Rossini (tr. John Philip Sousa; ed. Loras John Schissel)",
+    "duration": "12:54",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/William_Tell_Overture"
+  },
+  "piece:/William_Tell_Overture_(arr_anon)": {
+    "title": "William Tell Overture (arr anon)",
+    "composer": "Gioacchino Rossini (trans. anonymous)",
+    "duration": "11:10",
+    "difficulty": null,
+    "url": "https://www.windrep.org/William_Tell_Overture_(arr_anon)"
+  },
+  "piece:/William_Tell_Overture_(arr_Elkus)": {
+    "title": "William Tell Overture (arr Elkus)",
+    "composer": "Gioacchino Rossini (arr. Jonathan Elkus)",
+    "duration": "12:54",
+    "difficulty": null,
+    "url": "https://www.windrep.org/William_Tell_Overture_(arr_Elkus)"
+  },
+  "piece:/William_Tell_Overture_(arr_Leidzen)": {
+    "title": "William Tell Overture (arr Leidzen)",
+    "composer": "Gioacchino Rossini  (arr. Erik Leidzén&#160;; ed. Tommy Fry)",
+    "duration": "11:54",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/William_Tell_Overture_(arr_Leidzen)"
+  },
+  "piece:/William_Tell_Overture_(arr_Stanton)": {
+    "title": "William Tell Overture (arr Stanton)",
+    "composer": "Gioacchino Rossini  (arr. Scott Stanton)",
+    "duration": "2:30",
+    "difficulty": null,
+    "url": "https://www.windrep.org/William_Tell_Overture_(arr_Stanton)"
+  },
+  "piece:/William_Tell_Overture_(arr_Thorp)": {
+    "title": "William Tell Overture (arr Thorp)",
+    "composer": "Gioacchino Rossini (arr. Joan Thorp)",
+    "duration": "1:15",
+    "difficulty": "I",
+    "url": "https://www.windrep.org/William_Tell_Overture_(arr_Thorp)"
+  },
+  "piece:/William_Tell_Overture_Finale": {
+    "title": "William Tell Overture Finale",
+    "composer": "Gioacchino Rossini  (arr. Robert Longfield)",
+    "duration": "2:50",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/William_Tell_Overture_Finale"
+  },
+  "category:1827": [
+    "/Deutsche_Messe",
+    "/Impromptu"
+  ],
+  "piece:/Deutsche_Messe": {
+    "title": "Deutsche Messe",
+    "composer": "Franz Schubert",
+    "duration": "23:52",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Deutsche_Messe"
+  },
+  "piece:/Impromptu": {
+    "title": "Impromptu",
+    "composer": "Franz Schubert (arr. Willy Hautvast)",
+    "duration": "3:45",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Impromptu"
+  },
+  "category:1826": [
+    "/Oberon_Overture",
+    "/Oberon_Overture_(arr_Tobani)",
+    "/Polish_Dance",
+    "/Scherzo_from_%22A_Midsummer_Night%27s_Dream%22"
+  ],
+  "piece:/Oberon_Overture": {
+    "title": "Oberon Overture",
+    "composer": "Carl Maria von Weber (trans. Mayhew Lake)",
+    "duration": "9:00",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Oberon_Overture"
+  },
+  "piece:/Oberon_Overture_(arr_Tobani)": {
+    "title": "Oberon Overture (arr Tobani)",
+    "composer": "Carl Maria von Weber (tr. Theodore Moses Tobani)",
+    "duration": "9:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Oberon_Overture_(arr_Tobani)"
+  },
+  "piece:/Polish_Dance": {
+    "title": "Polish Dance",
+    "composer": "Mikhail Glinka (arr. John R. Bourgeois)",
+    "duration": "6:40",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Polish_Dance"
+  },
+  "piece:/Scherzo_from_%22A_Midsummer_Night%27s_Dream%22": {
+    "title": "Scherzo from \"A Midsummer Night's Dream\"",
+    "composer": "Felix Mendelssohn-Bartholdy (arr. Blair)",
+    "duration": "4:50",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Scherzo_from_%22A_Midsummer_Night%27s_Dream%22"
+  },
+  "category:1825": [
+    "/Ave_Maria_(Schubert)"
+  ],
+  "piece:/Ave_Maria_(Schubert)": {
+    "title": "Ave Maria (Schubert)",
+    "composer": "Franz Schubert (arr. Frank Ticheli)",
+    "duration": "4:30",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Ave_Maria_(Schubert)"
+  },
+  "category:1824": [
+    "/European_Anthem,_The",
+    "/Ouvert%C3%BCre_in_C_f%C3%BCr_Harmoniemusik",
+    "/Overture_for_Band_(Mendelssohn_Garofalo)",
+    "/Overture_for_Band,_Opus_24",
+    "/Overture_for_Winds_(arr._Patterson)",
+    "/Overture_for_Winds_(Mendelssohn)",
+    "/Scherzo_from_%22Symphony_No._9%22_(arr._Bocook)",
+    "/Symphony_IX_(Beethoven)"
+  ],
+  "piece:/European_Anthem,_The": {
+    "title": "European Anthem, The",
+    "composer": "Ludwig van Beethoven  (arr. Karajan)",
+    "duration": "2:15",
+    "difficulty": null,
+    "url": "https://www.windrep.org/European_Anthem,_The"
+  },
+  "piece:/Ouvert%C3%BCre_in_C_f%C3%BCr_Harmoniemusik": {
+    "title": "Ouvertüre in C für Harmoniemusik",
+    "composer": "Felix Mendelssohn-Bartholdy (ed. Christopher Hogwood)",
+    "duration": "9:45",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Ouvert%C3%BCre_in_C_f%C3%BCr_Harmoniemusik"
+  },
+  "piece:/Overture_for_Band_(Mendelssohn_Garofalo)": {
+    "title": "Overture for Band (Mendelssohn Garofalo)",
+    "composer": "Felix Mendelssohn-Bartholdy  (ed. Robert Garofalo)",
+    "duration": "9:45",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Overture_for_Band_(Mendelssohn_Garofalo)"
+  },
+  "piece:/Overture_for_Band,_Opus_24": {
+    "title": "Overture for Band, Opus 24",
+    "composer": "Felix Mendelssohn-Bartholdy   (trans. Herbert W. Fred)",
+    "duration": "8:30",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Overture_for_Band,_Opus_24"
+  },
+  "piece:/Overture_for_Winds_(arr._Patterson)": {
+    "title": "Overture for Winds (arr. Patterson)",
+    "composer": "Felix Mendelssohn-Bartholdy (ed. Donald Patterson)",
+    "duration": "10:00",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Overture_for_Winds_(arr._Patterson)"
+  },
+  "piece:/Overture_for_Winds_(Mendelssohn)": {
+    "title": "Overture for Winds (Mendelssohn)",
+    "composer": "Felix Mendelssohn-Bartholdy (arr. and ed. John Boyd)",
+    "duration": "9:40",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Overture_for_Winds_(Mendelssohn)"
+  },
+  "piece:/Scherzo_from_%22Symphony_No._9%22_(arr._Bocook)": {
+    "title": "Scherzo from \"Symphony No. 9\" (arr. Bocook)",
+    "composer": "Ludwig van Beethoven (arr. Jay Bocook)",
+    "duration": "4:30",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Scherzo_from_%22Symphony_No._9%22_(arr._Bocook)"
+  },
+  "piece:/Symphony_IX_(Beethoven)": {
+    "title": "Symphony IX (Beethoven)",
+    "composer": "Ludwig van Beethoven (trans. Ted Vives)",
+    "duration": "70:00",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Symphony_IX_(Beethoven)"
+  },
+  "category:1823": [
+    "/First_Noel,_The_(arr_Giroux)",
+    "/Semiramide",
+    "/Semiramide_(arr._Mahaffey)"
+  ],
+  "piece:/First_Noel,_The_(arr_Giroux)": {
+    "title": "First Noel, The (arr Giroux)",
+    "composer": "Traditional, arranged by Julie Giroux",
+    "duration": "2:45",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/First_Noel,_The_(arr_Giroux)"
+  },
+  "piece:/Semiramide": {
+    "title": "Semiramide",
+    "composer": "Gioacchino Rossini (arr. V.F. Safranek; ed. Roberts)",
+    "duration": "12:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Semiramide"
+  },
+  "piece:/Semiramide_(arr._Mahaffey)": {
+    "title": "Semiramide (arr. Mahaffey)",
+    "composer": "Gioacchino Rossini (arr. James Mahaffey)",
+    "duration": "5:20",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Semiramide_(arr._Mahaffey)"
+  },
+  "category:1822": [
+    "/First_Movement_from_%22Symphony_in_B_minor,_no._8%22"
+  ],
+  "piece:/First_Movement_from_%22Symphony_in_B_minor,_no._8%22": {
+    "title": "First Movement from \"Symphony in B minor, no. 8\"",
+    "composer": "Franz Schubert (trans. Lucien Cailliet)",
+    "duration": "11:50",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/First_Movement_from_%22Symphony_in_B_minor,_no._8%22"
+  },
+  "category:1821": [
+    "/Der_Freisch%C3%BCtz_Overture"
+  ],
+  "piece:/Der_Freisch%C3%BCtz_Overture": {
+    "title": "Der Freischütz Overture",
+    "composer": "Carl Maria von Weber  (arr. Theodore Moses Tobani)",
+    "duration": null,
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Der_Freisch%C3%BCtz_Overture"
+  },
+  "category:1820": [
+    "/Marche_Hongroise",
+    "/Marche_Hongroise_(arr_Smith)",
+    "/Marche_Hongroise_(arr._Bowlin)"
+  ],
+  "piece:/Marche_Hongroise": {
+    "title": "Marche Hongroise",
+    "composer": "Hector Berlioz (arr. Yo Goto)",
+    "duration": "4:35",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Marche_Hongroise"
+  },
+  "piece:/Marche_Hongroise_(arr_Smith)": {
+    "title": "Marche Hongroise (arr Smith)",
+    "composer": "Hector Berlioz (arr. Leonard B. Smith)",
+    "duration": "5:20",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Marche_Hongroise_(arr_Smith)"
+  },
+  "piece:/Marche_Hongroise_(arr._Bowlin)": {
+    "title": "Marche Hongroise (arr. Bowlin)",
+    "composer": "Hector Berlioz (arr. Howard Bowlin)",
+    "duration": "5:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Marche_Hongroise_(arr._Bowlin)"
+  },
+  "category:1819": [
+    "/Introduction,_Theme_and_Variations",
+    "/Introduction,_Theme_and_Variations_(arr._Glazer)",
+    "/Introduction,_Theme_and_Variations_(arr._Hermann)",
+    "/Invitation_to_the_Dance_(arr_Meyrelles)"
+  ],
+  "piece:/Introduction,_Theme_and_Variations": {
+    "title": "Introduction, Theme and Variations",
+    "composer": "Gioacchino Rossini (arr. Marco Tamanini)",
+    "duration": "11:30",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Introduction,_Theme_and_Variations"
+  },
+  "piece:/Introduction,_Theme_and_Variations_(arr._Glazer)": {
+    "title": "Introduction, Theme and Variations (arr. Glazer)",
+    "composer": "Gioacchino Rossini (arr. David Glazer)",
+    "duration": "13:05",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Introduction,_Theme_and_Variations_(arr._Glazer)"
+  },
+  "piece:/Introduction,_Theme_and_Variations_(arr._Hermann)": {
+    "title": "Introduction, Theme and Variations (arr. Hermann)",
+    "composer": "Gioacchino Rossini (arr. Ralph Hermann)",
+    "duration": "13:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Introduction,_Theme_and_Variations_(arr._Hermann)"
+  },
+  "piece:/Invitation_to_the_Dance_(arr_Meyrelles)": {
+    "title": "Invitation to the Dance (arr Meyrelles)",
+    "composer": "Carl Maria von Weber (arr. MC Meyrelles); rev. Katz)",
+    "duration": null,
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Invitation_to_the_Dance_(arr_Meyrelles)"
+  },
+  "category:1818": [
+    "/All_Is_Calm",
+    "/Collection_of_New_Cotillions_First_Set,_A",
+    "/Jubel_Overture",
+    "/Little_Symphony_for_Winds",
+    "/Silent_Night_(arr_Dawson)",
+    "/Silent_Night_(arr_Swearingen)",
+    "/Silent_Night_(arr._Smith)",
+    "/Silent_Night_in_Gotham"
+  ],
+  "piece:/All_Is_Calm": {
+    "title": "All Is Calm",
+    "composer": "Franz Gruber (arr. Robert W. Smith)",
+    "duration": "3:09",
+    "difficulty": "II",
+    "url": "https://www.windrep.org/All_Is_Calm"
+  },
+  "piece:/Collection_of_New_Cotillions_First_Set,_A": {
+    "title": "Collection of New Cotillions First Set, A",
+    "composer": "Francis Johnson (arr. Kenneth Amis)",
+    "duration": "7:00",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Collection_of_New_Cotillions_First_Set,_A"
+  },
+  "piece:/Jubel_Overture": {
+    "title": "Jubel Overture",
+    "composer": "Carl Maria von Weber  (trans. Donald Patterson)",
+    "duration": "7:55",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Jubel_Overture"
+  },
+  "piece:/Little_Symphony_for_Winds": {
+    "title": "Little Symphony for Winds",
+    "composer": "Franz Schubert (trans. Verne Reynolds)",
+    "duration": "19:35",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Little_Symphony_for_Winds"
+  },
+  "piece:/Silent_Night_(arr_Dawson)": {
+    "title": "Silent Night (arr Dawson)",
+    "composer": "Franz Gruber (arr. Jay Dawson)",
+    "duration": "2:45",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Silent_Night_(arr_Dawson)"
+  },
+  "piece:/Silent_Night_(arr_Swearingen)": {
+    "title": "Silent Night (arr Swearingen)",
+    "composer": "Franz Gruber (arr. James Swearingen)",
+    "duration": "4:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Silent_Night_(arr_Swearingen)"
+  },
+  "piece:/Silent_Night_(arr._Smith)": {
+    "title": "Silent Night (arr. Smith)",
+    "composer": "Franz Gruber (arr. Robert W. Smith and Susan L. Smith)",
+    "duration": "3:30",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Silent_Night_(arr._Smith)"
+  },
+  "piece:/Silent_Night_in_Gotham": {
+    "title": "Silent Night in Gotham",
+    "composer": "Franz Gruber (arr. Julie Giroux)",
+    "duration": "3:10",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Silent_Night_in_Gotham"
+  },
+  "category:1817": [
+    "/La_Gazza_Ladra",
+    "/Sinfonia_f%C3%BCr_Bl%C3%A4ser"
+  ],
+  "piece:/La_Gazza_Ladra": {
+    "title": "La Gazza Ladra",
+    "composer": "Gioacchino Rossini (trans. Lucien Cailliet)",
+    "duration": "10:30",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/La_Gazza_Ladra"
+  },
+  "piece:/Sinfonia_f%C3%BCr_Bl%C3%A4ser": {
+    "title": "Sinfonia für Bläser",
+    "composer": "Gaetano Donizetti (arr. Pauler)",
+    "duration": "5:50",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Sinfonia_f%C3%BCr_Bl%C3%A4ser"
+  },
+  "category:1816": [
+    "/Angels_from_the_Realms_of_Glory_(arr._Smith/Story)",
+    "/Angels,_from_the_Realms_of_Glory",
+    "/Barber_of_Seville_Overture",
+    "/Barber_of_Seville,_The_(arr_Williams)",
+    "/Concertino_for_English_Horn",
+    "/Marche_(Streicher)",
+    "/Military_March_(Beethoven)",
+    "/Military_March_in_D",
+    "/Overture_to_%22The_Barber_of_Seville%22"
+  ],
+  "piece:/Angels_from_the_Realms_of_Glory_(arr._Smith/Story)": {
+    "title": "Angels from the Realms of Glory (arr. Smith/Story)",
+    "composer": "James Montgomery (arr. Robert W. Smith and Michael Story)",
+    "duration": "2:55",
+    "difficulty": "II",
+    "url": "https://www.windrep.org/Angels_from_the_Realms_of_Glory_(arr._Smith/Story)"
+  },
+  "piece:/Angels,_from_the_Realms_of_Glory": {
+    "title": "Angels, from the Realms of Glory",
+    "composer": "James Montgomery (arr. Robert W Smith)",
+    "duration": "5:05",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Angels,_from_the_Realms_of_Glory"
+  },
+  "piece:/Barber_of_Seville_Overture": {
+    "title": "Barber of Seville Overture",
+    "composer": "Gioacchino Rossini (arr. Mayhew Lake)",
+    "duration": "9:00",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Barber_of_Seville_Overture"
+  },
+  "piece:/Barber_of_Seville,_The_(arr_Williams)": {
+    "title": "Barber of Seville, The (arr Williams)",
+    "composer": "Gioacchino Rossini (arr. Mark Williams)",
+    "duration": "2:45",
+    "difficulty": "II",
+    "url": "https://www.windrep.org/Barber_of_Seville,_The_(arr_Williams)"
+  },
+  "piece:/Concertino_for_English_Horn": {
+    "title": "Concertino for English Horn",
+    "composer": "Gaetano Donizetti (arr. Nico Boom)",
+    "duration": "12:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Concertino_for_English_Horn"
+  },
+  "piece:/Marche_(Streicher)": {
+    "title": "Marche (Streicher)",
+    "composer": "Nannette Streicher (trans. David Wolfson; arr. Tabea Hirzel)",
+    "duration": "1:20",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Marche_(Streicher)"
+  },
+  "piece:/Military_March_(Beethoven)": {
+    "title": "Military March (Beethoven)",
+    "composer": "Ludwig van Beethoven (adapt. Greissle)",
+    "duration": "5:35",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Military_March_(Beethoven)"
+  },
+  "piece:/Military_March_in_D": {
+    "title": "Military March in D",
+    "composer": "Ludwig van Beethoven (ed. John R Bourgeois)",
+    "duration": "4:55",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Military_March_in_D"
+  },
+  "piece:/Overture_to_%22The_Barber_of_Seville%22": {
+    "title": "Overture to \"The Barber of Seville\"",
+    "composer": "Gioacchino Rossini (arr. Wenzel Sedlak, ed. de Rusha)",
+    "duration": "8:15",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Overture_to_%22The_Barber_of_Seville%22"
+  },
+  "category:1815": [
+    "/Commemoration_Symphony",
+    "/Fantasia_and_Rondo"
+  ],
+  "piece:/Commemoration_Symphony": {
+    "title": "Commemoration Symphony",
+    "composer": "Anton Reicha (ed. David Whitwell)",
+    "duration": "20:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Commemoration_Symphony"
+  },
+  "piece:/Fantasia_and_Rondo": {
+    "title": "Fantasia and Rondo",
+    "composer": "Carl Maria von Weber  (arr. John Snavely)",
+    "duration": "9:00",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Fantasia_and_Rondo"
+  },
+  "category:1814": [
+    "/Patriotic_Prologue/The_Star-Spangled_Banner",
+    "/Proudly_We_Hail",
+    "/Star-Spangled_Banner_(arr_Fillmore)",
+    "/Star-Spangled_Banner_(arr._Romeyn)",
+    "/Star-Spangled_Banner,_The",
+    "/Star-Spangled_Banner,_The_(arr_Balmages)",
+    "/Star-Spangled_Banner,_The_(arr_Bennett)",
+    "/Star-Spangled_Banner,_The_(arr_Bennette)",
+    "/Star-Spangled_Banner,_The_(arr_Bowles)",
+    "/Star-Spangled_Banner,_The_(arr_Frackenpohl)",
+    "/Star-Spangled_Banner,_The_(arr_Mark_Williams)",
+    "/Star-Spangled_Banner,_The_(arr_Ninmer)",
+    "/Star-Spangled_Banner,_The_(arr_Swearingen)",
+    "/Star-Spangled_Banner,_The_(arr_Vinson)",
+    "/Star-Spangled_Banner,_The_(arr_Werle)",
+    "/Star-Spangled_Banner,_The_(arr_Williams)",
+    "/Star-Spangled_Banner,_The_(arr_Zaninelli)",
+    "/Star-Spangled_Banner,_The_(orch_Sousa)",
+    "/Star-Spangled_Banner,_The_(orch_Sousa)_(arr_Murtha)"
+  ],
+  "piece:/Patriotic_Prologue/The_Star-Spangled_Banner": {
+    "title": "Patriotic Prologue/The Star-Spangled Banner",
+    "composer": "John Stafford Smith (arr. Adrian L. Hernandez)",
+    "duration": "3:15",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Patriotic_Prologue/The_Star-Spangled_Banner"
+  },
+  "piece:/Proudly_We_Hail": {
+    "title": "Proudly We Hail",
+    "composer": "John Stafford Smith (arr. Brian Balmages)",
+    "duration": "3:15",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Proudly_We_Hail"
+  },
+  "piece:/Star-Spangled_Banner_(arr_Fillmore)": {
+    "title": "Star-Spangled Banner (arr Fillmore)",
+    "composer": "John Stafford Smith (arr. Henry Fillmore)",
+    "duration": "1:10",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Star-Spangled_Banner_(arr_Fillmore)"
+  },
+  "piece:/Star-Spangled_Banner_(arr._Romeyn)": {
+    "title": "Star-Spangled Banner (arr. Romeyn)",
+    "composer": "John Stafford Smith (arr. Rob Romeyn)",
+    "duration": "1:45",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Star-Spangled_Banner_(arr._Romeyn)"
+  },
+  "piece:/Star-Spangled_Banner,_The": {
+    "title": "Star-Spangled Banner, The",
+    "composer": "John Stafford Smith (arr. Jack Stamp)",
+    "duration": "1:20",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The"
+  },
+  "piece:/Star-Spangled_Banner,_The_(arr_Balmages)": {
+    "title": "Star-Spangled Banner, The (arr Balmages)",
+    "composer": "John Stafford Smith (arr. Brian Balmages)",
+    "duration": "2:45",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The_(arr_Balmages)"
+  },
+  "piece:/Star-Spangled_Banner,_The_(arr_Bennett)": {
+    "title": "Star-Spangled Banner, The (arr Bennett)",
+    "composer": "John Stafford Smith (arr. Robert Russell Bennett)",
+    "duration": "2:45",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The_(arr_Bennett)"
+  },
+  "piece:/Star-Spangled_Banner,_The_(arr_Bennette)": {
+    "title": "Star-Spangled Banner, The (arr Bennette)",
+    "composer": "John Stafford Smith (arr. Kelly Bennette)",
+    "duration": "1:50",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The_(arr_Bennette)"
+  },
+  "piece:/Star-Spangled_Banner,_The_(arr_Bowles)": {
+    "title": "Star-Spangled Banner, The (arr Bowles)",
+    "composer": "John Stafford Smith (arr. Richard W. Bowles)",
+    "duration": "1:50",
+    "difficulty": "II",
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The_(arr_Bowles)"
+  },
+  "piece:/Star-Spangled_Banner,_The_(arr_Frackenpohl)": {
+    "title": "Star-Spangled Banner, The (arr Frackenpohl)",
+    "composer": "John Stafford Smith (arr. Frackenpohl)",
+    "duration": "1:50",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The_(arr_Frackenpohl)"
+  },
+  "piece:/Star-Spangled_Banner,_The_(arr_Mark_Williams)": {
+    "title": "Star-Spangled Banner, The (arr Mark Williams)",
+    "composer": "John Stafford Smith (arr. Mark Williams)",
+    "duration": "1:40",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The_(arr_Mark_Williams)"
+  },
+  "piece:/Star-Spangled_Banner,_The_(arr_Ninmer)": {
+    "title": "Star-Spangled Banner, The (arr Ninmer)",
+    "composer": "John Stafford Smith (arr. Scott Ninmer)",
+    "duration": "2:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The_(arr_Ninmer)"
+  },
+  "piece:/Star-Spangled_Banner,_The_(arr_Swearingen)": {
+    "title": "Star-Spangled Banner, The (arr Swearingen)",
+    "composer": "John Stafford Smith (arr. James Swearingen)",
+    "duration": "1:50",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The_(arr_Swearingen)"
+  },
+  "piece:/Star-Spangled_Banner,_The_(arr_Vinson)": {
+    "title": "Star-Spangled Banner, The (arr Vinson)",
+    "composer": "John Stafford Smith (arr. Johnnie Vinson)",
+    "duration": "1:45",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The_(arr_Vinson)"
+  },
+  "piece:/Star-Spangled_Banner,_The_(arr_Werle)": {
+    "title": "Star-Spangled Banner, The (arr Werle)",
+    "composer": "John Stafford Smith (arr. Floyd Werle)",
+    "duration": "1:30",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The_(arr_Werle)"
+  },
+  "piece:/Star-Spangled_Banner,_The_(arr_Williams)": {
+    "title": "Star-Spangled Banner, The (arr Williams)",
+    "composer": "John Stafford Smith (arr. John Williams)",
+    "duration": "2:50",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The_(arr_Williams)"
+  },
+  "piece:/Star-Spangled_Banner,_The_(arr_Zaninelli)": {
+    "title": "Star-Spangled Banner, The (arr Zaninelli)",
+    "composer": "John Stafford Smith (Harm. &amp; arr. Luigi Zaninelli)",
+    "duration": "3:30",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The_(arr_Zaninelli)"
+  },
+  "piece:/Star-Spangled_Banner,_The_(orch_Sousa)": {
+    "title": "Star-Spangled Banner, The (orch Sousa)",
+    "composer": "John Stafford Smith (orch. John Philip Sousa; harmonized Damrosch; ed. Brion)",
+    "duration": "1:25",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The_(orch_Sousa)"
+  },
+  "piece:/Star-Spangled_Banner,_The_(orch_Sousa)_(arr_Murtha)": {
+    "title": "Star-Spangled Banner, The (orch Sousa) (arr Murtha)",
+    "composer": "John Stafford Smith (orch. John Philip Sousa) (Harmonized Damrosch) (ed. Paul Murtha)",
+    "duration": "1:25",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Star-Spangled_Banner,_The_(orch_Sousa)_(arr_Murtha)"
+  },
+  "category:1813": [
+    "/L%27italiana_in_Algeri",
+    "/L%27italiana_in_Algeri_(tr_Van_der_Beek)",
+    "/Last_Rose_of_Summer,_The",
+    "/Last_Rose_of_Summer,_The_(arr._Williams)",
+    "/Overture_to_%22The_Italian_Girl_in_Algiers%22",
+    "/Overture_to_%22The_Italian_Girl_in_Algiers%22_(tr_Moses-Tobani)",
+    "/Siegess%C2%ADin%C2%ADfonie",
+    "/Tancredi_Overture_(arr._Cesarini)",
+    "/Tancredi_Overture_(tr_Falcone)"
+  ],
+  "piece:/L%27italiana_in_Algeri": {
+    "title": "L'italiana in Algeri",
+    "composer": "Gioacchino Rossini (ed. Sedlak; rev. Lonoce)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/L%27italiana_in_Algeri"
+  },
+  "piece:/L%27italiana_in_Algeri_(tr_Van_der_Beek)": {
+    "title": "L'italiana in Algeri (tr Van der Beek)",
+    "composer": "Gioacchino Rossini (trans. Wil van der Beek)",
+    "duration": "8:30",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/L%27italiana_in_Algeri_(tr_Van_der_Beek)"
+  },
+  "piece:/Last_Rose_of_Summer,_The": {
+    "title": "Last Rose of Summer, The",
+    "composer": "Thomas Moore (setting by  James Swearingen)",
+    "duration": "2:50",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Last_Rose_of_Summer,_The"
+  },
+  "piece:/Last_Rose_of_Summer,_The_(arr._Williams)": {
+    "title": "Last Rose of Summer, The (arr. Williams)",
+    "composer": "Thomas Moore (setting by Mark Williams)",
+    "duration": "3:10",
+    "difficulty": "II",
+    "url": "https://www.windrep.org/Last_Rose_of_Summer,_The_(arr._Williams)"
+  },
+  "piece:/Overture_to_%22The_Italian_Girl_in_Algiers%22": {
+    "title": "Overture to \"The Italian Girl in Algiers\"",
+    "composer": "Gioacchino Rossini (arr. Lucien Cailliet)",
+    "duration": "8:35",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Overture_to_%22The_Italian_Girl_in_Algiers%22"
+  },
+  "piece:/Overture_to_%22The_Italian_Girl_in_Algiers%22_(tr_Moses-Tobani)": {
+    "title": "Overture to \"The Italian Girl in Algiers\" (tr Moses-Tobani)",
+    "composer": "Gioacchino Rossini (trans. Moses-Tobani; arr. Louis-Philippe Laurendeau (as H. Kent))",
+    "duration": "8:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Overture_to_%22The_Italian_Girl_in_Algiers%22_(tr_Moses-Tobani)"
+  },
+  "piece:/Siegess%C2%ADin%C2%ADfonie": {
+    "title": "Siegess­in­fonie",
+    "composer": "Ludwig van Beethoven (edi­ted by David Whitwell)",
+    "duration": "6:25",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Siegess%C2%ADin%C2%ADfonie"
+  },
+  "piece:/Tancredi_Overture_(arr._Cesarini)": {
+    "title": "Tancredi Overture (arr. Cesarini)",
+    "composer": "Gioacchino Rossini (arr. Franco Cesarini)",
+    "duration": "6:45",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Tancredi_Overture_(arr._Cesarini)"
+  },
+  "piece:/Tancredi_Overture_(tr_Falcone)": {
+    "title": "Tancredi Overture (tr Falcone)",
+    "composer": "Gioacchino Rossini (trans. Leonard Falcone)",
+    "duration": "6:30",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Tancredi_Overture_(tr_Falcone)"
+  },
+  "category:1812": [
+    "/Allegretto_from_%27%27Symphony_No_7%27%27",
+    "/Allegretto_from_Beethoven%27s_Symphony_No._7,_The"
+  ],
+  "piece:/Allegretto_from_%27%27Symphony_No_7%27%27": {
+    "title": "Allegretto from ''Symphony No 7''",
+    "composer": "Ludwig van Beethoven (arr. Robert Longfield)",
+    "duration": "3:25",
+    "difficulty": "II",
+    "url": "https://www.windrep.org/Allegretto_from_%27%27Symphony_No_7%27%27"
+  },
+  "piece:/Allegretto_from_Beethoven%27s_Symphony_No._7,_The": {
+    "title": "Allegretto from Beethoven's Symphony No. 7, The",
+    "composer": "Ludwig van Beethoven (arr. Philip Evans)",
+    "duration": "9:35",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Allegretto_from_Beethoven%27s_Symphony_No._7,_The"
+  },
+  "category:1811": [
+    "/Clarinet_Concerto_No._2",
+    "/Concertino_(Weber)",
+    "/Concertino_for_Clarinet",
+    "/Concertino_for_Clarinet_(arr._Brown)",
+    "/Concerto_No._1_in_F_minor_for_Clarinet",
+    "/Presto_from_%22Symphony_VII%22_(Beethoven)",
+    "/Second_Concerto_for_Clarinet",
+    "/Still,_Still,_Still_(arr_Ployhar)"
+  ],
+  "piece:/Clarinet_Concerto_No._2": {
+    "title": "Clarinet Concerto No. 2",
+    "composer": "Carl Maria von Weber  (trans. Martin Tousignant)",
+    "duration": "21:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Clarinet_Concerto_No._2"
+  },
+  "piece:/Concertino_(Weber)": {
+    "title": "Concertino (Weber)",
+    "composer": "Carl Maria von Weber (arr. Alfred Reed; ed. McCathren)",
+    "duration": "9:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Concertino_(Weber)"
+  },
+  "piece:/Concertino_for_Clarinet": {
+    "title": "Concertino for Clarinet",
+    "composer": "Carl Maria von Weber (arr. Mayhew Lake)",
+    "duration": "9:00",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Concertino_for_Clarinet"
+  },
+  "piece:/Concertino_for_Clarinet_(arr._Brown)": {
+    "title": "Concertino for Clarinet (arr. Brown)",
+    "composer": "Carl Maria von Weber (arr. T. Conway Brown)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Concertino_for_Clarinet_(arr._Brown)"
+  },
+  "piece:/Concerto_No._1_in_F_minor_for_Clarinet": {
+    "title": "Concerto No. 1 in F minor for Clarinet",
+    "composer": "Carl Maria von Weber (trans. for small wind band by R. Mark Rogers)",
+    "duration": "21:00",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Concerto_No._1_in_F_minor_for_Clarinet"
+  },
+  "piece:/Presto_from_%22Symphony_VII%22_(Beethoven)": {
+    "title": "Presto from \"Symphony VII\" (Beethoven)",
+    "composer": "Ludwig van Beethoven (trans. Ray Thompson)",
+    "duration": "8:50",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Presto_from_%22Symphony_VII%22_(Beethoven)"
+  },
+  "piece:/Second_Concerto_for_Clarinet": {
+    "title": "Second Concerto for Clarinet",
+    "composer": "Carl Maria von Weber (arr. T. Conway Brown)",
+    "duration": "23:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Second_Concerto_for_Clarinet"
+  },
+  "piece:/Still,_Still,_Still_(arr_Ployhar)": {
+    "title": "Still, Still, Still (arr Ployhar)",
+    "composer": "Traditional carol arranged by James D Ployhar",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Still,_Still,_Still_(arr_Ployhar)"
+  },
+  "category:1810": [
+    "/Drei_zapfenstreiche",
+    "/Egmont_Overture",
+    "/Egmont_Overture_(arr_Tobani)",
+    "/Zwei_Marsche_fur_Militarmusik"
+  ],
+  "piece:/Drei_zapfenstreiche": {
+    "title": "Drei zapfenstreiche",
+    "composer": "Ludwig van Beethoven (re-scored by William A. Schaefer)",
+    "duration": "10:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Drei_zapfenstreiche"
+  },
+  "piece:/Egmont_Overture": {
+    "title": "Egmont Overture",
+    "composer": "Ludwig van Beethoven (arr. Frank Winterbottom)",
+    "duration": "8:30",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Egmont_Overture"
+  },
+  "piece:/Egmont_Overture_(arr_Tobani)": {
+    "title": "Egmont Overture (arr Tobani)",
+    "composer": "Ludwig van Beethoven (tr. Theodore Moses Tobani)",
+    "duration": "8:30",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Egmont_Overture_(arr_Tobani)"
+  },
+  "piece:/Zwei_Marsche_fur_Militarmusik": {
+    "title": "Zwei Marsche fur Militarmusik",
+    "composer": "Ludwig van Beethoven",
+    "duration": "3:14",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Zwei_Marsche_fur_Militarmusik"
+  },
+  "category:1809": [
+    "/Andante_and_Hungarian_Rondo",
+    "/Andante_and_Hungarian_Rondo_(arr._Weait)",
+    "/Concertino_for_Oboe_and_Winds",
+    "/March_in_F",
+    "/Turkish_March_(arr_Curnow)",
+    "/Turkish_March_(arr_Lake)"
+  ],
+  "piece:/Andante_and_Hungarian_Rondo": {
+    "title": "Andante and Hungarian Rondo",
+    "composer": "Carl Maria von Weber (arr. R. Mark Rogers)",
+    "duration": "9:45",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Andante_and_Hungarian_Rondo"
+  },
+  "piece:/Andante_and_Hungarian_Rondo_(arr._Weait)": {
+    "title": "Andante and Hungarian Rondo (arr. Weait)",
+    "composer": "Carl Maria von Weber  (trans. Christopher Weait)",
+    "duration": "9:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Andante_and_Hungarian_Rondo_(arr._Weait)"
+  },
+  "piece:/Concertino_for_Oboe_and_Winds": {
+    "title": "Concertino for Oboe and Winds",
+    "composer": "Carl Maria von Weber (arr. Klocker)",
+    "duration": "9:30",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Concertino_for_Oboe_and_Winds"
+  },
+  "piece:/March_in_F": {
+    "title": "March in F",
+    "composer": "Ludwig van Beethoven (ed. Patrick Dunnigan)",
+    "duration": "2:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/March_in_F"
+  },
+  "piece:/Turkish_March_(arr_Curnow)": {
+    "title": "Turkish March (arr Curnow)",
+    "composer": "Ludwig van Beethoven (arr. James Curnow)",
+    "duration": null,
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Turkish_March_(arr_Curnow)"
+  },
+  "piece:/Turkish_March_(arr_Lake)": {
+    "title": "Turkish March (arr Lake)",
+    "composer": "Ludwig van Beethoven (arr. Mayhew Lake)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Turkish_March_(arr_Lake)"
+  },
+  "category:1808": [
+    "/Allegro_con_Brio",
+    "/Finale_to_%22Symphony_No._5%22_(arr._Isaac)",
+    "/Finale_to_%22Symphony_No._5%22_(arr._Longfield)",
+    "/First_and_Second_Movements_from_Symphony_No._5_in_C_minor_(arr._Godfrey)",
+    "/Octet_Partita_in_F_major,_Opus_57",
+    "/Scherzo_and_Finale_from_the_Fifth_Symphony",
+    "/Symphony_No._5_in_C_Minor",
+    "/Symphony_No._5_in_C_minor_(arr._Godfrey)",
+    "/Symphony_No._6,_%22Pastoral%22_Selections"
+  ],
+  "piece:/Allegro_con_Brio": {
+    "title": "Allegro con Brio",
+    "composer": "Ludwig van Beethoven (trans. Joseph Kreines)",
+    "duration": "6:10",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Allegro_con_Brio"
+  },
+  "piece:/Finale_to_%22Symphony_No._5%22_(arr._Isaac)": {
+    "title": "Finale to \"Symphony No. 5\" (arr. Isaac)",
+    "composer": "Ludwig van Beethoven (arr. Merle J. Isaac)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Finale_to_%22Symphony_No._5%22_(arr._Isaac)"
+  },
+  "piece:/Finale_to_%22Symphony_No._5%22_(arr._Longfield)": {
+    "title": "Finale to \"Symphony No. 5\" (arr. Longfield)",
+    "composer": "Ludwig van Beethoven (adapt. Robert Longfield)",
+    "duration": "4:50",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Finale_to_%22Symphony_No._5%22_(arr._Longfield)"
+  },
+  "piece:/First_and_Second_Movements_from_Symphony_No._5_in_C_minor_(arr._Godfrey)": {
+    "title": "First and Second Movements from Symphony No. 5 in C minor (arr. Godfrey)",
+    "composer": "Ludwig van Beethoven (arr. Dan Godfrey)",
+    "duration": "10:20",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/First_and_Second_Movements_from_Symphony_No._5_in_C_minor_(arr._Godfrey)"
+  },
+  "piece:/Octet_Partita_in_F_major,_Opus_57": {
+    "title": "Octet Partita in F major, Opus 57",
+    "composer": "Franz Krommer (ed. Roger Hellyer)",
+    "duration": "18:15",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Octet_Partita_in_F_major,_Opus_57"
+  },
+  "piece:/Scherzo_and_Finale_from_the_Fifth_Symphony": {
+    "title": "Scherzo and Finale from the Fifth Symphony",
+    "composer": "Ludwig van Beethoven (arr. Dan Godfrey)",
+    "duration": "15:55",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Scherzo_and_Finale_from_the_Fifth_Symphony"
+  },
+  "piece:/Symphony_No._5_in_C_Minor": {
+    "title": "Symphony No. 5 in C Minor",
+    "composer": "Ludwig van Beethoven (arr. Scott Stanton)",
+    "duration": "1:55",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Symphony_No._5_in_C_Minor"
+  },
+  "piece:/Symphony_No._5_in_C_minor_(arr._Godfrey)": {
+    "title": "Symphony No. 5 in C minor (arr. Godfrey)",
+    "composer": "Ludwig van Beethoven (arr. Dan Godfrey)",
+    "duration": "26:15",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Symphony_No._5_in_C_minor_(arr._Godfrey)"
+  },
+  "piece:/Symphony_No._6,_%22Pastoral%22_Selections": {
+    "title": "Symphony No. 6, \"Pastoral\" Selections",
+    "composer": "Ludwig van Beethoven (arr. Tohru Kanayama)",
+    "duration": "5:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Symphony_No._6,_%22Pastoral%22_Selections"
+  },
+  "category:1806": [
+    "/Octet_Partita_(Krommer)",
+    "/Partita_in_E-flat_(Krommer)"
+  ],
+  "piece:/Octet_Partita_(Krommer)": {
+    "title": "Octet Partita (Krommer)",
+    "composer": "Franz Krommer",
+    "duration": "19:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Octet_Partita_(Krommer)"
+  },
+  "piece:/Partita_in_E-flat_(Krommer)": {
+    "title": "Partita in E-flat (Krommer)",
+    "composer": "Franz Krommer  (ed. Jan Joris Nieuwenhuis)",
+    "duration": "25:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Partita_in_E-flat_(Krommer)"
+  },
+  "category:1805": [
+    "/Five_Short_Pieces_for_Wind_Ensemble",
+    "/Jefferson%27s_March"
+  ],
+  "piece:/Five_Short_Pieces_for_Wind_Ensemble": {
+    "title": "Five Short Pieces for Wind Ensemble",
+    "composer": "Ludwig van Beethoven (ed. H Robert Reynolds)",
+    "duration": "10:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Five_Short_Pieces_for_Wind_Ensemble"
+  },
+  "piece:/Jefferson%27s_March": {
+    "title": "Jefferson's March",
+    "composer": "Alexander Reinagle (arr. Roger Smith)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Jefferson%27s_March"
+  },
+  "category:1804": [
+    "/Symphony_No._3_(Beethoven)"
+  ],
+  "piece:/Symphony_No._3_(Beethoven)": {
+    "title": "Symphony No. 3 (Beethoven)",
+    "composer": "Ludwig van Beethoven (trans. Roland Moehlmann; ed. R. Mark Rogers)",
+    "duration": "55:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Symphony_No._3_(Beethoven)"
+  },
+  "category:1803": [
+    "/Octet-Partita_in_E-flat",
+    "/Trumpet_Concerto_(arr_Corley)",
+    "/Trumpet_Concerto_(Hummel)"
+  ],
+  "piece:/Octet-Partita_in_E-flat": {
+    "title": "Octet-Partita in E-flat",
+    "composer": "Johann Nepomuk Hummel",
+    "duration": "15:00",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Octet-Partita_in_E-flat"
+  },
+  "piece:/Trumpet_Concerto_(arr_Corley)": {
+    "title": "Trumpet Concerto (arr Corley)",
+    "composer": "Johann Nepomuk Hummel (arr. John Corley; ed. Armando Ghitalla)",
+    "duration": "17:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Trumpet_Concerto_(arr_Corley)"
+  },
+  "piece:/Trumpet_Concerto_(Hummel)": {
+    "title": "Trumpet Concerto (Hummel)",
+    "composer": "Johann Nepomuk Hummel (trans. Phillips)",
+    "duration": "10:05",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Trumpet_Concerto_(Hummel)"
+  },
+  "category:1802": [
+    "/Konzerte_f%C3%BCr_2_Klarinetten_und_Orchester_(tr_Fisher)",
+    "/Octet_in_F_Major",
+    "/Six_Country_Dances"
+  ],
+  "piece:/Konzerte_f%C3%BCr_2_Klarinetten_und_Orchester_(tr_Fisher)": {
+    "title": "Konzerte für 2 Klarinetten und Orchester (tr Fisher)",
+    "composer": "Franz Krommer (trans. Dennis Fisher)",
+    "duration": "10:55",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Konzerte_f%C3%BCr_2_Klarinetten_und_Orchester_(tr_Fisher)"
+  },
+  "piece:/Octet_in_F_Major": {
+    "title": "Octet in F Major",
+    "composer": "Franz Joseph Haydn (trans. Paul Wranitzky)",
+    "duration": "16:35",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Octet_in_F_Major"
+  },
+  "piece:/Six_Country_Dances": {
+    "title": "Six Country Dances",
+    "composer": "Ludwig van Beethoven (trans. Clark McAlister)",
+    "duration": "5:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Six_Country_Dances"
+  },
+  "category:1801": [
+    "/Blue_Bells_of_Scotland",
+    "/Prometheus_Overture",
+    "/Reflections_in_Moonlight"
+  ],
+  "piece:/Blue_Bells_of_Scotland": {
+    "title": "Blue Bells of Scotland",
+    "composer": "Arthur Pryor  (arr. E. M. Pearson)",
+    "duration": "6:50",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Blue_Bells_of_Scotland"
+  },
+  "piece:/Prometheus_Overture": {
+    "title": "Prometheus Overture",
+    "composer": "Ludwig van Beethoven (arr. Earl Slocum)",
+    "duration": "5:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Prometheus_Overture"
+  },
+  "piece:/Reflections_in_Moonlight": {
+    "title": "Reflections in Moonlight",
+    "composer": "Ludwig van Beethoven (arr. Robert W Smith)",
+    "duration": "2:30",
+    "difficulty": "II",
+    "url": "https://www.windrep.org/Reflections_in_Moonlight"
+  },
+  "category:1800": [
+    "/St_Anthony_Divertimento",
+    "/Symphony_No._1_Op._21_(tr._Schmitt)"
+  ],
+  "piece:/St_Anthony_Divertimento": {
+    "title": "St Anthony Divertimento",
+    "composer": "Franz Joseph Haydn (trans. Wilcox)",
+    "duration": "11:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/St_Anthony_Divertimento"
+  },
+  "piece:/Symphony_No._1_Op._21_(tr._Schmitt)": {
+    "title": "Symphony No. 1 Op. 21 (tr. Schmitt)",
+    "composer": "Ludwig van Beethoven (trans. Georg Schmitt; ed. Martin Harlow)",
+    "duration": "26:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Symphony_No._1_Op._21_(tr._Schmitt)"
+  },
+  "category:1798": [
+    "/Adagio_Cantabile_(arr._Daehn)",
+    "/Andante_Cantabile_(arr._Holmes)",
+    "/Marsch"
+  ],
+  "piece:/Adagio_Cantabile_(arr._Daehn)": {
+    "title": "Adagio Cantabile (arr. Daehn)",
+    "composer": "Ludwig van Beethoven (arr. Larry Daehn)",
+    "duration": "4:35",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Adagio_Cantabile_(arr._Daehn)"
+  },
+  "piece:/Andante_Cantabile_(arr._Holmes)": {
+    "title": "Andante Cantabile (arr. Holmes)",
+    "composer": "Ludwig van Beethoven (arr. G.E. Holmes)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Andante_Cantabile_(arr._Holmes)"
+  },
+  "piece:/Marsch": {
+    "title": "Marsch",
+    "composer": "Ludwig van Beethoven",
+    "duration": "1:20",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Marsch"
+  },
+  "category:1796": [
+    "/Concerto_for_Bb_Cornet_or_Trumpet",
+    "/Sextet_(arr._Thompson)"
+  ],
+  "piece:/Concerto_for_Bb_Cornet_or_Trumpet": {
+    "title": "Concerto for Bb Cornet or Trumpet",
+    "composer": "Franz Joseph Haydn (arr. William James Duthoit)",
+    "duration": "15:30",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Concerto_for_Bb_Cornet_or_Trumpet"
+  },
+  "piece:/Sextet_(arr._Thompson)": {
+    "title": "Sextet (arr. Thompson)",
+    "composer": "Ludwig van Beethoven (trans. Ray Thompson)",
+    "duration": "20:00",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Sextet_(arr._Thompson)"
+  },
+  "category:1795": [
+    "/Gypsy_Rondo",
+    "/Overture_in_F"
+  ],
+  "piece:/Gypsy_Rondo": {
+    "title": "Gypsy Rondo",
+    "composer": "Franz Joseph Haydn (arr. David Marlatt)",
+    "duration": "2:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Gypsy_Rondo"
+  },
+  "piece:/Overture_in_F": {
+    "title": "Overture in F",
+    "composer": "Hyacinthe Jadin (arr. Douglas Townsend)",
+    "duration": "6:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Overture_in_F"
+  },
+  "category:1794": [
+    "/Ouverture_pour_orchestre_militaire",
+    "/Simphonie_Militaire"
+  ],
+  "piece:/Ouverture_pour_orchestre_militaire": {
+    "title": "Ouverture pour orchestre militaire",
+    "composer": "Louis Emmanuel Jadin  (arr. Jan Molenaar)",
+    "duration": "10:15",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Ouverture_pour_orchestre_militaire"
+  },
+  "piece:/Simphonie_Militaire": {
+    "title": "Simphonie Militaire",
+    "composer": "François-Joseph Gossec (ed. Kenneth Amis)",
+    "duration": "5:45",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Simphonie_Militaire"
+  },
+  "category:1793": [
+    "/Concertante_(Cimarosa)",
+    "/Military_Symphony_(arr._Hubbell)",
+    "/Military_Symphony_in_F",
+    "/Rondino",
+    "/Simphonie_Militaire"
+  ],
+  "piece:/Concertante_(Cimarosa)": {
+    "title": "Concertante (Cimarosa)",
+    "composer": "Domenico Cimarosa (adapt. Paul Brink)",
+    "duration": "9:25",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Concertante_(Cimarosa)"
+  },
+  "piece:/Military_Symphony_(arr._Hubbell)": {
+    "title": "Military Symphony (arr. Hubbell)",
+    "composer": "François-Joseph Gossec (arr. Fred Hubbell)",
+    "duration": "4:05",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Military_Symphony_(arr._Hubbell)"
+  },
+  "piece:/Military_Symphony_in_F": {
+    "title": "Military Symphony in F",
+    "composer": "François-Joseph Gossec (ed. Richard Franko Goldman and Leist)",
+    "duration": "8:45",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Military_Symphony_in_F"
+  },
+  "piece:/Rondino": {
+    "title": "Rondino",
+    "composer": "Ludwig van Beethoven",
+    "duration": "7:55",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Rondino"
+  },
+  "category:1792": [
+    "/Octet_(Beethoven)"
+  ],
+  "piece:/Octet_(Beethoven)": {
+    "title": "Octet (Beethoven)",
+    "composer": "Ludwig van Beethoven",
+    "duration": "21:50",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Octet_(Beethoven)"
+  },
+  "category:1791": [
+    "/Ave_Verum_Corpus",
+    "/Ave_Verum_Corpus_(arr_Buehlman)",
+    "/Ave_Verum_Corpus_(arr_Williams)",
+    "/Concerto_for_Clarinet,_K622",
+    "/Intrada_on_a_Theme_by_Mozart"
+  ],
+  "piece:/Ave_Verum_Corpus": {
+    "title": "Ave Verum Corpus",
+    "composer": "Wolfgang Amadeus Mozart (arr. Joseph Kreines)",
+    "duration": "3:13",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Ave_Verum_Corpus"
+  },
+  "piece:/Ave_Verum_Corpus_(arr_Buehlman)": {
+    "title": "Ave Verum Corpus (arr Buehlman)",
+    "composer": "Wolfgang Amadeus Mozart (arr. Barbara Buehlman)",
+    "duration": "6:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Ave_Verum_Corpus_(arr_Buehlman)"
+  },
+  "piece:/Ave_Verum_Corpus_(arr_Williams)": {
+    "title": "Ave Verum Corpus (arr Williams)",
+    "composer": "Wolfgang Amadeus Mozart (arr. Mark Williams)",
+    "duration": "2:55",
+    "difficulty": "I",
+    "url": "https://www.windrep.org/Ave_Verum_Corpus_(arr_Williams)"
+  },
+  "piece:/Concerto_for_Clarinet,_K622": {
+    "title": "Concerto for Clarinet, K622",
+    "composer": "Wolfgang Amadeus Mozart (trans. Robert Rumbelow)",
+    "duration": "29:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Concerto_for_Clarinet,_K622"
+  },
+  "piece:/Intrada_on_a_Theme_by_Mozart": {
+    "title": "Intrada on a Theme by Mozart",
+    "composer": "Gregory Pascuzzi",
+    "duration": "7:40",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Intrada_on_a_Theme_by_Mozart"
+  },
+  "category:1790": [
+    "/Drink_to_Me_Only_with_Thine_Eyes"
+  ],
+  "piece:/Drink_to_Me_Only_with_Thine_Eyes": {
+    "title": "Drink to Me Only with Thine Eyes",
+    "composer": "John Wall Callcott (arr. Philip Sparke)",
+    "duration": "5:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Drink_to_Me_Only_with_Thine_Eyes"
+  },
+  "category:1789": [
+    "/Hail,_Columbia",
+    "/Hail,_Columbia_(arr_Knox)"
+  ],
+  "piece:/Hail,_Columbia": {
+    "title": "Hail, Columbia",
+    "composer": "Philip Phile (arr. Kinyon)",
+    "duration": null,
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Hail,_Columbia"
+  },
+  "piece:/Hail,_Columbia_(arr_Knox)": {
+    "title": "Hail, Columbia (arr Knox)",
+    "composer": "Philip Phile (arr. Thomas Knox)",
+    "duration": "1:40",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Hail,_Columbia_(arr_Knox)"
+  },
+  "category:1788": [
+    "/Achieved_Is_the_Glorious_Work",
+    "/Federal_March,_The",
+    "/Mozart_Symphony_No._40"
+  ],
+  "piece:/Achieved_Is_the_Glorious_Work": {
+    "title": "Achieved Is the Glorious Work",
+    "composer": "Franz Joseph Haydn (arr. Don Miller)",
+    "duration": "2:50",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Achieved_Is_the_Glorious_Work"
+  },
+  "piece:/Federal_March,_The": {
+    "title": "Federal March, The",
+    "composer": "Alexander Reinagle (arr. Roger Smith)",
+    "duration": "3:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Federal_March,_The"
+  },
+  "piece:/Mozart_Symphony_No._40": {
+    "title": "Mozart Symphony No. 40",
+    "composer": "Wolfgang Amadeus Mozart   (arr. Tetsuo Terada)",
+    "duration": "3:50",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Mozart_Symphony_No._40"
+  },
+  "category:1787": [
+    "/Concerto_III_in_E-flat_Major",
+    "/Concerto_III_in_E-flat_Major_(tr_Yeago)",
+    "/Don_Giovanni",
+    "/Don_Giovanni_Harmoniemusik,_Volume_I"
+  ],
+  "piece:/Concerto_III_in_E-flat_Major": {
+    "title": "Concerto III in E-flat Major",
+    "composer": "Wolfgang Amadeus Mozart (arr. Robert J. Bardeen)",
+    "duration": "3:30",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Concerto_III_in_E-flat_Major"
+  },
+  "piece:/Concerto_III_in_E-flat_Major_(tr_Yeago)": {
+    "title": "Concerto III in E-flat Major (tr Yeago)",
+    "composer": "Wolfgang Amadeus Mozart (trans. Charles T. Yeago)",
+    "duration": "15:10",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Concerto_III_in_E-flat_Major_(tr_Yeago)"
+  },
+  "piece:/Don_Giovanni": {
+    "title": "Don Giovanni",
+    "composer": "Wolfgang Amadeus Mozart (arr. Josef Triebensee)",
+    "duration": null,
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Don_Giovanni"
+  },
+  "piece:/Don_Giovanni_Harmoniemusik,_Volume_I": {
+    "title": "Don Giovanni Harmoniemusik, Volume I",
+    "composer": "Wolfgang Amadeus Mozart (arr. Josef Triebensee)",
+    "duration": "45:00",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Don_Giovanni_Harmoniemusik,_Volume_I"
+  },
+  "category:1786": [
+    "/Concerto_IV_in_E-flat_Major_(tr_Yeago)",
+    "/Divertimento_No._4",
+    "/Divertimento_No._4_(ed_Cornett)",
+    "/Le_Nozze_di_Figaro",
+    "/Le_Nozze_di_Figaro_(tr_Takahashi)",
+    "/Marriage_of_Figaro,_The",
+    "/Non_so_piu_cosa_son"
+  ],
+  "piece:/Concerto_IV_in_E-flat_Major_(tr_Yeago)": {
+    "title": "Concerto IV in E-flat Major (tr Yeago)",
+    "composer": "Wolfgang Amadeus Mozart (trans. Charles T. Yeago)",
+    "duration": "3:40",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Concerto_IV_in_E-flat_Major_(tr_Yeago)"
+  },
+  "piece:/Divertimento_No._4": {
+    "title": "Divertimento No. 4",
+    "composer": "Vicente Martín y Soler",
+    "duration": "9:55",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Divertimento_No._4"
+  },
+  "piece:/Divertimento_No._4_(ed_Cornett)": {
+    "title": "Divertimento No. 4 (ed Cornett)",
+    "composer": "Vicente Martín y Soler (ed. Patricia Cornett)",
+    "duration": "10:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Divertimento_No._4_(ed_Cornett)"
+  },
+  "piece:/Le_Nozze_di_Figaro": {
+    "title": "Le Nozze di Figaro",
+    "composer": "Wolfgang Amadeus Mozart (arr. Alfredo Bernardini)",
+    "duration": "17:50",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Le_Nozze_di_Figaro"
+  },
+  "piece:/Le_Nozze_di_Figaro_(tr_Takahashi)": {
+    "title": "Le Nozze di Figaro (tr Takahashi)",
+    "composer": "Wolfgang Amadeus Mozart (trans. Tohru Takahashi)",
+    "duration": "4:30",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Le_Nozze_di_Figaro_(tr_Takahashi)"
+  },
+  "piece:/Marriage_of_Figaro,_The": {
+    "title": "Marriage of Figaro, The",
+    "composer": "Wolfgang Amadeus Mozart (arr. Earl Slocum)",
+    "duration": "5:00",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Marriage_of_Figaro,_The"
+  },
+  "piece:/Non_so_piu_cosa_son": {
+    "title": "Non so piu cosa son",
+    "composer": "Wolfgang Amadeus Mozart   (arr. Leonard Smith)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Non_so_piu_cosa_son"
+  },
+  "category:1785": [
+    "/Theme_from_%22Piano_Concerto_in_C_Major%22"
+  ],
+  "piece:/Theme_from_%22Piano_Concerto_in_C_Major%22": {
+    "title": "Theme from \"Piano Concerto in C Major\"",
+    "composer": "Wolfgang Amadeus Mozart (arr. Eugene Mitchell)",
+    "duration": "3:00",
+    "difficulty": "II",
+    "url": "https://www.windrep.org/Theme_from_%22Piano_Concerto_in_C_Major%22"
+  },
+  "category:1784": [
+    "/Armida_Overture",
+    "/Serenade_K361_%22Gran_Partita%22"
+  ],
+  "piece:/Armida_Overture": {
+    "title": "Armida Overture",
+    "composer": "Franz Joseph Haydn (arr. Ricard W. Bowles)",
+    "duration": "6:05",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Armida_Overture"
+  },
+  "piece:/Serenade_K361_%22Gran_Partita%22": {
+    "title": "Serenade K361 \"Gran Partita\"",
+    "composer": "Wolfgang Amadeus Mozart",
+    "duration": "48:30",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Serenade_K361_%22Gran_Partita%22"
+  },
+  "category:1782": [
+    "/Abduction_from_the_Seraglio",
+    "/Horn_Quintet_in_E-flat_major",
+    "/Minuet_and_Trio",
+    "/Overture_to_%22Abduction_from_the_Seraglio%22",
+    "/Serenade_in_C_minor_K388"
+  ],
+  "piece:/Abduction_from_the_Seraglio": {
+    "title": "Abduction from the Seraglio",
+    "composer": "Wolfgang Amadeus Mozart   (arr. Merle J. Isaac)",
+    "duration": "5:30",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Abduction_from_the_Seraglio"
+  },
+  "piece:/Horn_Quintet_in_E-flat_major": {
+    "title": "Horn Quintet in E-flat major",
+    "composer": "Wolfgang Amadeus Mozart (arr. Arie van Hoek)",
+    "duration": "17:45",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Horn_Quintet_in_E-flat_major"
+  },
+  "piece:/Minuet_and_Trio": {
+    "title": "Minuet and Trio",
+    "composer": "Wolfgang Amadeus Mozart  (arr. Robert Longfield)",
+    "duration": "3:10",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Minuet_and_Trio"
+  },
+  "piece:/Overture_to_%22Abduction_from_the_Seraglio%22": {
+    "title": "Overture to \"Abduction from the Seraglio\"",
+    "composer": "Wolfgang Amadeus Mozart  (arr. Robert Longfield)",
+    "duration": "6:24",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Overture_to_%22Abduction_from_the_Seraglio%22"
+  },
+  "piece:/Serenade_in_C_minor_K388": {
+    "title": "Serenade in C minor K388",
+    "composer": "Wolfgang Amadeus Mozart (ed. Leeson and Zaslaw)",
+    "duration": "23:10",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Serenade_in_C_minor_K388"
+  },
+  "category:1781": [
+    "/Serenade_in_E-flat_Major",
+    "/Serenade_K375",
+    "/Serenade_No_10_in_Bb_%22Gran_Partita%22",
+    "/Serenade_No_11_in_Eb"
+  ],
+  "piece:/Serenade_in_E-flat_Major": {
+    "title": "Serenade in E-flat Major",
+    "composer": "Wolfgang Amadeus Mozart (ed. Daniel N. Leeson, and Neal Zaslaw)",
+    "duration": "25:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Serenade_in_E-flat_Major"
+  },
+  "piece:/Serenade_K375": {
+    "title": "Serenade K375",
+    "composer": "Wolfgang Amadeus Mozart",
+    "duration": "25:50",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Serenade_K375"
+  },
+  "piece:/Serenade_No_10_in_Bb_%22Gran_Partita%22": {
+    "title": "Serenade No 10 in Bb \"Gran Partita\"",
+    "composer": "Wolfgang Amadeus Mozart (trans. Ray Thompson)",
+    "duration": "40:00",
+    "difficulty": "VI",
+    "url": "https://www.windrep.org/Serenade_No_10_in_Bb_%22Gran_Partita%22"
+  },
+  "piece:/Serenade_No_11_in_Eb": {
+    "title": "Serenade No 11 in Eb",
+    "composer": "Wolfgang Amadeus Mozart (ed. Frederick Fennell)",
+    "duration": "24:10",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Serenade_No_11_in_Eb"
+  },
+  "category:1780": [
+    "/Overture_to_%22L%27Amant_Anonyme%22",
+    "/Overture_to_%22L%27Amant_Anonyme%22_(Harmoniemusik)",
+    "/Overture_to_%22L%27Amant_Anonyme%22_(tr._Frey)",
+    "/Scenes_from_%22L%27Amant_Anonyme%22",
+    "/Variations_on_%E2%80%9CBingo%E2%80%9D"
+  ],
+  "piece:/Overture_to_%22L%27Amant_Anonyme%22": {
+    "title": "Overture to \"L'Amant Anonyme\"",
+    "composer": "Joseph Bologne (trans. Derek Stoughton)",
+    "duration": "9:30",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Overture_to_%22L%27Amant_Anonyme%22"
+  },
+  "piece:/Overture_to_%22L%27Amant_Anonyme%22_(Harmoniemusik)": {
+    "title": "Overture to \"L'Amant Anonyme\" (Harmoniemusik)",
+    "composer": "Joseph Bologne (trans. Derek Stoughton)",
+    "duration": "9:30",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Overture_to_%22L%27Amant_Anonyme%22_(Harmoniemusik)"
+  },
+  "piece:/Overture_to_%22L%27Amant_Anonyme%22_(tr._Frey)": {
+    "title": "Overture to \"L'Amant Anonyme\" (tr. Frey)",
+    "composer": "Joseph Bologne (trans. RIchard Frey)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Overture_to_%22L%27Amant_Anonyme%22_(tr._Frey)"
+  },
+  "piece:/Scenes_from_%22L%27Amant_Anonyme%22": {
+    "title": "Scenes from \"L'Amant Anonyme\"",
+    "composer": "Joseph Bologne (trans. Derek Stoughton)",
+    "duration": "21:30",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Scenes_from_%22L%27Amant_Anonyme%22"
+  },
+  "piece:/Variations_on_%E2%80%9CBingo%E2%80%9D": {
+    "title": "Variations on “Bingo”",
+    "composer": "Steve Reisteter",
+    "duration": "6:15",
+    "difficulty": "IV",
+    "url": "https://www.windrep.org/Variations_on_%E2%80%9CBingo%E2%80%9D"
+  },
+  "category:1779": [
+    "/Amazing_Grace_(arr_Nowlin)",
+    "/Chevalier_Selections",
+    "/Chevalier_Selections_(flex)",
+    "/Symphony_No._2_(Bologne)"
+  ],
+  "piece:/Amazing_Grace_(arr_Nowlin)": {
+    "title": "Amazing Grace (arr Nowlin)",
+    "composer": "Hymn arranged by Ryan Nowlin",
+    "duration": "3:40",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Amazing_Grace_(arr_Nowlin)"
+  },
+  "piece:/Chevalier_Selections": {
+    "title": "Chevalier Selections",
+    "composer": "Joseph Bologne (arr. Josh Trentadue)",
+    "duration": "5:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Chevalier_Selections"
+  },
+  "piece:/Chevalier_Selections_(flex)": {
+    "title": "Chevalier Selections (flex)",
+    "composer": "Joseph Bologne (arr. Josh Trentadue)",
+    "duration": "5:00",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Chevalier_Selections_(flex)"
+  },
+  "piece:/Symphony_No._2_(Bologne)": {
+    "title": "Symphony No. 2 (Bologne)",
+    "composer": "Joseph Bologne, Chevalier de Saint-Georges (arr. Daniel Bukin)",
+    "duration": "3:45",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Symphony_No._2_(Bologne)"
+  },
+  "category:1778": [
+    "/Chester",
+    "/Chester_(arr._Osterling)",
+    "/Fanfare_and_Presto_on_%22Chester%22"
+  ],
+  "piece:/Chester": {
+    "title": "Chester",
+    "composer": "William Schuman",
+    "duration": "6:05",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Chester"
+  },
+  "piece:/Chester_(arr._Osterling)": {
+    "title": "Chester (arr. Osterling)",
+    "composer": "William Billings (arr. Eric Osterling)",
+    "duration": "2:15",
+    "difficulty": "I",
+    "url": "https://www.windrep.org/Chester_(arr._Osterling)"
+  },
+  "piece:/Fanfare_and_Presto_on_%22Chester%22": {
+    "title": "Fanfare and Presto on \"Chester\"",
+    "composer": "William Billings (arr. Andrew Garcia)",
+    "duration": "4:50",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Fanfare_and_Presto_on_%22Chester%22"
+  },
+  "category:1777": [
+    "/Concerto_for_Flute_No._2_in_D_Major,_K314",
+    "/Concerto_for_Oboe_in_C_major,_K314",
+    "/Concerto_in_C_Major_(Mozart)"
+  ],
+  "piece:/Concerto_for_Flute_No._2_in_D_Major,_K314": {
+    "title": "Concerto for Flute No. 2 in D Major, K314",
+    "composer": "Wolfgang Amadeus Mozart   (arr. Ervin Monroe)",
+    "duration": "20:40",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Concerto_for_Flute_No._2_in_D_Major,_K314"
+  },
+  "piece:/Concerto_for_Oboe_in_C_major,_K314": {
+    "title": "Concerto for Oboe in C major, K314",
+    "composer": "Wolfgang Amadeus Mozart (trans. Robert Rumbelow)",
+    "duration": "21:30",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Concerto_for_Oboe_in_C_major,_K314"
+  },
+  "piece:/Concerto_in_C_Major_(Mozart)": {
+    "title": "Concerto in C Major (Mozart)",
+    "composer": "Wolfgang Amadeus Mozart (arr. Trevor Cramer)",
+    "duration": "19:30",
+    "difficulty": null,
+    "url": "https://www.windrep.org/Concerto_in_C_Major_(Mozart)"
+  },
+  "category:1775": [
+    "/Il_Re_Pastore"
+  ],
+  "piece:/Il_Re_Pastore": {
+    "title": "Il Re Pastore",
+    "composer": "Wolfgang Amadeus Mozart  (trans. Clifford P. Barnes)",
+    "duration": null,
+    "difficulty": null,
+    "url": "https://www.windrep.org/Il_Re_Pastore"
+  },
+  "category:1774": [
+    "/Concerto_for_Bassoon_(Mozart)"
+  ],
+  "piece:/Concerto_for_Bassoon_(Mozart)": {
+    "title": "Concerto for Bassoon (Mozart)",
+    "composer": "Wolfgang Amadeus Mozart  (arr. Charles T. Yeago)",
+    "duration": "7:30",
+    "difficulty": "V",
+    "url": "https://www.windrep.org/Concerto_for_Bassoon_(Mozart)"
+  },
+  "category:1771": [
+    "/Adoramus_te,_Christe"
+  ],
+  "piece:/Adoramus_te,_Christe": {
+    "title": "Adoramus te, Christe",
+    "composer": "Quirino Gasparini (setting by Timothy Mahr)",
+    "duration": "4:10",
+    "difficulty": "III",
+    "url": "https://www.windrep.org/Adoramus_te,_Christe"
   }
 }

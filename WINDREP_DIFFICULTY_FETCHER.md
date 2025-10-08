@@ -51,6 +51,12 @@ Fetch all Grade III pieces from 2024:
 python fetch_windrep_by_difficulty.py --year 2024 --difficulty 3
 ```
 
+Fetch all pieces from 2024 (all difficulty levels):
+
+```bash
+python fetch_windrep_by_difficulty.py --year 2024
+```
+
 ### With CSV Export
 
 Export results to a CSV file:
@@ -78,7 +84,7 @@ python fetch_windrep_by_difficulty.py --help
 | Option | Type | Required | Description |
 |--------|------|----------|-------------|
 | `--year` | integer | ✓ | Year to fetch pieces from (e.g., 2024) |
-| `--difficulty` | 1-6 | ✓ | Difficulty level (1=I, 2=II, 3=III, 4=IV, 5=V, 6=VI) |
+| `--difficulty` | 1-6 | ✗ | Difficulty level (1=I, 2=II, 3=III, 4=IV, 5=V, 6=VI). Omit to return all pieces. |
 | `--export` | path | ✗ | Export results to CSV file |
 | `--clear-cache` | flag | ✗ | Clear cached data before fetching |
 
@@ -198,7 +204,14 @@ python fetch_windrep_by_difficulty.py --year 2023 --difficulty 6 --export grade6
 python fetch_windrep_by_difficulty.py --year 2024 --difficulty 3 --clear-cache
 ```
 
-### Example 4: Survey Multiple Difficulties
+### Example 4: Get All Pieces
+
+```bash
+# Fetch all pieces from 2023 without filtering by difficulty
+python fetch_windrep_by_difficulty.py --year 2023 --export all_2023.csv
+```
+
+### Example 5: Survey Multiple Difficulties
 
 ```bash
 # Create exports for each difficulty level
@@ -264,7 +277,6 @@ Potential improvements:
 - [ ] Filtering by composer
 - [ ] JSON export format
 - [ ] Integration with main CLI (`cli.py`)
-- [ ] Difficulty range filtering (e.g., grades 3-5)
 - [ ] Publisher information extraction
 
 ## Related Files
